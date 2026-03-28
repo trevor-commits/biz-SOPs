@@ -1,12 +1,20 @@
 # Equipment & SOPs
 
-This repository is the working knowledge base for business research, equipment decisions, tool comparisons, and operating procedures for Gillette Window & Solar Cleaning.
+This repository backs the SOP, equipment, and maintenance system for Gillette Window & Solar Cleaning.
+
+Preferred operational working copy:
+- `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`
+
+Secondary coordination clone:
+- `/Users/gillettes/Coding Projects/Equipment & SOPs`
+
+The Git repo identity is the source of truth. The preferred Obsidian working copy is where live SOP content should be edited.
 
 ## What belongs here
-- Research on how to do recurring business tasks better.
-- Comparisons of software, gear, vendors, and workflows.
 - SOP drafts and finalized process docs.
-- Decision notes explaining why a tool or process was adopted, deferred, or rejected.
+- Equipment notes with recurring maintenance tasks.
+- Checklists, maintenance logs, and decision notes that support those SOPs.
+- Supporting vendor/tool/process references that have durable operational value.
 
 ## What does not belong here
 - Secrets, tokens, passwords, or customer PII.
@@ -14,7 +22,7 @@ This repository is the working knowledge base for business research, equipment d
 - One-off scratch notes that have no decision, instruction, or reference value.
 
 ## Suggested content pattern
-Use Markdown files and keep each note focused on one topic.
+Use Markdown files and keep each note focused on one topic. Keep equipment metadata in properties and keep recurring maintenance due-state in Tasks inside the equipment note.
 
 Recommended sections for new notes:
 1. Goal
@@ -25,11 +33,11 @@ Recommended sections for new notes:
 6. Next action
 
 ## Practical starting categories
-- Equipment research
-- Tool/software evaluations
-- SOP drafts
-- Vendor or service comparisons
-- Reference notes for recurring operational questions
+- SOPs
+- Equipment
+- Maintenance logs
+- Checklists
+- Decision notes
 
 ## Working conventions
 - Prefer plain, scannable filenames.

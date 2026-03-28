@@ -2,20 +2,20 @@
 
 ## Active Next Steps
 Goal: stand up a field-usable SOP, equipment, and maintenance knowledge system that runs in Markdown/Git and is practical inside Obsidian.
-- [ ] P1 | Owner: Trevor | Target: 2026-03-30 | Resolve and document the canonical source-of-truth decision: the live SOP system should either move fully into `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs` or this planning repo should remain canonical, but not both.
-- [ ] P1 | Owner: Trevor | Target: 2026-03-31 | Choose one single maintenance-tracking model for the SOP system: property-driven schedule fields or Tasks-driven recurring maintenance, then update `SOP_SYSTEM_PLAN.md` and templates to remove duplicate state.
-- [ ] P1 | Owner: Trevor | Target: 2026-04-01 | Decide whether the entire mixed personal/business Obsidian vault should continue auto-pushing to GitHub or whether the SOP/business subtree should be isolated into a narrower backup boundary.
-- [ ] P1 | Owner: Trevor | Target: 2026-04-02 | Create the initial vault structure, naming convention, and note property standard described in `SOP_SYSTEM_PLAN.md` after the canonical path and maintenance model are finalized.
-- [ ] P1 | Owner: Trevor | Target: 2026-04-03 | Create reusable templates for SOP, equipment, maintenance log, checklist, and decision notes after the schema is simplified.
-- [ ] P1 | Owner: Trevor | Target: 2026-04-05 | Build the first two complete pilot systems: window cleaning and pressure washing, including SOPs, checklists, equipment notes, and maintenance schedules.
-- [ ] P2 | Owner: Trevor | Target: 2026-04-06 | Reduce Obsidian vault Git noise by deciding which `.obsidian` files are real configuration worth tracking and which plugin installation files should be ignored.
-- [ ] P2 | Owner: Trevor | Target: 2026-04-07 | Build the initial Obsidian dashboards for SOP review, equipment register, and maintenance due items.
-- [ ] P2 | Owner: Trevor | Target: 2026-04-08 | Run a friction review after the pilots and remove any fields, sections, or automation that add overhead without operational value.
+- [ ] P1 | Owner: Trevor | Target: 2026-03-31 | Create the initial vault structure, naming convention, and note property standard in the preferred Obsidian working copy at `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-01 | Create reusable templates for SOP, equipment, maintenance log, checklist, and decision notes using the simplified Tasks-driven maintenance model.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-03 | Build the first two complete pilot systems: window cleaning and pressure washing, including SOPs, checklists, equipment notes, and recurring maintenance Tasks.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-04 | Build the initial Obsidian dashboards for SOP review, equipment register, and maintenance due items.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-05 | Reduce dedicated SOP repo noise by deciding which `.obsidian` files belong in the SOP repo if any local vault config is later introduced.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-06 | Add a retention and archive rule for Daily Notes, photos, and maintenance logs before the pilot system scales.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-07 | Run a friction review after the pilots and remove any fields, sections, or automation that add overhead without operational value.
 
 ## Completed
 - [x] 2026-03-27 | Bootstrapped the repository with `AGENTS.md`, `PROJECT_INTENT.md`, `todo.md`, and `README.md` for business research and SOP tracking.
 - [x] 2026-03-28 | Remediated the repo governance records so branch lifecycle and next-steps wording match the current documentation standard.
 - [x] 2026-03-28 | Added `SOP_SYSTEM_PLAN.md` and reprioritized the repo around an Obsidian-backed SOP, equipment, and maintenance rollout plan.
+- [x] 2026-03-28 | Resolved the canonical source-of-truth decision: the `biz-SOPs` repo remains canonical and its preferred operational working copy lives at `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+- [x] 2026-03-28 | Resolved the maintenance-state model: recurring Tasks inside equipment notes are the canonical due-state for scheduled maintenance.
 
 ## Suggested Recommendation Log
 - 2026-03-27 | status: open | reasoning level: `medium` | Create a reusable note template for research and tool comparisons after 3-5 entries reveal the right common fields.

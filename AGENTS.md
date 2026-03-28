@@ -1,20 +1,24 @@
 # AGENTS.md (Equipment & SOPs)
 
 ## Scope
-Repository-local execution policy for `/Users/gillettes/Coding Projects/Equipment & SOPs`.
+Repository-local execution policy for the `biz-SOPs` repository.
+Preferred operational working copy: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+Secondary local clones may exist for tooling or coordination, but they are not separate sources of truth.
 Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 ## Repository Lineage
 - Lineage status: `canonical`.
-- Authoritative repo path: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
+- Canonical repo identity: `git@github.com:trevor-commits/biz-SOPs.git`.
+- Preferred operational working copy path: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+- Secondary coordination clone path: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
 - If project scope/runtime changes materially, refresh this file, `PROJECT_INTENT.md`, and the root `todo.md` testing cadence in the same change.
 
 ## Stack and Runtime
 [MANDATORY_STACK_RUNTIME] stack/runtime profile, risk areas, release gates, boundaries, rollback/ops checks
 
 - Stack/runtime profile:
-  - Documentation-first repository for business research, tool evaluations, equipment notes, and SOPs.
-  - Primary release surface is the readability, accuracy, and long-term usefulness of the Markdown knowledge base plus any helper automation added later.
+  - Documentation-first repository for business SOPs, equipment definitions, maintenance rules, and supporting decision notes.
+  - The primary release surface is a Markdown knowledge base stored in the `biz-SOPs` Git repo and edited from the preferred Obsidian working copy inside `Systems Command Center`.
 - Primary risk areas:
   - stale or conflicting recommendations across research notes and SOPs
   - tool comparisons that omit rationale, date context, or source evidence
@@ -44,13 +48,18 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 [MANDATORY_PROJECT_INTENT] canonical project intent documentation + behavior aligned to `PROJECT_INTENT_ALIGNMENT.md`
 
 - Canonical intent doc: `/Users/gillettes/Coding Projects/Equipment & SOPs/PROJECT_INTENT.md`.
+- Canonical intent doc: `PROJECT_INTENT.md` in the current clone of `biz-SOPs`; preferred operational working copy path is `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 - Refresh this AGENTS runtime profile, release gates, risk areas, docs map, and testing cadence when scope/runtime changes materially.
 
 ## Docs Map
-- `/Users/gillettes/Coding Projects/Equipment & SOPs/README.md`.
-- `/Users/gillettes/Coding Projects/Equipment & SOPs/PROJECT_INTENT.md`.
-- `/Users/gillettes/Coding Projects/Equipment & SOPs/todo.md`.
-- Add research notes, comparison templates, SOP folders, and decision logs here as they become canonical.
+- Preferred working copy root: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+- Secondary coordination clone root: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
+- Repo-level docs in any clone:
+  - `README.md`
+  - `PROJECT_INTENT.md`
+  - `todo.md`
+  - `SOP_SYSTEM_PLAN.md`
+- Add live SOPs, equipment notes, maintenance notes, templates, and decision logs inside the preferred Obsidian working copy.
 
 ## Todo Governance
 [MANDATORY_TODO_ADD] add follow-up work to project `todo.md`
@@ -106,3 +115,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 - Execute directly for implementation requests.
 - Keep unrelated tracked changes intact.
+
+## Global Mandatory Markers
+- [MANDATORY_TRUST_GATE] evaluate Trust Gate triggers at session intake per `session-intake-closeout` skill; when `on`, require `Evidence Checked`, `Decision Status` labels (`Confirmed` / `Inferred` / `Needs More Evidence` / `Do Not Do Yet`), `Challenge Findings`, and `Unresolved` sections at closeout; no polished final recommendation for uncertain items
+- [MANDATORY_ANTI_THRASH] after 2 grounded attempts at the same problem, narrow scope, request the smallest missing artifact, or escalate; do not retry unchanged approach

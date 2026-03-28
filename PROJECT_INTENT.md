@@ -1,24 +1,24 @@
 # PROJECT_INTENT
 
 ## Purpose
-Maintain a durable, searchable knowledge base for business research, equipment decisions, software/tool evaluations, and SOPs for Gillette Window & Solar Cleaning.
+Maintain a durable, searchable, Obsidian-native SOP and equipment system for Gillette Window & Solar Cleaning, backed by the `biz-SOPs` Git repository.
 
 ## Problem Statement
-Operational knowledge is otherwise scattered across chats, bookmarks, emails, and memory. That makes it harder to compare tools, repeat processes consistently, and reuse prior research when making business decisions.
+Operational knowledge is otherwise scattered across chats, bookmarks, emails, and memory. That makes it harder to repeat processes consistently, maintain equipment on time, and reuse prior decisions without reopening the same research.
 
 ## Target Users and Top Jobs
 - Primary users: Trevor Gillette as owner-operator.
 - Secondary users: future assistants, contractors, or AI helpers who need to understand past decisions and current operating procedures.
 - Top jobs:
-  - Capture and retrieve research on the best way to do recurring business tasks.
-  - Compare tools, vendors, and equipment before spending money or changing workflow.
-  - Turn proven ways of working into repeatable SOPs.
+  - Capture and retrieve the exact way recurring field work should be done.
+  - Track equipment, maintenance cadence, and supporting checklists in one place.
+  - Compare tools, vendors, and process decisions before spending money or changing workflow.
 
 ## In-Scope Outcomes
 - Document repeatable business processes in plain language.
-- Preserve research findings with enough context to reuse later.
-- Track equipment and software decisions with rationale.
-- Reduce repeated research on the same business questions.
+- Track equipment and maintenance schedules with enough structure to review due work quickly.
+- Preserve process and purchasing decisions with enough context to reuse later.
+- Reduce repeated research and repeated "how do I do this?" thinking on the same operational questions.
 
 ## Non-Goals
 - This repo is not the operational system of record for scheduling, invoicing, CRM, or accounting.
@@ -27,21 +27,21 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 
 ## Success Metrics and Guardrails
 - Leading metrics:
-  - New research or SOP notes are captured in this repo instead of being left only in chat history.
-  - Important tool decisions include recommendation, reasoning, and source links.
+  - New SOPs, equipment notes, and maintenance schedules are captured in the preferred Obsidian working copy instead of living only in chat history or memory.
+  - Important process or tool decisions include recommendation, reasoning, and source context.
 - Lagging metrics:
-  - Less repeated research on the same question.
-  - Faster decision-making for equipment and software purchases.
+  - Less repeated research on the same operational question.
   - More consistent execution of recurring business tasks.
+  - Fewer missed maintenance tasks or forgotten equipment setup details.
 - Guardrails:
   - No secrets or customer PII in tracked files.
   - Prefer concise Markdown over heavyweight systems unless scale clearly demands more.
   - Keep notes practical and decision-oriented rather than academic.
 
 ## Primary Journeys and Navigation Model
-- Research capture: identify a business question, create or update a note, summarize findings, and record the recommendation.
-- Tool evaluation: compare options, note tradeoffs, record the current best choice, and track follow-up questions.
-- SOP creation: convert a working process into a step-by-step procedure that can be reused or handed off.
+- SOP creation: convert a working process into a step-by-step procedure plus a short field checklist.
+- Equipment management: document an asset, link it to related SOPs, and keep recurring maintenance tasks in the equipment note.
+- Decision capture: compare options, note tradeoffs, record the current best choice, and track follow-up questions.
 
 ## Content and Wording Principles
 - Use plain, practical wording oriented around business decisions and real field work.
@@ -51,21 +51,22 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 
 ## Technical Strategy and Stack Rationale
 - Current project type: `docs`
-- Why this stack now: Markdown in git is lightweight, searchable, versioned, and easy to maintain as a solo operator without adding tool overhead.
+- Why this stack now: a dedicated Git repository cloned directly into the Obsidian vault gives low-overhead editing, local portability, version history, and a clean boundary around the business SOP system without making the entire mixed personal vault the source of truth.
 
 ## Constraints, Assumptions, Risks, and Invalidation Triggers
 - Constraints:
   - Must stay easy to update without adding admin burden.
-  - Should remain useful from a laptop-first workflow and still be easy to reference quickly.
+  - Must have one canonical repo identity and one preferred operational working copy to avoid split-brain edits.
+  - Should remain easy to reference from Obsidian on desktop and mobile.
 - Assumptions:
-  - Most content will be short Markdown notes rather than structured database records.
-  - The repo will grow gradually and taxonomy can evolve from actual usage.
+  - Most content will be Markdown notes plus lightweight frontmatter.
+  - Equipment metadata can stay lightweight while recurring maintenance due-state lives in Tasks inside equipment notes.
 - Risks:
-  - Notes become inconsistent or duplicated if no simple capture pattern is followed.
-  - Research can go stale if decisions are not revisited when tools or pricing change.
+  - Content becomes inconsistent or duplicated if notes are edited in multiple local copies without a declared primary working copy.
+  - Maintenance state drifts if due dates are stored in more than one place.
   - Over-structuring too early could slow down capture.
 - Invalidation triggers:
-  - If retrieval becomes difficult across many notes, introduce folders, indexes, or templates.
+  - If retrieval becomes difficult across many notes, refine the folder structure, indexes, or templates.
   - If collaboration grows materially, add clearer ownership/review conventions.
   - If richer metadata is required, evaluate a structured system beyond plain Markdown.
 
@@ -75,6 +76,6 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 - Accessibility/mobile/responsive needs: content should stay concise, scan-friendly, and readable on mobile GitHub or editor views.
 
 ## Open Questions and Decision Records
-- Decide the eventual top-level taxonomy once a first set of real notes exists.
-- Decide whether tool evaluations and SOPs should live in separate folders or remain mixed until scale requires separation.
+- Add a retention and archive rule for Daily Notes, photos, and maintenance logs before the pilot system scales.
+- Decide which `.obsidian` files belong in the dedicated SOP repo versus local-only machine state.
 - Add decision-record links here if the repo later adopts ADRs or dedicated decision logs.

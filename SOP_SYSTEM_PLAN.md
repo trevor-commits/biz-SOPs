@@ -11,22 +11,17 @@ Build a low-overhead operating system for Gillette Window & Solar Cleaning that 
 ## Recommended Operating Model
 
 ### Source of truth
-- Keep Markdown files in this repository as the canonical source of truth.
+- Treat the `biz-SOPs` Git repository as the canonical project identity.
+- Preferred operational working copy: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+- Secondary local clones may exist for coordination or tooling, but they are not separate sources of truth.
 - Use Obsidian as the primary editing, browsing, and dashboard interface.
-- Do not maintain a second separate copy of the same SOPs in another tool.
+- Do not maintain a second separate copy of the same SOPs outside clones of the same Git repo.
 
 ### Recommended Obsidian setup
 Recommended default:
-1. Open this repository root as its own Obsidian vault.
-2. Treat Git history as the change log and backup trail.
-3. Use Obsidian for note capture, templates, dashboards, and daily review.
-
-Alternative if an existing main vault must remain primary:
-1. Keep this repository as a dedicated folder inside the larger vault.
-2. Still treat the repository path as canonical for files and Git operations.
-3. Avoid duplicating notes between vault folders.
-
-`TODO: verify` the exact Obsidian vault path and whether the repo should become a dedicated vault or live inside an existing vault.
+1. Keep the preferred working copy inside the existing `Systems Command Center` vault at `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
+2. Treat that folder as the live content location inside Obsidian.
+3. Let Git history provide versioning and backup for the dedicated SOP repo without making the entire mixed personal vault the canonical SOP store.
 
 ## Design Principles
 - One note, one purpose. Do not mix SOP steps, maintenance logs, and purchase research in the same file unless there is a strong reason.
@@ -214,9 +209,6 @@ status: active
 purchase_date:
 warranty_until:
 storage_location:
-maintenance_frequency:
-last_maintenance:
-next_maintenance:
 related_sops:
 ---
 ```
@@ -231,7 +223,6 @@ maintenance_type:
 performed_on:
 performed_by:
 cost:
-next_due:
 ---
 ```
 
@@ -311,21 +302,21 @@ Recommended SOP body:
 ```
 
 ## Maintenance Tracking Model
-Use a three-layer model so maintenance is clear without becoming over-administered.
+Use a three-layer model so maintenance is clear without becoming over-administered. Canonical due-state lives in recurring Tasks inside the equipment note, not in duplicate frontmatter date fields.
 
-### Layer 1: Equipment note = canonical schedule
-Each equipment note should define:
-- what maintenance is required
-- how often it is required
-- last completed date
-- next due date
+### Layer 1: Equipment note = canonical maintenance home
+Each equipment note should contain:
+- the equipment metadata
+- the maintenance instructions
+- recurring Tasks for each scheduled maintenance action
+- links to any maintenance log notes that add detail
 
 ### Layer 2: Maintenance dashboard = what needs attention now
-The maintenance dashboard should show:
-- overdue maintenance
+The maintenance dashboard should be built from Tasks queries and should show:
+- overdue maintenance tasks
 - due in next 7 days
 - due in next 30 days
-- recently completed maintenance
+- recently completed maintenance tasks
 
 ### Layer 3: Maintenance logs = proof and details
 Create a maintenance log note when the work needs detail, cost, photos, or repair notes.
@@ -365,7 +356,7 @@ Do not start with custom scripts. Start with structured notes plus dashboard aut
 ### Day-one automation
 - Templates create standardized notes.
 - Bases views create equipment registers and SOP indexes from note properties.
-- Tasks queries create overdue and upcoming maintenance views.
+- Tasks queries create overdue and upcoming maintenance views from recurring Tasks embedded in equipment notes.
 - Daily Notes plus phone capture shortcuts create a low-friction path to capture field observations without opening a full SOP note.
 
 ### Later automation if needed
@@ -389,7 +380,7 @@ Should surface:
 - due this week
 - due this month
 - recently completed maintenance
-- equipment with missing maintenance metadata
+- equipment notes missing recurring maintenance Tasks
 
 ## Pilot Rollout
 Do not try to document everything at once. Start with two service lanes and prove the pattern.
@@ -464,7 +455,7 @@ Then simplify before scaling.
 - Avoid hiding critical knowledge in daily notes only. Promote durable information into permanent notes.
 
 ## Implementation Sequence
-1. Confirm the Obsidian vault model and source-of-truth path.
+1. Work from the preferred Obsidian clone at `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 2. Create folder structure and templates.
 3. Define note properties and naming standards.
 4. Build the two pilot SOP systems: window cleaning and pressure washing.
