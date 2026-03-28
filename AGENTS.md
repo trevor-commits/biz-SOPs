@@ -80,7 +80,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 ## Audit and Planning
 [MANDATORY_FULL_AUDIT] full-audit behavior aligned to `FULL_AUDIT.md`
-[MANDATORY_NEXT_STEPS] next-steps behavior aligned to `NEXT_STEPS_ORCHESTRATION.md`, including `todo.md`-grounded and independently inferred recommendations with a reasoning level for every suggested item; if none remain, explicitly state `No further steps required.`
+[MANDATORY_NEXT_STEPS] next-steps behavior aligned to `NEXT_STEPS_ORCHESTRATION.md`, including `todo.md`-grounded and independently inferred recommendations with a reasoning level for every suggested item; when an audit or the current chat creates or discovers more urgent execution-ready work, move those items to the top of `Active Next Steps` and reserve `Suggested Recommendation Log` for deferred, optional, or not-yet-execution-ready items; if none remain, explicitly state `No further steps required.`
 
 - Full audits follow `/Users/gillettes/.codex/policies/FULL_AUDIT.md`.
 - Non-trivial implementation should receive a separate follow-up audit chat unless explicitly waived; if waived or blocked, record that in the audit trail.
