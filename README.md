@@ -41,11 +41,14 @@ Recommended sections for new notes:
 
 ## Working conventions
 - Prefer plain, scannable filenames.
+- If Daily Notes are used for this system, point them at `00_System/Daily Notes/` inside the SOP repo so field capture stays inside the same Git-backed project boundary.
 - Include the date and source context when capturing research.
 - When a decision is made, record the reason so the same research does not need to be repeated later.
 - When an SOP becomes stable, keep it action-oriented and ordered step by step.
+- Apply `RETENTION_AND_ARCHIVE_POLICY.md` so Daily Notes, maintenance logs, and supporting media do not turn into long-term clutter.
 
 ## Core project files
 - `PROJECT_INTENT.md`: canonical statement of repo purpose and scope.
 - `todo.md`: active next steps, recommendations, audit history, and test evidence.
 - `AGENTS.md`: repository-local execution rules for AI-assisted work.
+- `RETENTION_AND_ARCHIVE_POLICY.md`: archive and retention rules for Daily Notes, maintenance logs, research inputs, and media.

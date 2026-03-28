@@ -21,7 +21,8 @@ Build a low-overhead operating system for Gillette Window & Solar Cleaning that 
 Recommended default:
 1. Keep the preferred working copy inside the existing `Systems Command Center` vault at `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 2. Treat that folder as the live content location inside Obsidian.
-3. Let Git history provide versioning and backup for the dedicated SOP repo without making the entire mixed personal vault the canonical SOP store.
+3. Point any SOP-specific Daily Notes workflow at `00_System/Daily Notes/` inside this repo so field capture stays inside the same Git-backed project boundary.
+4. Let Git history provide versioning and backup for the dedicated SOP repo without making the entire mixed personal vault the canonical SOP store.
 
 ## Design Principles
 - One note, one purpose. Do not mix SOP steps, maintenance logs, and purchase research in the same file unless there is a strong reason.
@@ -38,6 +39,7 @@ Use a small, stable folder taxonomy so the vault remains easy to scan on desktop
 ```text
 00_System/
   Dashboard.md
+  Daily Notes/
   Naming Conventions.md
   Tags and Properties.md
   Review Cadence.md
@@ -344,7 +346,7 @@ Why this stack:
 - Obsidian Properties provide typed metadata in Markdown notes.
 - Bases is now a core plugin for database-like views over note properties.
 - Templates reduce note-creation friction.
-- Daily Notes give a place to capture same-day observations that can later be promoted into SOP, equipment, or maintenance notes.
+- Daily Notes give a place to capture same-day observations that can later be promoted into SOP, equipment, or maintenance notes. For this system, keep that Daily Notes folder inside the SOP repo so it stays within the same backup and archive boundary.
 - Obsidian Web Clipper can save vendor pages, manuals, and product research into structured Markdown notes using templates.
 - Tasks supports recurring tasks, due dates, filtering, and updating the source task from query views.
 - QuickAdd can make mobile capture faster, but it is not required on day one.
@@ -358,6 +360,7 @@ Do not start with custom scripts. Start with structured notes plus dashboard aut
 - Bases views create equipment registers and SOP indexes from note properties.
 - Tasks queries create overdue and upcoming maintenance views from recurring Tasks embedded in equipment notes.
 - Daily Notes plus phone capture shortcuts create a low-friction path to capture field observations without opening a full SOP note.
+- Keep any repo-specific Daily Notes in `00_System/Daily Notes/` so capture, review, archive, and backup all stay inside the same project.
 
 ### Later automation if needed
 - QuickAdd for one-tap note creation from phone.
@@ -413,6 +416,15 @@ Then simplify before scaling.
 - Monthly: review high-use equipment and restock/repair needs.
 - Quarterly: review active SOPs and update anything that drifted.
 - Seasonally: review service-specific SOPs before the relevant demand season.
+
+## Retention and Archive Rules
+- Keep current SOPs, equipment notes, active reference notes, and final decision notes live.
+- Keep recurring maintenance due-state in Tasks inside equipment notes. Use maintenance log notes only when detail, cost, photos, or incident history matters.
+- Review repo-scoped Daily Notes weekly and move reviewed notes older than 30 days into `90_Archive/Daily Notes/YYYY/`.
+- Move detailed logs for retired equipment into `90_Archive/Maintenance/<asset-id>/` after the equipment note records the retirement summary.
+- Move stale comparison notes, clipped manuals, and superseded SOP drafts into the appropriate `90_Archive/` area once the durable live note captures the final conclusion.
+- Delete empty Daily Notes, duplicate media, and context-free photos instead of archiving them.
+- Canonical detailed policy lives in `RETENTION_AND_ARCHIVE_POLICY.md`.
 
 ## What This System Should Contain
 
