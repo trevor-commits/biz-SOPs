@@ -1,18 +1,27 @@
 # TODO
 
 ## Active Next Steps
-Goal: build a reliable business knowledge base for research, tool comparisons, and SOPs without adding overhead.
-- [ ] P1 | Owner: Trevor | Target: 2026-03-31 | Add the first real research note for a current business question or tool decision.
-- [ ] P1 | Owner: Trevor | Target: 2026-03-31 | Add the first SOP draft for a recurring operational task that should become repeatable.
-- [ ] P2 | Owner: Trevor | Target: 2026-04-03 | Revisit the repo structure after a handful of notes exist and decide whether folders/templates are needed.
+Goal: stand up a field-usable SOP, equipment, and maintenance knowledge system that runs in Markdown/Git and is practical inside Obsidian.
+- [ ] P1 | Owner: Trevor | Target: 2026-03-31 | Confirm the Obsidian source-of-truth model and exact vault path: dedicated vault at this repo root vs this repo living inside an existing vault.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-01 | Create the initial vault structure, naming convention, and note property standard described in `SOP_SYSTEM_PLAN.md`.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-02 | Create reusable templates for SOP, equipment, maintenance log, checklist, and decision notes.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-04 | Build the first two complete pilot systems: window cleaning and pressure washing, including SOPs, checklists, equipment notes, and maintenance schedules.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-05 | Build the initial Obsidian dashboards for SOP review, equipment register, and maintenance due items.
+- [ ] P2 | Owner: Trevor | Target: 2026-04-07 | Run a friction review after the pilots and remove any fields, sections, or automation that add overhead without operational value.
 
 ## Completed
 - [x] 2026-03-27 | Bootstrapped the repository with `AGENTS.md`, `PROJECT_INTENT.md`, `todo.md`, and `README.md` for business research and SOP tracking.
 - [x] 2026-03-28 | Remediated the repo governance records so branch lifecycle and next-steps wording match the current documentation standard.
+- [x] 2026-03-28 | Added `SOP_SYSTEM_PLAN.md` and reprioritized the repo around an Obsidian-backed SOP, equipment, and maintenance rollout plan.
 
 ## Suggested Recommendation Log
 - 2026-03-27 | status: open | reasoning level: `medium` | Create a reusable note template for research and tool comparisons after 3-5 entries reveal the right common fields.
 - 2026-03-27 | status: open | reasoning level: `medium` | Add a lightweight decision log once the first major tool or equipment choice is finalized in this repo.
+- 2026-03-28 | status: open | reasoning level: `medium` | Add a truck inventory / consumables note with reorder thresholds once the first equipment notes exist so supplies do not become a separate untracked system.
+- 2026-03-28 | status: open | reasoning level: `medium` | Add a chemical and materials reference note with approved uses, storage rules, and restrictions once pressure washing and window cleaning pilots are in place.
+- 2026-03-28 | status: open | reasoning level: `medium` | Add QR-code or ID labels for major equipment after the asset register stabilizes so physical gear can be matched to notes faster in the field.
+- 2026-03-28 | status: open | reasoning level: `medium` | Add a mobile field-capture workflow using Daily Notes, phone shortcuts, or QuickAdd after the core note templates are working so field lessons make it back into the system quickly.
+- 2026-03-28 | status: open | reasoning level: `medium` | Add a web-clipping template for manuals, vendor pages, and equipment research after the decision-note pattern is stable so outside research lands in a consistent format.
 
 ## Active Branch Ledger
 ### `main`
@@ -21,7 +30,7 @@ Goal: build a reliable business knowledge base for research, tool comparisons, a
 - base: `main`
 - worktree: `/Users/gillettes/Coding Projects/Equipment & SOPs`
 - source chat: 2026-03-27 "Bootstrap repository governance and starter docs"
-- last refreshed by chat: 2026-03-28 "Verify repo setup matches documented standards"
+- last refreshed by chat: 2026-03-28 "Plan SOP, equipment, and maintenance system with Obsidian flow"
 - purpose: default branch for the repository bootstrap and subsequent small documentation/governance updates
 - merge expectation: `no merge`
 - merge target: `main`
@@ -77,6 +86,7 @@ Goal: build a reliable business knowledge base for research, tool comparisons, a
 ## Test Evidence Log
 - 2026-03-27 | command(s): `bootstrap-project-governance.sh`, `verify-project-agents-compliance.sh`, `git diff --check` | result: pass; governance files created, required AGENTS markers present, no diff formatting issues | log/PR reference: local bootstrap chat
 - 2026-03-28 | command(s): `verify-project-agents-compliance.sh`, `ensure-project-todo-audit-sections.sh`, `git diff --check` | result: pass; AGENTS markers verified, required todo governance sections present, and no diff formatting issues | log/PR reference: local conformance chat
+- 2026-03-28 | command(s): `git diff --check` | result: pass; `SOP_SYSTEM_PLAN.md` and the updated rollout plan in `todo.md` are formatting-clean | log/PR reference: current SOP planning chat
 
 ## Testing Cadence Matrix
 | Trigger | Command(s) | Cadence | Gate Criteria |
