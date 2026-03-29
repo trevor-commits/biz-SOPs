@@ -260,6 +260,8 @@ quantity_needed:
 reorder_min:
 target_vendor:
 estimated_cost:
+purchased_date:
+actual_cost:
 next_action:
 ---
 ```
@@ -375,6 +377,10 @@ Recommended SOP body:
 
 ## Next Action
 ```
+
+Purchase lifecycle rule:
+- Keep `status: active` while the item is still part of the working queue.
+- Set `status: archived` when `purchase_stage` reaches `received` or `cancelled`, unless a short-lived follow-up still needs it visible.
 
 ## Maintenance Tracking Model
 Use a three-layer model so maintenance is clear without becoming over-administered. Canonical due-state lives in recurring Tasks inside the equipment note, not in duplicate frontmatter date fields.

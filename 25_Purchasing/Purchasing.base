@@ -26,6 +26,10 @@ properties:
     displayName: Vendor
   estimated_cost:
     displayName: Est Cost
+  purchased_date:
+    displayName: Purchased
+  actual_cost:
+    displayName: Actual Cost
   next_action:
     displayName: Next Action
   file.mtime:

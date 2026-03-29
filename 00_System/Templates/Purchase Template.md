@@ -15,6 +15,8 @@ quantity_needed: 1
 reorder_min:
 target_vendor:
 estimated_cost:
+purchased_date:
+actual_cost:
 next_action:
 tags:
   - purchase
@@ -48,6 +50,7 @@ tags:
 
 ## Status Updates
 - {{date:YYYY-MM-DD}} - Created note.
+- {{date:YYYY-MM-DD}} - Update here when ordered, received, deferred, or cancelled.
 
 ## Next Action
 - 

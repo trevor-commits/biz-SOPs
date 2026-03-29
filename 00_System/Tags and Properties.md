@@ -103,6 +103,8 @@ quantity_needed:
 reorder_min:
 target_vendor:
 estimated_cost:
+purchased_date:
+actual_cost:
 next_action:
 tags:
   - purchase
@@ -113,6 +115,19 @@ Suggested values:
 - `purchase_stage`: `need-to-buy`, `researching`, `ordered`, `received`, `deferred`, `cancelled`
 - `urgency`: `now`, `soon`, `later`
 - `purchase_kind`: `one-time`, `consumable`, `replacement`, `upgrade`
+- Set `status: archived` when `purchase_stage` reaches `received` or `cancelled`, unless there is still an active follow-up reason to keep the note in the working queue.
+
+Suggested `category` values:
+- `truck`
+- `ladders`
+- `water-fed`
+- `pressure-washing`
+- `hand-tools`
+- `ppe`
+- `chemicals`
+- `solar`
+- `gutters`
+- `multi-service`
 
 ## Maintenance Log Properties
 
