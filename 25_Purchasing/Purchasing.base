@@ -1,0 +1,86 @@
+filters:
+  and:
+    - 'file.inFolder("25_Purchasing")'
+    - 'file.ext == "md"'
+    - 'type == "purchase"'
+properties:
+  file.name:
+    displayName: Item
+  urgency:
+    displayName: Urgency
+  purchase_kind:
+    displayName: Kind
+  purchase_stage:
+    displayName: Stage
+  category:
+    displayName: Category
+  service_lines:
+    displayName: Services
+  linked_asset_id:
+    displayName: Asset
+  quantity_needed:
+    displayName: Qty
+  reorder_min:
+    displayName: Reorder Min
+  target_vendor:
+    displayName: Vendor
+  estimated_cost:
+    displayName: Est Cost
+  next_action:
+    displayName: Next Action
+  file.mtime:
+    displayName: Updated
+views:
+  - type: table
+    name: Buy Now
+    filters:
+      and:
+        - 'status == "active"'
+        - 'urgency == "now"'
+    order:
+      - urgency
+      - purchase_kind
+      - category
+      - file.name
+  - type: table
+    name: Buy Soon
+    filters:
+      and:
+        - 'status == "active"'
+        - 'urgency == "soon"'
+    order:
+      - purchase_kind
+      - category
+      - file.name
+  - type: table
+    name: Later
+    filters:
+      and:
+        - 'status == "active"'
+        - 'urgency == "later"'
+    order:
+      - purchase_kind
+      - category
+      - file.name
+  - type: table
+    name: Restock and Replacement
+    filters:
+      and:
+        - 'status == "active"'
+        - 'purchase_kind == "consumable" || purchase_kind == "replacement"'
+    order:
+      - urgency
+      - category
+      - file.name
+  - type: table
+    name: By Category
+    filters:
+      and:
+        - 'status == "active"'
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - category
+      - urgency
+      - file.name

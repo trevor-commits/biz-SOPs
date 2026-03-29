@@ -31,6 +31,14 @@ Examples:
 - `EQ-PW-001 - Pressure Washer`
 - `EQ-VEH-001 - Work Truck`
 
+### Purchasing
+Pattern:
+- `BUY - <Item Name>`
+
+Examples:
+- `BUY - Ladder Rack for Work Truck`
+- `BUY - 18 Inch Squeegee Rubber Refill`
+
 ### Checklists
 Pattern:
 - `<Scope> - <Purpose> Checklist`
@@ -78,6 +86,7 @@ Current category codes:
 ## Folder Placement Rules
 - SOPs go in the matching service folder under `10_SOPs/`.
 - Equipment notes go in the most specific category folder under `20_Equipment/`.
+- Purchase notes go in `25_Purchasing/`.
 - Maintenance logs go in `30_Maintenance/Logs/`.
 - Checklists go in `40_Checklists/`.
 - Decision notes go in `60_Decisions/`.

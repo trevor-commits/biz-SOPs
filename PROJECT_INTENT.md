@@ -12,11 +12,13 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 - Top jobs:
   - Capture and retrieve the exact way recurring field work should be done.
   - Track equipment, maintenance cadence, and supporting checklists in one place.
+  - Track what must be bought now, what can wait, and what should be reordered routinely.
   - Compare tools, vendors, and process decisions before spending money or changing workflow.
 
 ## In-Scope Outcomes
 - Document repeatable business processes in plain language.
 - Track equipment and maintenance schedules with enough structure to review due work quickly.
+- Track urgent purchases, deferred purchases, and consumable restock needs without a separate system.
 - Preserve process and purchasing decisions with enough context to reuse later.
 - Reduce repeated research and repeated "how do I do this?" thinking on the same operational questions.
 
@@ -28,6 +30,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 ## Success Metrics and Guardrails
 - Leading metrics:
   - New SOPs, equipment notes, and maintenance schedules are captured in the preferred Obsidian working copy instead of living only in chat history or memory.
+  - Active buy-now, soon, later, and consumable restock items are visible from the same Obsidian project used for SOPs.
   - Important process or tool decisions include recommendation, reasoning, and source context.
 - Lagging metrics:
   - Less repeated research on the same operational question.
@@ -41,6 +44,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 ## Primary Journeys and Navigation Model
 - SOP creation: convert a working process into a step-by-step procedure plus a short field checklist.
 - Equipment management: document an asset, link it to related SOPs, and keep recurring maintenance tasks in the equipment note.
+- Purchasing management: capture urgent buys, replacements, and restock needs in dedicated purchase notes that can be grouped by service, category, and urgency.
 - Decision capture: compare options, note tradeoffs, record the current best choice, and track follow-up questions.
 
 ## Content and Wording Principles
@@ -61,9 +65,11 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 - Assumptions:
   - Most content will be Markdown notes plus lightweight frontmatter.
   - Equipment metadata can stay lightweight while recurring maintenance due-state lives in Tasks inside equipment notes.
+  - Active purchasing state can live in purchase notes and Bases views without needing a separate database.
 - Risks:
   - Content becomes inconsistent or duplicated if notes are edited in multiple local copies without a declared primary working copy.
   - Maintenance state drifts if due dates are stored in more than one place.
+  - Purchase state drifts if active shopping items are duplicated across reference notes, daily notes, and equipment notes.
   - Over-structuring too early could slow down capture.
 - Invalidation triggers:
   - If retrieval becomes difficult across many notes, refine the folder structure, indexes, or templates.

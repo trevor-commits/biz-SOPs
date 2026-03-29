@@ -13,6 +13,7 @@ The Git repo identity is the source of truth. The preferred Obsidian working cop
 ## What belongs here
 - SOP drafts and finalized process docs.
 - Equipment notes with recurring maintenance tasks.
+- Purchase notes and dashboards for urgent buys, replacements, and restock needs.
 - Checklists, maintenance logs, and decision notes that support those SOPs.
 - Supporting vendor/tool/process references that have durable operational value.
 
@@ -35,6 +36,7 @@ Recommended sections for new notes:
 ## Practical starting categories
 - SOPs
 - Equipment
+- Purchasing
 - Maintenance logs
 - Checklists
 - Decision notes
@@ -45,6 +47,8 @@ Recommended sections for new notes:
 - Include the date and source context when capturing research.
 - When a decision is made, record the reason so the same research does not need to be repeated later.
 - When an SOP becomes stable, keep it action-oriented and ordered step by step.
+- Keep active buying state in `25_Purchasing/` notes and Bases views, not in `50_Reference/`.
+- Treat the preferred working copy as the live edit location and sync/pull before automation edits so phone changes are preserved.
 - Apply `RETENTION_AND_ARCHIVE_POLICY.md` so Daily Notes, maintenance logs, and supporting media do not turn into long-term clutter.
 
 ## Core project files

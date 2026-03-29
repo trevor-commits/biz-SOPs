@@ -7,6 +7,8 @@ last_reviewed:
 next_review:
 asset_id:
 category:
+service_lines: []
+procurement_status: owned
 brand:
 model:
 serial_number:
@@ -32,6 +34,7 @@ tags:
 ### Main Tool Purchase Links
 - Vendor:
 - Vendor:
+- Active purchase note:
 
 ### Common Replacement Parts
 | Part | Reason to Keep / Replace | Link |

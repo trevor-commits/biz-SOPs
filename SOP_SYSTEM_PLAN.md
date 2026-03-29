@@ -29,6 +29,7 @@ Recommended default:
 - Keep capture fast. Required metadata should be minimal and useful.
 - Separate "master SOP" from "job checklist". The SOP explains the full process. The checklist is the field-use quick reference.
 - Link everything. SOPs should link to equipment notes, and equipment notes should link back to the SOPs that use them.
+- Keep active purchase state in dedicated purchase notes and views, not buried in reference notes or daily notes.
 - Record maintenance once. Avoid duplicate maintenance trackers in notes, spreadsheets, and reminders unless one is explicitly read-only.
 - Standardize names and IDs early. This prevents later cleanup pain.
 - Prefer official/core Obsidian features first. Add community plugins only when they clearly reduce workload.
@@ -59,6 +60,10 @@ Use a small, stable folder taxonomy so the vault remains easy to scan on desktop
   Hand Tools/
   PPE/
   Vehicle/
+
+25_Purchasing/
+  Dashboard.md
+  Purchasing.base
 
 30_Maintenance/
   Dashboard.md
@@ -140,7 +145,25 @@ Best for:
 
 Small per-use maintenance can stay inline on the equipment note. Larger work should get its own log note and be linked back to the equipment note.
 
-### 4. Checklist notes
+### 4. Purchase notes
+Use for active shopping items, replacements, reorder needs, and deferred purchase candidates.
+
+Examples:
+- `BUY - Ladder Rack for Work Truck`
+- `BUY - 18 Inch Squeegee Rubber Refill`
+
+Mandatory sections:
+- Need summary
+- Why this matters now
+- Service and category fit
+- Quantity / reorder trigger
+- Vendor options
+- Linked notes or asset IDs
+- Decision / timing notes
+- Status updates
+- Next action
+
+### 5. Checklist notes
 Use for quick field execution.
 
 Examples:
@@ -149,7 +172,7 @@ Examples:
 
 These should be short, scannable, and usable from a phone.
 
-### 5. Reference notes
+### 6. Reference notes
 Use for support information that is not itself a procedure.
 
 Examples:
@@ -158,7 +181,7 @@ Examples:
 - ladder safety reminders
 - Sacramento seasonal maintenance notes
 
-### 6. Decision notes
+### 7. Decision notes
 Use for purchase or process decisions.
 
 Examples:
@@ -208,6 +231,8 @@ next_review:
 type: equipment
 asset_id:
 category:
+service_lines:
+procurement_status:
 brand:
 model:
 serial_number:
@@ -216,6 +241,26 @@ purchase_date:
 warranty_until:
 storage_location:
 related_sops:
+---
+```
+
+### Purchase properties
+
+```yaml
+---
+type: purchase
+status: active
+purchase_stage:
+urgency:
+purchase_kind:
+service_lines:
+category:
+linked_asset_id:
+quantity_needed:
+reorder_min:
+target_vendor:
+estimated_cost:
+next_action:
 ---
 ```
 
@@ -307,6 +352,30 @@ Recommended SOP body:
 ## Maintenance History
 ```
 
+## Recommended Purchase Note Format
+
+```md
+# BUY - Ladder Rack for Work Truck
+
+## Need Summary
+
+## Why This Matters Now
+
+## Service and Category Fit
+
+## Quantity and Reorder Trigger
+
+## Vendor Options
+
+## Linked Notes
+
+## Decision and Timing Notes
+
+## Status Updates
+
+## Next Action
+```
+
 ## Maintenance Tracking Model
 Use a three-layer model so maintenance is clear without becoming over-administered. Canonical due-state lives in recurring Tasks inside the equipment note, not in duplicate frontmatter date fields.
 
@@ -364,6 +433,7 @@ Do not start with custom scripts. Start with structured notes plus dashboard aut
 ### Day-one automation
 - Templates create standardized notes.
 - Bases views create equipment registers and SOP indexes from note properties.
+- Bases views create purchasing queues grouped by urgency, purchase kind, and category.
 - Tasks queries create overdue and upcoming maintenance views from recurring Tasks embedded in equipment notes.
 - Daily Notes plus phone capture shortcuts create a low-friction path to capture field observations without opening a full SOP note.
 - Keep any repo-specific Daily Notes in `00_System/Daily Notes/` so capture, review, archive, and backup all stay inside the same project.
@@ -381,7 +451,17 @@ Should surface:
 - recently updated SOPs
 - SOPs due for review
 - equipment recently added or changed
+- purchase items that need action now
 - open decision notes
+
+### 25_Purchasing/Dashboard.md
+Should surface:
+- buy now items
+- buy soon items
+- later / wishlist items
+- consumables and replacement parts to reorder
+- purchases grouped by category or service
+- links to related equipment or decision notes
 
 ### 30_Maintenance/Dashboard.md
 Should surface:
@@ -453,12 +533,13 @@ Then simplify before scaling.
 - restock thresholds
 - seasonal prep and shutdown notes
 - vendor references
+- active purchasing queue
 - purchasing decisions
 
 ## High-Value Additions To Consider
 - A photo standard note for before/after documentation.
 - A chemical and materials reference with approved uses, storage rules, and restrictions.
-- A truck inventory note with reorder thresholds for common consumables.
+- A truck inventory note with reorder thresholds for common consumables once the purchase-note pattern proves sufficient.
 - A "new tool evaluation" template so purchases are compared consistently.
 - A preferred-vendors note so repeated buy links can be standardized if the same suppliers keep coming up.
 - A web-clipping template for saving manuals, vendor pages, and comparison research into the correct note type automatically.
@@ -469,6 +550,7 @@ Then simplify before scaling.
 ## Anti-Headache Rules
 - Avoid one giant "everything" SOP. Split by job type or phase.
 - Avoid duplicate maintenance trackers in both notes and spreadsheets unless one is explicitly a derived reporting view.
+- Avoid treating `50_Reference/` as an active shopping queue; keep support material there and active buying state in `25_Purchasing/`.
 - Avoid overloading frontmatter with fields you never query.
 - Avoid custom automation before the basic note pattern proves useful.
 - Avoid hiding critical knowledge in daily notes only. Promote durable information into permanent notes.

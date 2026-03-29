@@ -11,6 +11,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 - Canonical repo identity: `git@github.com:trevor-commits/biz-SOPs.git`.
 - Preferred operational working copy path: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 - Secondary coordination clone path: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
+- Do not keep a Codex-only equipment or purchasing database outside the repo; durable state belongs in repo Markdown notes plus Git history.
 - If project scope/runtime changes materially, refresh this file, `PROJECT_INTENT.md`, and the root `todo.md` testing cadence in the same change.
 
 ## Stack and Runtime
@@ -98,6 +99,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 [MANDATORY_CLARIFY] ask focused clarifying question(s), explain the conflict/misalignment, and pause risky changes until clarified
 
 - Ask clarifying questions only when scope, conflict, or risk prevents safe execution.
+- Preserve unrelated edits in purchase notes, equipment notes, SOPs, and Daily Notes; stop on merge conflicts or stale clone state instead of overwriting concurrent phone or desktop edits.
 
 ## Credit and Verification Posture
 [MANDATORY_CREDIT_IMPACT] prioritize correctness/reliability and flag significant low-upside credit waste with efficient reliable alternatives
@@ -115,6 +117,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 - Execute directly for implementation requests.
 - Keep unrelated tracked changes intact.
+- Prefer editing the preferred operational working copy directly; if a secondary clone is used for automation or coordination, sync it with the preferred working copy or remote before mutating files.
 
 ## Global Mandatory Markers
 - [MANDATORY_TRUST_GATE] evaluate Trust Gate triggers at session intake per `session-intake-closeout` skill; when `on`, require `Evidence Checked`, `Decision Status` labels (`Confirmed` / `Inferred` / `Needs More Evidence` / `Do Not Do Yet`), `Challenge Findings`, and `Unresolved` sections at closeout; no polished final recommendation for uncertain items

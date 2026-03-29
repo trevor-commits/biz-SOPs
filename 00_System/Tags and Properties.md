@@ -62,6 +62,8 @@ last_reviewed:
 next_review:
 asset_id:
 category:
+service_lines: []
+procurement_status: owned
 brand:
 model:
 serial_number:
@@ -79,6 +81,38 @@ Note:
 - Do not store recurring maintenance due dates in frontmatter.
 - The canonical due-state lives in recurring Tasks inside the equipment note.
 - Keep purchase links and vendor options in the note body, not in frontmatter, unless a specific query later proves they need to be promoted to properties.
+- Use `procurement_status` only as a secondary inventory signal such as `owned`, `need-to-buy`, `wishlist`, or `replace-soon`. The active shopping queue still lives in purchase notes.
+
+## Purchase Properties
+
+```yaml
+---
+type: purchase
+status: active
+owner: Trevor
+created:
+last_reviewed:
+next_review:
+purchase_stage: need-to-buy
+urgency: now
+purchase_kind: one-time
+service_lines: []
+category:
+linked_asset_id:
+quantity_needed:
+reorder_min:
+target_vendor:
+estimated_cost:
+next_action:
+tags:
+  - purchase
+---
+```
+
+Suggested values:
+- `purchase_stage`: `need-to-buy`, `researching`, `ordered`, `received`, `deferred`, `cancelled`
+- `urgency`: `now`, `soon`, `later`
+- `purchase_kind`: `one-time`, `consumable`, `replacement`, `upgrade`
 
 ## Maintenance Log Properties
 
