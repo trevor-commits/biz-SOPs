@@ -11,6 +11,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 - Canonical repo identity: `git@github.com:trevor-commits/biz-SOPs.git`.
 - Preferred operational working copy path: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 - Secondary coordination clone path: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
+- Treat the preferred operational working copy as the only live edit surface; the secondary coordination clone exists as a pull-only backup mirror unless the user explicitly asks otherwise.
 - Do not keep a Codex-only equipment or purchasing database outside the repo; durable state belongs in repo Markdown notes plus Git history.
 - If project scope/runtime changes materially, refresh this file, `PROJECT_INTENT.md`, and the root `todo.md` testing cadence in the same change.
 
@@ -100,6 +101,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 - Ask clarifying questions only when scope, conflict, or risk prevents safe execution.
 - Preserve unrelated edits in purchase notes, equipment notes, SOPs, and Daily Notes; stop on merge conflicts or stale clone state instead of overwriting concurrent phone or desktop edits.
+- Automated backup/sync lanes must halt for suspicious deletion bursts instead of auto-pushing them; prefer review and Git recovery over silent destructive propagation.
 
 ## Credit and Verification Posture
 [MANDATORY_CREDIT_IMPACT] prioritize correctness/reliability and flag significant low-upside credit waste with efficient reliable alternatives

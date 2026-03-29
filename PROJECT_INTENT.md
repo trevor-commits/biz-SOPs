@@ -61,6 +61,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 - Constraints:
   - Must stay easy to update without adding admin burden.
   - Must have one canonical repo identity and one preferred operational working copy to avoid split-brain edits.
+  - The secondary local clone should remain a backup mirror of the preferred working copy, not a parallel live-edit surface.
   - Should remain easy to reference from Obsidian on desktop and mobile.
 - Assumptions:
   - Most content will be Markdown notes plus lightweight frontmatter.
@@ -70,6 +71,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
   - Content becomes inconsistent or duplicated if notes are edited in multiple local copies without a declared primary working copy.
   - Maintenance state drifts if due dates are stored in more than one place.
   - Purchase state drifts if active shopping items are duplicated across reference notes, daily notes, and equipment notes.
+  - Unattended backup automation can push a destructive edit too quickly if major deletions are not reviewed first.
   - Over-structuring too early could slow down capture.
 - Invalidation triggers:
   - If retrieval becomes difficult across many notes, refine the folder structure, indexes, or templates.
