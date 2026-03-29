@@ -69,6 +69,7 @@ purchase_date:
 warranty_until:
 storage_location:
 related_sops: []
+replacement_parts: []
 tags:
   - equipment
 ---
@@ -77,6 +78,7 @@ tags:
 Note:
 - Do not store recurring maintenance due dates in frontmatter.
 - The canonical due-state lives in recurring Tasks inside the equipment note.
+- Keep purchase links and vendor options in the note body, not in frontmatter, unless a specific query later proves they need to be promoted to properties.
 
 ## Maintenance Log Properties
 
@@ -91,6 +93,7 @@ maintenance_type:
 performed_on:
 performed_by:
 cost:
+replacement_parts: []
 tags:
   - maintenance-log
 ---
@@ -139,3 +142,4 @@ Good examples:
 - `vendor`
 - `training`
 - `troubleshooting`
+- `repair`

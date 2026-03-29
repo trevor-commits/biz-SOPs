@@ -14,6 +14,7 @@ purchase_date:
 warranty_until:
 storage_location:
 related_sops: []
+replacement_parts: []
 tags:
   - equipment
 ---
@@ -26,6 +27,17 @@ tags:
 
 ## Required Accessories and Consumables
 
+## Purchase and Replacement Links
+
+### Main Tool Purchase Links
+- Vendor:
+- Vendor:
+
+### Common Replacement Parts
+| Part | Reason to Keep / Replace | Link |
+|---|---|---|
+|  |  |  |
+
 ## Operating Notes
 
 ## Maintenance Schedule
@@ -35,7 +47,21 @@ tags:
 - [ ] <Inspection or service task> 📅 <first due date> 🔁 every month
 
 ### Quick Reset After Use
-- 
+-
+
+## Repair and Failure Prep
+
+### Common Problems to Watch For
+-
+
+### Known Failure Points
+-
+
+### Spare Parts or Repair Items to Keep On Hand
+-
+
+### Field Repair Notes
+-
 
 ## Troubleshooting
 

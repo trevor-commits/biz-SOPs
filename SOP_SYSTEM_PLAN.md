@@ -102,6 +102,7 @@ Mandatory sections:
 - Quality standard / definition of done
 - Post-job cleanup and reset
 - Equipment care after use
+- Job interruption / repair response
 - Dos and don'ts
 - Common mistakes and troubleshooting
 - Review history
@@ -117,8 +118,10 @@ Mandatory sections:
 - Asset summary
 - Where it is used
 - Required accessories / consumables
+- Purchase and replacement links
 - Operating notes
 - Routine maintenance schedule
+- Repair and failure prep
 - Troubleshooting
 - Storage instructions
 - Retirement / replacement triggers
@@ -133,6 +136,7 @@ Best for:
 - hose replacements
 - pump servicing
 - recurring maintenance with notes or photos
+- documenting the actual failure symptoms, suspected cause, and prevention notes after a problem
 
 Small per-use maintenance can stay inline on the equipment note. Larger work should get its own log note and be linked back to the equipment note.
 
@@ -310,6 +314,8 @@ Use a three-layer model so maintenance is clear without becoming over-administer
 Each equipment note should contain:
 - the equipment metadata
 - the maintenance instructions
+- purchase links for the main tool and common replacement parts
+- known failure points, spare parts to keep, and repair-prep notes
 - recurring Tasks for each scheduled maintenance action
 - links to any maintenance log notes that add detail
 
@@ -454,6 +460,7 @@ Then simplify before scaling.
 - A chemical and materials reference with approved uses, storage rules, and restrictions.
 - A truck inventory note with reorder thresholds for common consumables.
 - A "new tool evaluation" template so purchases are compared consistently.
+- A preferred-vendors note so repeated buy links can be standardized if the same suppliers keep coming up.
 - A web-clipping template for saving manuals, vendor pages, and comparison research into the correct note type automatically.
 - A training/readiness checklist for any future helper or contractor.
 - A safety incident / near-miss log for anything worth learning from.

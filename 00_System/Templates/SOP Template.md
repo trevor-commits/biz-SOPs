@@ -22,6 +22,7 @@ tags:
 ## When To Use
 
 ## Required Equipment and Consumables
+- Link each major tool to its equipment note so buy links, parts, maintenance, and repair notes stay in one place.
 
 ## PPE and Safety Warnings
 
@@ -43,6 +44,11 @@ tags:
 ## Post-Job Cleanup and Reset
 
 ## Equipment Care After Use
+
+## Job Interruption / Repair Response
+- What should happen if a key tool fails during the job?
+- What quick field fix is acceptable?
+- When should the job stop and the tool be repaired or replaced?
 
 ## Dos and Don'ts
 ### Do
