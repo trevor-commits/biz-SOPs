@@ -21,6 +21,7 @@ RAW_EXPORT_CSV = (
 OVERRIDES_CSV = CATALOG_ROOT / "service_catalog_overrides.csv"
 DASHBOARD_MD = CATALOG_ROOT / "Dashboard.md"
 BASE_FILE = CATALOG_ROOT / "Service Catalog.base"
+REVIEW_REGISTER_MD = CATALOG_ROOT / "Needs Review Register.md"
 SOURCE_FILE_LABEL = "GilletteWindowSolarCleaning_pricebook_export.csv"
 
 SERVICE_FOLDERS = [
@@ -1381,6 +1382,7 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 - Treat the raw HCP export as the generator source of truth so UUIDs and categories stay first-class fields instead of being re-parsed from note copy.
 - Treat the template-compatible CSV as a downstream import/reference derivative, not the identity source for note generation.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
+- Use [[Needs Review Register]] when you want one human-readable file listing every flagged service and the exact reason it still needs review.
 - Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 
 ## All Services
@@ -1398,6 +1400,9 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 ## Needs Review Queue
 ![[Service Catalog.base#Needs Review Queue]]
 
+## Review Register
+[[Needs Review Register]]
+
 ## Duplicate Title / Collision Review
 ![[Service Catalog.base#Duplicate Title / Collision Review]]
 
@@ -1408,6 +1413,48 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 ![[Service Catalog.base#By Service Line]]
 """
     DASHBOARD_MD.write_text(content, encoding="utf-8")
+
+
+def write_review_register(records: list[SourceRecord]) -> None:
+    flagged_records = [record for record in records if record.review_status != "clean"]
+    status_order = ["suspect", "duplicate-candidate", "needs-review"]
+
+    lines = [
+        "# Needs Review Register",
+        "",
+        "Generated from `scripts/build_service_catalog.py`.",
+        "",
+        "Use this file when you want one plain-language list of every service note that still needs a decision, cleanup, or approval pass.",
+        "",
+        "## Summary",
+        f"- Total flagged notes: {len(flagged_records)}",
+    ]
+
+    for status in status_order:
+        count = sum(1 for record in flagged_records if record.review_status == status)
+        if count:
+            lines.append(f"- `{status}`: {count}")
+
+    for status in status_order:
+        status_records = [record for record in flagged_records if record.review_status == status]
+        if not status_records:
+            continue
+        lines.extend(["", f"## {status}"])
+
+        grouped: dict[str, list[SourceRecord]] = defaultdict(list)
+        for record in status_records:
+            grouped[record.target_folder].append(record)
+
+        for folder in sorted(grouped):
+            lines.extend(["", f"### {folder}"])
+            for record in sorted(grouped[folder], key=lambda item: item.title):
+                link_target = f"15_Service Catalog/{record.target_folder}/{record.filename[:-3]}"
+                lines.append(f"- [[{link_target}|{record.title}]]")
+                lines.append(f"  - Review status: `{record.review_status}`")
+                for note in record.audit_notes or ["No auto-detected issues during import."]:
+                    lines.append(f"  - Why: {note}")
+
+    REVIEW_REGISTER_MD.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def ensure_directories() -> None:
@@ -1529,6 +1576,7 @@ def main() -> None:
     records = build_records(overrides)
     write_base_file()
     write_dashboard()
+    write_review_register(records)
     written_paths = sync_notes(records, args.mode)
     print(f"mode={args.mode}")
     print(f"notes_written={len(written_paths)}")

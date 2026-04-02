@@ -8,6 +8,7 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 - Treat the raw HCP export as the generator source of truth so UUIDs and categories stay first-class fields instead of being re-parsed from note copy.
 - Treat the template-compatible CSV as a downstream import/reference derivative, not the identity source for note generation.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
+- Use [[Needs Review Register]] when you want one human-readable file listing every flagged service and the exact reason it still needs review.
 - Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 
 ## All Services
@@ -24,6 +25,9 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 
 ## Needs Review Queue
 ![[Service Catalog.base#Needs Review Queue]]
+
+## Review Register
+[[Needs Review Register]]
 
 ## Duplicate Title / Collision Review
 ![[Service Catalog.base#Duplicate Title / Collision Review]]
