@@ -2,6 +2,7 @@
 
 ## Active Next Steps
 Goal: stand up a field-usable SOP, equipment, and maintenance knowledge system that runs in Markdown/Git and is practical inside Obsidian.
+- [ ] P1 | Owner: Trevor | Target: 2026-04-02 | Import the HCP CRM service description export into `50_Reference/CRM Service Descriptions/`, convert it into Obsidian-friendly Markdown notes, and run a thorough audit with evidence-backed feedback on clarity, consistency, positioning, and operational usefulness.
 - [ ] P1 | Owner: Trevor | Target: 2026-04-02 | Verify the end-to-end mobile edit path from Obsidian phone capture into the preferred SOP working copy and document the exact sync path plus recovery steps if edits have not landed before Codex automation runs.
 - [ ] P1 | Owner: Trevor | Target: 2026-04-03 | Build the first two complete pilot systems: window cleaning and pressure washing, including SOPs, checklists, equipment notes, and recurring maintenance Tasks.
 - [ ] P2 | Owner: Trevor | Target: 2026-04-04 | Build the initial Obsidian dashboards for SOP review, equipment register, maintenance due items, and purchasing queues using live pilot notes.
@@ -102,6 +103,7 @@ Goal: stand up a field-usable SOP, equipment, and maintenance knowledge system t
 - When a verification run closes or updates an audit finding, cross-reference the matching audit record entry and the chat or commit that performed the work.
 
 ## Test Evidence Log
+- 2026-04-01 | command(s): `mkdir -p '/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs/50_Reference/CRM Service Descriptions'`; folder-structure review with `find`; `git diff --check` | result: pass; the CRM service-description intake folder exists in the preferred Obsidian working copy, the durable intake note/work item were added, and the docs-only diff is formatting-clean | log/PR reference: current CRM service-description intake chat
 - 2026-03-27 | command(s): `bootstrap-project-governance.sh`, `verify-project-agents-compliance.sh`, `git diff --check` | result: pass; governance files created, required AGENTS markers present, no diff formatting issues | log/PR reference: local bootstrap chat
 - 2026-03-28 | command(s): `verify-project-agents-compliance.sh`, `ensure-project-todo-audit-sections.sh`, `git diff --check` | result: pass; AGENTS markers verified, required todo governance sections present, and no diff formatting issues | log/PR reference: local conformance chat
 - 2026-03-28 | command(s): `git diff --check` | result: pass; `SOP_SYSTEM_PLAN.md` and the updated rollout plan in `todo.md` are formatting-clean | log/PR reference: current SOP planning chat
