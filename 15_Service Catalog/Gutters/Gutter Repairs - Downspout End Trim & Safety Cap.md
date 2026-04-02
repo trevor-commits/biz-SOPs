@@ -50,6 +50,7 @@ tags:
 - Removes the sharp-edge contact risk at the cut point
 - Keeps the discharge end cleaner and more uniform
 
+## Just So You Know
 Priced per downspout end. Once a downspout is cut shorter, changing the length later requires additional parts/work.
 
 ## Upsells and Related Services

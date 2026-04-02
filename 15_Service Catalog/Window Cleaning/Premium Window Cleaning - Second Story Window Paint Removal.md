@@ -51,6 +51,7 @@ tags:
 - Helps remove stubborn buildup that regular window cleaning does not address
 - Gives hard-to-reach second-story glass the extra detail it needs
 
+## Just So You Know
 Pricing depends on the amount of paint or debris present, the time required for removal, and second-story access.
 This service is priced separately from standard window cleaning because it requires more detailed labor and specialty removal work.
 

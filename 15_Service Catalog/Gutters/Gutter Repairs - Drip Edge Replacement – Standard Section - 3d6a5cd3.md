@@ -51,6 +51,7 @@ tags:
 - Improves drainage and reduces standing water in a sag
 - Helps protect fascia edges from repeated wetting
 
+## Just So You Know
 Priced per large section. If we uncover hidden damage behind the gutter/drip edge, we’ll flag it before doing anything beyond this scope.
 
 ## Upsells and Related Services

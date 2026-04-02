@@ -50,6 +50,7 @@ tags:
 - Reduces the chance of the wire rubbing or snagging in wind
 - Cleans up the roof edge and gutter area
 
+## Just So You Know
 Priced per removal item. We remove what’s accessible and clearly abandoned; anything tied into active equipment is excluded.
 
 ## Upsells and Related Services

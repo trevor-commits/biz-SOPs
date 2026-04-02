@@ -49,6 +49,7 @@ tags:
 - Removes slippery moss and buildup from entryways
 - Helps preserve your concrete and pavers by clearing off grime
 
+## Just So You Know
 Pricing depends on the total area being cleaned and how dirty the surface is.
 
 ## Upsells and Related Services

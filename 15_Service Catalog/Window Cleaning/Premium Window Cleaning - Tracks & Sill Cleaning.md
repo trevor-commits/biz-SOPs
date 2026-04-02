@@ -24,7 +24,7 @@ tags:
 # Tracks & Sill Cleaning
 
 > [!summary] Quick Summary
-> Thorough cleaning of window tracks and sills to remove dust, dirt, and debris — included at no extra charge when you’re getting your interior windows cleaned.
+> Tracks and sill cleaning removes the dirt and debris that collect around the glass so the finished window service looks more complete.
 
 > [!info] Pricing
 > - CRM price: $0.00
@@ -34,19 +34,23 @@ tags:
 > - Pricing note: CRM stores this as $0.00. Treat as quoted, complimentary, or incomplete until verified.
 
 ## Included
-- Brush out tracks to loosen built-up dust and debris
-- Vacuum and wipe down tracks and sills to remove remaining dirt
-- Clean commonly overlooked areas that affect how your windows look and function
+- Brush out accessible tracks to loosen built-up dust and debris
+- Vacuum and wipe accessible tracks and sills to remove remaining buildup
+- Clean the visible frame areas that most affect the finished appearance
 
 ## Not Included
-- Deep restoration for mold, caulking damage, or weatherstripping issues
-- Cleaning of windows without accessible tracks or that require disassembly
+- Deep restoration for mold, damaged caulking, or weatherstripping issues
+- Disassembly-based cleaning or repair work
+- Window glass cleaning unless it is also part of the approved quote
 
 ## Best Fit / When To Offer
-- Makes your windows look more complete when the glass is clean
-- Helps reduce dust and allergens that collect in the frames
-- Prevents buildup that can lead to sticking or drainage issues over time
-- Included automatically when we clean your interior windows
+- Best when you want the windows to look finished beyond the glass alone
+- Helps reduce dust and grime that collect in the frames over time
+- Pairs well with interior-only or full window cleaning
+
+## Just So You Know
+- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- Final scope depends on how accessible the tracks and sills are without disassembly.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]

@@ -49,6 +49,7 @@ tags:
 - Removes slippery moss and algae
 - Helps protect your surface by keeping buildup from setting in
 
+## Just So You Know
 Priced per square foot, the extent of organic growth and how much chemical is needed.
 
 ## Upsells and Related Services

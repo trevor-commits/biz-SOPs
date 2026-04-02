@@ -54,7 +54,9 @@ tags:
 - Keeps water flowing
 - You are able to see a part of your home that you wouldn’t otherwise
 
-Gutter cleaning can get messy and nearby windows may get splashed—we always clean up after ourselves, but window cleaning isn’t included. Pricing typically depends on sq ft of building
+## Just So You Know
+- Pricing depends on building size, story height, debris volume, downspout condition, and safe roof access.
+- Nearby windows or siding can get splashed during cleanup. Exterior gutter face washing and window cleaning are separate unless they are listed in the quote.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Gutters/Gutter Cleaning - Downspout Clearing|Downspout Clearing]]

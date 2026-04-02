@@ -49,7 +49,9 @@ tags:
 - Helps prevent hot spots and costly long-term damage
 - Recommended 1–2 times a year, especially near trees or heavy bird activity
 
-We don’t use pressure washers or harsh chemicals — only solar-approved tools and methods. Pricing depends on system size, layout, and roof access.
+## Just So You Know
+- Pricing depends on panel count, system layout, roof access, and the amount of buildup on the array.
+- We use solar-safe methods only. Bird proofing, electrical repairs, and roofing repairs are separate unless listed in the quote.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Solar Cleaning/Solar Panel Maintenance - Debris - Mess Removal|Debris/Mess Removal]]

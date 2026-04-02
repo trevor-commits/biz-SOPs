@@ -53,6 +53,7 @@ tags:
 - Reduces leak risk at seams and corners from standing water
 - Extends the time between cleanings on guarded systems
 
+## Just So You Know
 Priced per linear foot, with additional labor when guards must be fully removed and reinstalled. Guard removal/reinstall time depends on guard type, fastener condition, and roofline access.
 
 ## Upsells and Related Services

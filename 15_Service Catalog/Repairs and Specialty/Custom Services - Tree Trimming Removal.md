@@ -48,6 +48,7 @@ tags:
 - Avoids hazards from leftover debris
 - Bundles easily with trimming service for a complete job
 
+## Just So You Know
 Pricing depends on the amount of debris and disposal fees.
 
 ## Upsells and Related Services

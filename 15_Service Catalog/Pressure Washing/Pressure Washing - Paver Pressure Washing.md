@@ -51,6 +51,7 @@ tags:
 - Helps prevent long-term wear and keeps the surface looking maintained
 - Great prep if you plan to re-sand or seal afterward
 
+## Just So You Know
 Pricing depends on square footage, buildup level, and layout complexity.
 
 ## Upsells and Related Services

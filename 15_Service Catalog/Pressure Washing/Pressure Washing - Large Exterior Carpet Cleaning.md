@@ -53,6 +53,7 @@ tags:
 - Helps carpet dry cleaner and smell fresher
 - Extends the usable life of the carpet
 
+## Just So You Know
 Priced per sq ft. Results depend on the material type, the extent of organic growth, and how much chemical is needed, and some stains may lighten but not fully come out.
 
 ## Upsells and Related Services

@@ -49,6 +49,7 @@ tags:
 - Provides a permanent solution for bird control
 - Sleek, professional look that won’t detract from your home’s appearance
 
+## Just So You Know
 Metal spikes are more expensive but last longer than plastic alternatives. They are ideal for high-impact areas and will stand up to the elements without becoming discolored or brittle.
 
 ## Upsells and Related Services

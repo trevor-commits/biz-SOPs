@@ -51,6 +51,7 @@ tags:
 - Keeps your entry area looking clean and maintained
 - Quick, low-cost improvement for homeowners or property managers
 
+## Just So You Know
 Pricing depends on sidewalk length, condition, and buildup.
 
 ## Upsells and Related Services

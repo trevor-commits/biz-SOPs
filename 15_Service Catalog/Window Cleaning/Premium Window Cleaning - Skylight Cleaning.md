@@ -49,6 +49,7 @@ tags:
 - Removes buildup that can etch or stain skylight surfaces
 - Helps your skylights last longer and look better over time
 
+## Just So You Know
 Access varies depending on roof pitch, location, and skylight type.
 We’ll always let you know what’s safely doable and what might need a different approach.
 Pricing depends on number of skylights and difficulty of access.

@@ -49,6 +49,7 @@ tags:
 - Helps prevent bird nesting and roosting in problem areas
 - Low-maintenance once installed
 
+## Just So You Know
 Plastic bird spikes are cheaper, but they don’t last as long as metal ones and may become yellowish or brittle within 1–2 years depending on weather exposure. Annual maintenance can extend their life.
 
 ## Upsells and Related Services

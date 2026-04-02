@@ -24,7 +24,8 @@ tags:
 # Exterior Only
 
 > [!summary] Quick Summary
-> We’ll clean the outside of your windows by hand using professional tools and techniques. This removes dust, grime, water spots, and anything else the weather leaves behind — leaving your windows clear and streak-free.
+> Exterior-only window cleaning for homeowners who want the outside glass cleaned without interior work.
+> We hand-clean the exterior panes to remove weather buildup and leave the glass clear and streak-free.
 
 > [!info] Pricing
 > - CRM price: $12.00
@@ -34,22 +35,24 @@ tags:
 > - Pricing note: Fixed CRM price and unit are present.
 
 ## Included
-- Hand clean exterior window glass with a streak-free, residue-free solution
-- Use super-fine steel wool to remove stuck-on grime or buildup
-- Finish with a professional squeegee for a clean, even result
-- Light rinse beforehand if needed to remove loose dust or cobwebs
+- Hand-clean exterior glass using a professional window-cleaning solution
+- Remove normal dust, pollen, cobwebs, and surface grime from the outside glass
+- Finish with a squeegee and detailing towels for a clear, streak-free result
+- Light rinse or detail prep as needed for normal exterior buildup
 
 ## Not Included
-- Hard-water stain removal
-- Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
-- Screen or track cleaning (available as separate services)
+- Interior glass cleaning
+- Hard-water stain removal, paint, adhesive, or heavy post-construction debris
+- Screens, tracks, sills, or other detail add-ons unless they are listed in the quote
 
 ## Best Fit / When To Offer
-- Instantly improves curb appeal
-- Removes layers of dirt and debris that dull the glass
-- Keeps your windows looking clean and cared for longer
+- Good when you want the curb-appeal improvement without paying for interior work
+- Removes the weather buildup that makes exterior glass look dull
+- Pairs well with screen cleaning, hard-water/detail work, or full interior-and-exterior window cleaning
 
-Pricing depends on window count, accessibility, and layout. Add-ons are available upon request.
+## Just So You Know
+- Pricing depends on pane count, exterior access, and layout.
+- Ladder or second-story access can change the final price or scope.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Interior & Exterior|Interior & Exterior]]

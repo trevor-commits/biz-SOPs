@@ -49,6 +49,7 @@ tags:
 - Helps restore clarity to neglected or mistreated windows
 - Gives your windows a noticeably cleaner, more finished look
 
+## Just So You Know
 Scraping is only done when it's safe for the glass type. Some tempered or low-E coated windows are more prone to scratching — if there’s any risk, we’ll let you know before starting. Pricing depends on how many windows need scraping and how much buildup there is.
 
 ## Upsells and Related Services

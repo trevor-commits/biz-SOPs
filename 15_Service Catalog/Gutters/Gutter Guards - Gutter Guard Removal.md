@@ -48,6 +48,7 @@ tags:
 - Gets rid of guards that are doing more harm than good
 - Clears out hidden debris that can cause overflow and drainage problems
 
+## Just So You Know
 Pricing depends on the type of guard, condition of the system, and how much debris is trapped underneath.
 
 ## Upsells and Related Services

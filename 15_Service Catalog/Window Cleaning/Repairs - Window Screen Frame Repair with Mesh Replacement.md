@@ -50,6 +50,7 @@ tags:
 - Replaces torn or stretched mesh
 - Extends the life of the screen when the frame can still be repaired
 
+## Just So You Know
 Priced per screen. Final price depends on screen size, frame condition, mesh type, and whether standard repair materials will match the existing frame.
 
 ## Upsells and Related Services

@@ -24,7 +24,8 @@ tags:
 # Premium Window Cleaning – Exterior Only (Second-Story Feature Window)
 
 > [!summary] Quick Summary
-> We’ll clean the outside of this second-story window by hand using professional tools and techniques. Because of the height and access involved, this service takes extra setup and care to safely remove dust, grime, and normal exterior buildup — leaving the glass clear and streak-free.
+> Exterior-only cleaning for a second-story feature window that needs dedicated ladder access.
+> We hand-clean the exterior glass and price it separately because of the additional setup, height, and access requirements.
 
 > [!info] Pricing
 > - CRM price: $0.00
@@ -34,21 +35,23 @@ tags:
 > - Pricing note: CRM stores this as $0.00. Treat as quoted, complimentary, or incomplete until verified.
 
 ## Included
-- Hand clean exterior window glass with a streak-free, residue-free solution
-- Use super-fine steel wool to remove stuck-on grime or buildup
+- Hand-clean exterior glass using a professional window-cleaning solution
+- Remove normal dust, pollen, cobwebs, and surface grime from the outside glass
 - Use ladder access and careful positioning as needed for safe second-story service
 
 ## Not Included
-- Hard-water stain removal
-- Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
-- Screen or track cleaning (available as separate services)
+- Interior glass cleaning
+- Hard-water stain removal, paint, adhesive, or heavy post-construction debris
+- Screens, tracks, sills, or other detail add-ons unless they are listed in the quote
 
 ## Best Fit / When To Offer
-- Safely cleans hard-to-reach second-story glass
-- Removes dirt and debris that dull the glass
-- Gives you a clear, professionally cleaned finish
+- Good for isolated feature windows that need separate second-story access
+- Improves the appearance of hard-to-reach glass without bundling the full home
+- Pairs well with exterior-only or full window cleaning on the rest of the property
 
-Pricing for second-story windows is higher than standard lower-story windows because of the extra height, ladder work, setup, and access involved.
+## Just So You Know
+- Pricing is higher than standard lower-story exterior panes because of the extra height, ladder work, and setup time.
+- Final scope depends on safe access at the time of service.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]

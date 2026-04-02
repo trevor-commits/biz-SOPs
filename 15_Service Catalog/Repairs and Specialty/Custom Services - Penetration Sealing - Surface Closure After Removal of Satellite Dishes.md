@@ -50,6 +50,10 @@ tags:
 - Addresses exposed penetrations as part of the removal work
 - Keeps the scope clear and easy to document
 
+## Just So You Know
+- Final pricing and scope depend on the approved quote, site conditions, and access at the time of service.
+- If the job conditions are different from the original assumption, the scope or price may need to be updated before work begins.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Repairs and Specialty/Custom Services - Cobweb Removal|Cobweb Removal]]
 - [[15_Service Catalog/Repairs and Specialty/Custom Services - Exterior String Light Removal|Exterior String Light Removal]]

@@ -53,6 +53,7 @@ tags:
 - Keeps wind-driven rain from sneaking in around the vent
 - Gives you a simple, documented fix you can share with a roofer or insurance if needed
 
+## Just So You Know
 Pricing is typically per vent, with additional time billed at our hourly diagnostic rate if the leak source is more complex than a simple vent seal
 
 ## Upsells and Related Services

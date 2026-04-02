@@ -50,6 +50,7 @@ tags:
 - Avoids scratched glass by using the right tools the right way
 - Saves you time and hassle — we’ve done this before
 
+## Just So You Know
 Construction cleaning takes more time and care than standard window cleaning.
 Pricing depends on window count, debris level, and whether we’re cleaning interior, exterior, or both.
 

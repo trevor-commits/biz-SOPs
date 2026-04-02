@@ -50,6 +50,7 @@ tags:
 - Reduces leaks and splashing at the elbow connection
 - Improves appearance with paint to blend
 
+## Just So You Know
 Priced per elbow. Paint is best-match and may look slightly different until it fully cures and weathers.
 
 ## Upsells and Related Services

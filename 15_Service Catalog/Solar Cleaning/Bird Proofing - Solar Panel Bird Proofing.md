@@ -51,6 +51,7 @@ tags:
 - Helps your system produce at its full potential
 - Reduces health risks from bird waste buildup
 
+## Just So You Know
 Pricing depends on system size, layout, and roof access.
 
 ## Upsells and Related Services

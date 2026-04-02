@@ -49,6 +49,7 @@ tags:
 - Helps protect siding, walkways, and landscaping
 - Affordable fix that makes a big difference when water’s going the wrong way
 
+## Just So You Know
 Most repairs can be done on the spot. Pricing depends on the number of sections needing attention, ladder access, and parts required.
 
 ## Upsells and Related Services

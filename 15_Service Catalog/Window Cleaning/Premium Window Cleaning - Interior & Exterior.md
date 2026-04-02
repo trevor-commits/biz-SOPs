@@ -24,7 +24,8 @@ tags:
 # Interior & Exterior
 
 > [!summary] Quick Summary
-> Full window cleaning service for both the inside and outside of your home using professional tools and techniques. We use a streak-free solution, super-fine steel wool, and a squeegee to remove dirt, smudges, and grime for clean, clear glass.
+> Full window cleaning for both sides of the glass.
+> We hand-clean the interior and exterior panes for a clear, streak-free finish and a more complete result than a one-side-only service.
 
 > [!info] Pricing
 > - CRM price: $20.00
@@ -34,22 +35,24 @@ tags:
 > - Pricing note: Fixed CRM price and unit are present.
 
 ## Included
-- Hand clean interior and exterior window glass
-- Use super-fine steel wool to remove built-up grime
-- Clean with a streak-free, residue-free solution that doesn't attract dust
-- Move furniture or items as needed, unless the item is fragile or valuable (although we try, things may not be put back exactly the way they were)
+- Hand-clean both the interior and exterior glass using a professional window-cleaning solution
+- Detail normal fingerprints, smudges, dust, pollen, and everyday buildup
+- Finish with a squeegee and detailing towels for a clear, streak-free result on both sides
+- Work carefully around normal access points; please move fragile or high-value items before arrival
 
 ## Not Included
-- Hard-water stain removal
-- Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
+- Hard-water stain removal, paint, adhesive, or heavy post-construction debris
+- Screens, tracks, sills, blinds, or other detail add-ons unless they are listed in the quote
+- Specialty ladder work or unusually difficult access beyond the approved scope
 
 ## Best Fit / When To Offer
-- Brightens your home with clear, streak-free glass
-- Removes dirt, fingerprints, and everyday buildup
-- Keeps windows looking clean and well maintained for longer
+- Best when you want the most complete visual improvement from the service
+- Brightens the home while improving both the interior and exterior view
+- Pairs well with screens, tracks and sills, skylights, mirrors, or other detail add-ons
 
-Add-ons are available upon request.
-Pricing depends on window count, accessibility, and layout.
+## Just So You Know
+- Pricing depends on pane count, access, and layout.
+- Please have fragile or valuable items moved before arrival.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]

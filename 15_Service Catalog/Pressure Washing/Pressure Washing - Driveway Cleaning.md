@@ -49,6 +49,7 @@ tags:
 - Removes slippery moss and algae for better traction
 - Helps preserve the life of your driveway by keeping grime from settling in
 
+## Just So You Know
 Pricing depends on total square footage and surface condition.
 
 ## Upsells and Related Services

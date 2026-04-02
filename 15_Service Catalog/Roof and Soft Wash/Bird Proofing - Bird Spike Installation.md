@@ -49,6 +49,7 @@ tags:
 - Helps protect your family’s health by reducing exposure to bird waste
 - Long-term solution with minimal upkeep
 
+## Just So You Know
 Pricing is based on linear footage, access, and type of deterrent installed. We’ll recommend the best approach for your property after inspection.
 
 ## Upsells and Related Services

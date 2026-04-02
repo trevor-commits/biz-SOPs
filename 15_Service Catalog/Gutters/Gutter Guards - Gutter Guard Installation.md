@@ -50,6 +50,7 @@ tags:
 - Low-profile look that blends with the roofline
 - Includes your first annual guard maintenance at no extra cost
 
+## Just So You Know
 We recommend yearly guard maintenance to keep everything flowing right. Pricing is based on linear footage, roof height, and access.
 
 ## Upsells and Related Services

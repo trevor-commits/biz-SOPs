@@ -48,6 +48,7 @@ tags:
 - Makes driveways and walkways look more even and maintained
 - Can reduce or remove stains that stand out after pressure washing
 
+## Just So You Know
 This is a great add-on if you’re already getting your driveway or patio cleaned. Pricing depends on how many spots need attention and how deep the stains are.
 
 ## Upsells and Related Services

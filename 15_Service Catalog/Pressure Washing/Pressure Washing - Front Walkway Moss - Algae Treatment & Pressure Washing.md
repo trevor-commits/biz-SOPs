@@ -52,6 +52,7 @@ tags:
 - Helps brighten concrete and improve curb appeal
 - Slows regrowth compared to pressure washing alone
 
+## Just So You Know
 Priced per square foot. We can improve most organic staining and surface buildup, but some discoloration may remain if it’s set deep into the concrete or pavers.
 
 ## Upsells and Related Services

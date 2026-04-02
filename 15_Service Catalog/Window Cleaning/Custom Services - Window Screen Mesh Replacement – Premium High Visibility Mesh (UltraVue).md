@@ -51,6 +51,7 @@ tags:
 - Helps keep bugs out with a tighter, newer mesh
 - Extends the life of your existing screen frames
 
+## Just So You Know
 Priced per screen, based on screen size and frame condition.
 If the frame is warped or damaged, the mesh may not tension evenly and we’ll let you know what options make sense.
 

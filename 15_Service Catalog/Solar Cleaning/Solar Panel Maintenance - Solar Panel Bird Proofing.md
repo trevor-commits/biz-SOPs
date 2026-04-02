@@ -51,6 +51,7 @@ tags:
 - Reduces exposure to bird waste, which can be unsafe for your health
 - Long-term, low-maintenance solution
 
+## Just So You Know
 Pricing depends on system size, roof access, and layout. This service can be paired with solar panel cleaning for the best results.
 
 ## Upsells and Related Services

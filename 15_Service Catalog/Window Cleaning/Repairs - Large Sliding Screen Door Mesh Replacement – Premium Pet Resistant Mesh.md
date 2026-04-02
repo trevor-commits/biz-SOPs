@@ -53,6 +53,7 @@ tags:
 - Extends the life of your existing screen door frame
 - Improves door glide by correcting loose or wavy screening
 
+## Just So You Know
 Priced per screen door.
 Final price depends on door size, frame condition, and how much spline/channel cleanup is needed.
 

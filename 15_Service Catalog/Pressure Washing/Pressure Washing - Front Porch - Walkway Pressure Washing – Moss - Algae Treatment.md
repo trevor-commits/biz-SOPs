@@ -52,6 +52,7 @@ tags:
 - Helps slow regrowth in problem spots
 - Makes regular upkeep easier between cleanings
 
+## Just So You Know
 Pricing is per square foot. Treatment helps slow new growth, but regrowth can still happen depending on shade, moisture, and surface type.
 
 ## Upsells and Related Services

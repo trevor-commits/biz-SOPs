@@ -48,6 +48,7 @@ tags:
 - Removes bird droppings that can cause hot spots and etch the glass
 - Helps prevent long-term damage and keeps your system performing well
 
+## Just So You Know
 We don’t use pressure washers or harsh chemicals — only solar-approved methods. Pricing depends on panel count, roof access, and layout.
 
 ## Upsells and Related Services

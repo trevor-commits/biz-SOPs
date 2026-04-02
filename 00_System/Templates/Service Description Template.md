@@ -42,6 +42,9 @@ TODO: verify
 ## Best Fit / When To Offer
 TODO: verify
 
+## Just So You Know
+TODO: verify
+
 ## Upsells and Related Services
 - TODO: link related service descriptions, SOPs, or add-ons
 

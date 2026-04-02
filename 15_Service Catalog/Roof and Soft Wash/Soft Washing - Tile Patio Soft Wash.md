@@ -49,6 +49,10 @@ tags:
 > - Online booking enabled: No
 > - Pricing note: CRM stores this as $0.00. Treat as quoted, complimentary, or incomplete until verified.
 
+## Just So You Know
+- Pricing depends on treated square footage, surface type, access, and buildup severity.
+- Soft washing is designed to clean safely, but existing staining, oxidation, or surface damage can still limit the final cosmetic result.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Soft Washing - Brick Soft Washing|Brick Soft Washing]]
 - [[15_Service Catalog/Roof and Soft Wash/Soft Washing - Low Pressure House Wash (Single Story)|Low Pressure House Wash (Single Story)]]

@@ -51,6 +51,10 @@ tags:
 - Helps prevent sections from pulling away in wind and rain
 - Lowers the chance of joints opening up from movement
 
+## Just So You Know
+- Final pricing and scope depend on the approved quote, site conditions, and access at the time of service.
+- If the job conditions are different from the original assumption, the scope or price may need to be updated before work begins.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Gutters/Gutter Repairs - Downspout Elbow Replacement – Ground Level|Downspout Elbow Replacement – Ground Level]]
 - [[15_Service Catalog/Gutters/Gutter Repairs - Downspout End Trim & Safety Cap|Downspout End Trim & Safety Cap]]

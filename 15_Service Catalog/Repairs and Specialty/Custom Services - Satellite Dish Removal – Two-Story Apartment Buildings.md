@@ -51,6 +51,7 @@ tags:
 - Removes attached hardware, not just the dish face
 - Leaves mounting areas ready for basic closure
 
+## Just So You Know
 Priced per dish.
 
 ## Upsells and Related Services

@@ -49,6 +49,7 @@ tags:
 - Helps your windows look clean and maintained
 - Choose from standard, pet-resistant, or solar mesh options
 
+## Just So You Know
 We install several mesh types including standard, pet-resistant, and solar screen. Let us know what you're looking for and we’ll help you pick the right fit.
 Pricing depends on mesh type, screen size, and how many screens you need done.
 

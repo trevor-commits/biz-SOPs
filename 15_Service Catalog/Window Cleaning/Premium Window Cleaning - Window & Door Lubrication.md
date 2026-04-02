@@ -50,6 +50,7 @@ tags:
 - Helps prevent sticking or jamming, especially in older frames
 - Quick, affordable maintenance that extends the life of your hardware
 
+## Just So You Know
 This service pairs well with interior window cleaning or screen service. Pricing depends on how many windows or doors need attention and accessibility.
 
 ## Upsells and Related Services

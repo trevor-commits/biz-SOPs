@@ -45,6 +45,10 @@ tags:
 > - Online booking enabled: No
 > - Pricing note: Fixed CRM price is present; confirm the pricing basis before using it externally.
 
+## Just So You Know
+- Final pricing and scope depend on the approved quote, site conditions, and access at the time of service.
+- If the job conditions are different from the original assumption, the scope or price may need to be updated before work begins.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Interior & Exterior|Interior & Exterior]]

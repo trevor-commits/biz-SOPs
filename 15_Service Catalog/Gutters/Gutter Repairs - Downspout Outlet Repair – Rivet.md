@@ -50,6 +50,7 @@ tags:
 - Helps improve drainage speed at the outlet
 - Lowers the chance of repeat clogs at that connection
 
+## Just So You Know
 Priced per outlet. If the outlet or downspout is crushed, split, or heavily corroded, replacement is a separate service item.
 
 ## Upsells and Related Services

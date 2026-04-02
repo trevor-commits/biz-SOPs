@@ -52,6 +52,7 @@ tags:
 - Keeps your roof looking uniform and functioning properly
 - Extends the life of your tile roof by staying ahead of small problems
 
+## Just So You Know
 If matching tiles are unavailable, we’ll source the closest possible option — or use one you provide. Some older tile types may be discontinued, but we’ll always let you know your options before starting.
 Pricing depends on roof height, access, and number of tiles being repaired or replaced.
 

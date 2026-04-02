@@ -160,6 +160,7 @@ SOURCE_METADATA_BLOCK = "> [!note]- Source Metadata"
 AUDIT_BLOCK = "> [!warning]- Audit Notes"
 REVIEW_HISTORY_BLOCK = "> [!abstract]- Review History"
 LOCAL_NOTES_HEADING = "## Local Notes and Links"
+JUST_SO_YOU_KNOW_HEADING = "## Just So You Know"
 
 PRESERVE_ALWAYS_BLOCKS = {
     LOCAL_NOTES_HEADING,
@@ -170,6 +171,7 @@ PRESERVE_WHEN_REVIEWED_BLOCKS = {
     "## Included",
     "## Not Included",
     "## Best Fit / When To Offer",
+    JUST_SO_YOU_KNOW_HEADING,
     "## Upsells and Related Services",
     "## Internal Notes",
 }
@@ -210,6 +212,274 @@ class ExistingNote:
     path: Path
     frontmatter: dict[str, str | list[str]]
     blocks: dict[str, str]
+
+
+@dataclass(frozen=True)
+class CopyOverride:
+    summary: tuple[str, ...] | None = None
+    included: tuple[str, ...] | None = None
+    not_included: tuple[str, ...] | None = None
+    best_fit: tuple[str, ...] | None = None
+    notes: tuple[str, ...] | None = None
+
+
+COPY_OVERRIDES: dict[tuple[str, str], CopyOverride] = {
+    (
+        "Premium Window Cleaning",
+        "Interior Only",
+    ): CopyOverride(
+        summary=(
+            "Interior-only window cleaning for homeowners who want the inside glass cleaned without the exterior work.",
+            "We hand-clean the interior panes to remove fingerprints, dust, and everyday buildup for a clear, streak-free finish.",
+        ),
+        included=(
+            "- Hand-clean interior glass using a professional window-cleaning solution",
+            "- Detail normal fingerprints, smudges, and everyday interior buildup",
+            "- Finish with a squeegee and detailing towels for a clear, streak-free result",
+            "- Work carefully around normal access points; please move fragile or high-value items before arrival",
+        ),
+        not_included=(
+            "- Exterior glass cleaning",
+            "- Hard-water stain removal, paint, adhesive, or heavy post-construction debris",
+            "- Screens, tracks, sills, blinds, or other detail add-ons unless they are listed in the quote",
+        ),
+        best_fit=(
+            "- Good when the inside glass needs attention but the exterior work is not needed yet",
+            "- Helps brighten rooms and improve how the glass looks from inside the home",
+            "- Pairs well with tracks and sills, blinds, mirrors, or full interior-and-exterior window cleaning",
+        ),
+        notes=(
+            "- Pricing depends on pane count, interior access, and layout.",
+            "- Please have fragile or valuable items moved before arrival.",
+        ),
+    ),
+    (
+        "Premium Window Cleaning",
+        "Exterior Only",
+    ): CopyOverride(
+        summary=(
+            "Exterior-only window cleaning for homeowners who want the outside glass cleaned without interior work.",
+            "We hand-clean the exterior panes to remove weather buildup and leave the glass clear and streak-free.",
+        ),
+        included=(
+            "- Hand-clean exterior glass using a professional window-cleaning solution",
+            "- Remove normal dust, pollen, cobwebs, and surface grime from the outside glass",
+            "- Finish with a squeegee and detailing towels for a clear, streak-free result",
+            "- Light rinse or detail prep as needed for normal exterior buildup",
+        ),
+        not_included=(
+            "- Interior glass cleaning",
+            "- Hard-water stain removal, paint, adhesive, or heavy post-construction debris",
+            "- Screens, tracks, sills, or other detail add-ons unless they are listed in the quote",
+        ),
+        best_fit=(
+            "- Good when you want the curb-appeal improvement without paying for interior work",
+            "- Removes the weather buildup that makes exterior glass look dull",
+            "- Pairs well with screen cleaning, hard-water/detail work, or full interior-and-exterior window cleaning",
+        ),
+        notes=(
+            "- Pricing depends on pane count, exterior access, and layout.",
+            "- Ladder or second-story access can change the final price or scope.",
+        ),
+    ),
+    (
+        "Premium Window Cleaning",
+        "Interior & Exterior",
+    ): CopyOverride(
+        summary=(
+            "Full window cleaning for both sides of the glass.",
+            "We hand-clean the interior and exterior panes for a clear, streak-free finish and a more complete result than a one-side-only service.",
+        ),
+        included=(
+            "- Hand-clean both the interior and exterior glass using a professional window-cleaning solution",
+            "- Detail normal fingerprints, smudges, dust, pollen, and everyday buildup",
+            "- Finish with a squeegee and detailing towels for a clear, streak-free result on both sides",
+            "- Work carefully around normal access points; please move fragile or high-value items before arrival",
+        ),
+        not_included=(
+            "- Hard-water stain removal, paint, adhesive, or heavy post-construction debris",
+            "- Screens, tracks, sills, blinds, or other detail add-ons unless they are listed in the quote",
+            "- Specialty ladder work or unusually difficult access beyond the approved scope",
+        ),
+        best_fit=(
+            "- Best when you want the most complete visual improvement from the service",
+            "- Brightens the home while improving both the interior and exterior view",
+            "- Pairs well with screens, tracks and sills, skylights, mirrors, or other detail add-ons",
+        ),
+        notes=(
+            "- Pricing depends on pane count, access, and layout.",
+            "- Please have fragile or valuable items moved before arrival.",
+        ),
+    ),
+    (
+        "Premium Window Cleaning",
+        "Premium Window Cleaning – Exterior Only (Second-Story Feature Window)",
+    ): CopyOverride(
+        summary=(
+            "Exterior-only cleaning for a second-story feature window that needs dedicated ladder access.",
+            "We hand-clean the exterior glass and price it separately because of the additional setup, height, and access requirements.",
+        ),
+        included=(
+            "- Hand-clean exterior glass using a professional window-cleaning solution",
+            "- Remove normal dust, pollen, cobwebs, and surface grime from the outside glass",
+            "- Use ladder access and careful positioning as needed for safe second-story service",
+        ),
+        not_included=(
+            "- Interior glass cleaning",
+            "- Hard-water stain removal, paint, adhesive, or heavy post-construction debris",
+            "- Screens, tracks, sills, or other detail add-ons unless they are listed in the quote",
+        ),
+        best_fit=(
+            "- Good for isolated feature windows that need separate second-story access",
+            "- Improves the appearance of hard-to-reach glass without bundling the full home",
+            "- Pairs well with exterior-only or full window cleaning on the rest of the property",
+        ),
+        notes=(
+            "- Pricing is higher than standard lower-story exterior panes because of the extra height, ladder work, and setup time.",
+            "- Final scope depends on safe access at the time of service.",
+        ),
+    ),
+    (
+        "Premium Window Cleaning",
+        "Screen Cleaning",
+    ): CopyOverride(
+        summary=(
+            "Window screen cleaning removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.",
+        ),
+        included=(
+            "- Brush or lightly rinse removable screens to remove loose dirt, pollen, and cobwebs",
+            "- Gently scrub the screen material and frame with safe cleaning tools",
+            "- Reinstall screens once they are ready to go back in place",
+        ),
+        not_included=(
+            "- Screen repair, mesh replacement, or frame restoration",
+            "- Cleaning screens that are too brittle, torn, or unsafe to handle",
+            "- Window glass cleaning unless it is also part of the approved quote",
+        ),
+        best_fit=(
+            "- Best when you want freshly cleaned windows to stay cleaner longer",
+            "- Helps improve airflow and the overall finished look of the window service",
+            "- Pairs well with exterior-only or full window cleaning",
+        ),
+        notes=(
+            "- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.",
+            "- If screens are brittle or damaged, repair or replacement may be the better recommendation.",
+        ),
+    ),
+    (
+        "Premium Window Cleaning",
+        "Tracks & Sill Cleaning",
+    ): CopyOverride(
+        summary=(
+            "Tracks and sill cleaning removes the dirt and debris that collect around the glass so the finished window service looks more complete.",
+        ),
+        included=(
+            "- Brush out accessible tracks to loosen built-up dust and debris",
+            "- Vacuum and wipe accessible tracks and sills to remove remaining buildup",
+            "- Clean the visible frame areas that most affect the finished appearance",
+        ),
+        not_included=(
+            "- Deep restoration for mold, damaged caulking, or weatherstripping issues",
+            "- Disassembly-based cleaning or repair work",
+            "- Window glass cleaning unless it is also part of the approved quote",
+        ),
+        best_fit=(
+            "- Best when you want the windows to look finished beyond the glass alone",
+            "- Helps reduce dust and grime that collect in the frames over time",
+            "- Pairs well with interior-only or full window cleaning",
+        ),
+        notes=(
+            "- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.",
+            "- Final scope depends on how accessible the tracks and sills are without disassembly.",
+        ),
+    ),
+    (
+        "Solar Panel Maintenance",
+        "Solar Panel Cleaning",
+    ): CopyOverride(
+        notes=(
+            "- Pricing depends on panel count, system layout, roof access, and the amount of buildup on the array.",
+            "- We use solar-safe methods only. Bird proofing, electrical repairs, and roofing repairs are separate unless listed in the quote.",
+        ),
+    ),
+    (
+        "Gutter Cleaning",
+        "Gutter Cleaning (Roof & Downspouts)",
+    ): CopyOverride(
+        notes=(
+            "- Pricing depends on building size, story height, debris volume, downspout condition, and safe roof access.",
+            "- Nearby windows or siding can get splashed during cleanup. Exterior gutter face washing and window cleaning are separate unless they are listed in the quote.",
+        ),
+    ),
+    (
+        "Gutter Cleaning",
+        "Gutter Cleaning w/Patio Cover (Roof & Downspouts)",
+    ): CopyOverride(
+        notes=(
+            "- Pricing depends on building size, patio-cover scope, story height, debris volume, downspout condition, and safe roof access.",
+            "- Nearby windows or siding can get splashed during cleanup. Exterior gutter face washing and window cleaning are separate unless they are listed in the quote.",
+        ),
+    ),
+    (
+        "Soft Washing",
+        "Low Pressure House Wash (Single Story)",
+    ): CopyOverride(
+        notes=(
+            "- Please make sure all windows and doors are closed before the wash begins. Weak seals can allow solution or water intrusion.",
+            "- Pricing depends on treated square footage, siding type, buildup severity, and how much setup or plant protection is needed.",
+        ),
+    ),
+    (
+        "Soft Washing",
+        "Low Pressure House Wash (Two Story)",
+    ): CopyOverride(
+        notes=(
+            "- Please make sure all windows and doors are closed before the wash begins. Weak seals can allow solution or water intrusion.",
+            "- Pricing depends on treated square footage, siding type, buildup severity, story height, and how much setup or plant protection is needed.",
+        ),
+    ),
+    (
+        "Roof cleaning",
+        "Tile Roof Moss Treatment",
+    ): CopyOverride(
+        notes=(
+            "- Pricing depends on roof size, moss severity, access, and how much of the roof needs treatment.",
+            "- Roof treatments kill and loosen organic growth over time. The roof usually looks better gradually rather than instantly the same day.",
+        ),
+    ),
+    (
+        "Roof cleaning",
+        "Asphalt Roof Moss Treatment",
+    ): CopyOverride(
+        notes=(
+            "- Pricing depends on roof size, moss severity, access, and how much of the roof needs treatment.",
+            "- Roof treatments kill and loosen organic growth over time. The roof usually looks better gradually rather than instantly the same day.",
+        ),
+    ),
+}
+
+CATEGORY_FALLBACK_NOTES: dict[str, tuple[str, ...]] = {
+    "Commercial Window Cleaning": (
+        "- Pricing depends on glass count, access requirements, and service frequency.",
+        "- On-site conditions, safety requirements, and timing can affect the final scope or quote.",
+    ),
+    "Pressure Washing": (
+        "- Pricing depends on treated square footage, surface condition, buildup severity, and layout.",
+        "- Some stains or discoloration can improve significantly without disappearing completely; specialized stain treatment may need separate quoting.",
+    ),
+    "Solar Panel Maintenance": (
+        "- Pricing depends on panel count, system layout, roof access, and debris severity.",
+        "- We use solar-safe methods only. Bird proofing, electrical repairs, and roofing repairs are separate unless they are listed in the quote.",
+    ),
+    "Soft Washing": (
+        "- Pricing depends on treated square footage, surface type, access, and buildup severity.",
+        "- Soft washing is designed to clean safely, but existing staining, oxidation, or surface damage can still limit the final cosmetic result.",
+    ),
+    "Roof cleaning": (
+        "- Pricing depends on treated roof area, access, and the severity of moss or organic growth.",
+        "- Roof treatment results develop over time, and pre-existing wear or staining can still limit the final cosmetic result.",
+    ),
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -524,7 +794,35 @@ def markdownize_lines(lines: list[str]) -> str:
     return "\n".join(output).strip()
 
 
+def normalize_override_lines(lines: tuple[str, ...] | None) -> str:
+    if not lines:
+        return ""
+    return "\n".join(lines).strip()
+
+
+def copy_override_for(record: SourceRecord) -> CopyOverride | None:
+    override = COPY_OVERRIDES.get((record.category, record.title))
+    if override:
+        return override
+    lowered_description = record.description.lower()
+    if (
+        record.online_booking_enabled
+        and record.price == 0
+        and any(pattern in lowered_description for pattern in INCLUDED_BOOKING_PATTERNS)
+    ):
+        return CopyOverride(
+            notes=(
+                "- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.",
+                "- Use the approved quote to decide whether it is bundled or separately charged on a given job.",
+            )
+        )
+    return None
+
+
 def build_summary(record: SourceRecord, sections: dict[str, list[str]]) -> str:
+    override = copy_override_for(record)
+    if override and override.summary:
+        return normalize_override_lines(override.summary)
     if record.review_status == "suspect":
         return "Review-needed CRM row. Verify what this item is supposed to represent before using it in the service catalog or customer-facing materials."
     summary = markdownize_lines(sections["summary"])
@@ -553,6 +851,24 @@ def build_internal_notes(record: SourceRecord) -> list[str]:
         notes.append("This row is not currently marked as online-bookable in the CRM.")
     notes.append("Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.")
     return notes
+
+
+def build_notes_text(record: SourceRecord, sections: dict[str, list[str]]) -> str:
+    override = copy_override_for(record)
+    if override and override.notes:
+        return normalize_override_lines(override.notes)
+    notes = markdownize_lines(sections["notes"])
+    if notes:
+        return notes
+    fallback = CATEGORY_FALLBACK_NOTES.get(record.category)
+    if fallback:
+        return normalize_override_lines(fallback)
+    return normalize_override_lines(
+        (
+            "- Final pricing and scope depend on the approved quote, site conditions, and access at the time of service.",
+            "- If the job conditions are different from the original assumption, the scope or price may need to be updated before work begins.",
+        )
+    )
 
 
 def should_use_compact_shape(record: SourceRecord, sections: dict[str, list[str]]) -> bool:
@@ -872,6 +1188,7 @@ def build_review_history_block(existing_note: ExistingNote | None, created: str)
 def render_note(record: SourceRecord, all_records: list[SourceRecord], existing_note: ExistingNote | None, run_date: str) -> str:
     sections = split_description_sections(record.description)
     compact = should_use_compact_shape(record, sections)
+    override = copy_override_for(record)
     generated_aliases: list[str] = []
     source_name_clean = clean_whitespace(record.source_name)
     if record.title != source_name_clean:
@@ -890,10 +1207,10 @@ def render_note(record: SourceRecord, all_records: list[SourceRecord], existing_
     lines.extend(build_pricing_block(record).splitlines())
     lines.append("")
 
-    included = markdownize_lines(sections["included"])
-    not_included = markdownize_lines(sections["not_included"])
-    best_fit_parts = [markdownize_lines(sections["best_fit"]), markdownize_lines(sections["notes"])]
-    best_fit = "\n\n".join(part for part in best_fit_parts if part).strip()
+    included = normalize_override_lines(override.included) if override and override.included else markdownize_lines(sections["included"])
+    not_included = normalize_override_lines(override.not_included) if override and override.not_included else markdownize_lines(sections["not_included"])
+    best_fit = normalize_override_lines(override.best_fit) if override and override.best_fit else markdownize_lines(sections["best_fit"])
+    notes = build_notes_text(record, sections)
     related_links = build_related_links(record, all_records)
 
     if not compact:
@@ -917,6 +1234,13 @@ def render_note(record: SourceRecord, all_records: list[SourceRecord], existing_
             lines.append("")
         elif best_fit:
             lines.extend(["## Best Fit / When To Offer", best_fit, ""])
+
+        notes_block = preserved_block(existing_note, JUST_SO_YOU_KNOW_HEADING)
+        if notes_block:
+            lines.extend(notes_block.splitlines())
+            lines.append("")
+        elif notes:
+            lines.extend([JUST_SO_YOU_KNOW_HEADING, notes, ""])
 
         related_block = preserved_block(existing_note, "## Upsells and Related Services")
         if related_block:

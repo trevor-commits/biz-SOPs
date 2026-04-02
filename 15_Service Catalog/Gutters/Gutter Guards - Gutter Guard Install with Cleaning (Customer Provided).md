@@ -52,6 +52,7 @@ tags:
 - Helps reduce how often gutters clog up moving forward
 - Lowers overflow risk during heavy rain
 
+## Just So You Know
 Pricing is per linear foot (LF). Customer-provided guards must be complete (enough pieces, fasteners, and correct size). If the product doesn’t fit or parts are missing, we’ll stop and let you know before going further.
 
 ## Upsells and Related Services

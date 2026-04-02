@@ -47,6 +47,7 @@ tags:
 - Reduces risk of erosion and damage around your home
 - Quick, affordable fix with immediate results
 
+## Just So You Know
 Extensions are flexible and can be adjusted later if needed.
 
 ## Upsells and Related Services

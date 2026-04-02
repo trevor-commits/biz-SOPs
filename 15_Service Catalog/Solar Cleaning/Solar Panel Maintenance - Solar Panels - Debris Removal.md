@@ -51,6 +51,7 @@ tags:
 - Cuts down on debris sitting against the roof
 - Gives you a cleaner area around the panels
 
+## Just So You Know
 Priced per panel. Final price depends on panel count, roof access, and how much debris is packed under the array. We use a leaf blower and blow as much of the debris that we can from under the solar panels.
 
 ## Upsells and Related Services

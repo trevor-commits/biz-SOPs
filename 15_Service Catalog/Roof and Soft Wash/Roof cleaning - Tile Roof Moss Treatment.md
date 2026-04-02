@@ -52,7 +52,9 @@ tags:
 - Helps keep gutters from clogging with moss chunks
 - Supports insurance requirements to remove visible roof moss
 
-Priced per square foot of roof area. Moss browns in 1–3 weeks and sheds gradually over several weeks/months. Environmentally compliant application; runoff is managed.
+## Just So You Know
+- Pricing depends on roof size, moss severity, access, and how much of the roof needs treatment.
+- Roof treatments kill and loosen organic growth over time. The roof usually looks better gradually rather than instantly the same day.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Roof cleaning - Asphalt Roof Moss Treatment|Asphalt Roof Moss Treatment]]

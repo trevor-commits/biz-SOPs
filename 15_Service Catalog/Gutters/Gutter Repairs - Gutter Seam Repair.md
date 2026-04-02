@@ -47,6 +47,7 @@ tags:
 - Extends the life of your gutters without full replacement
 - Quick, affordable fix
 
+## Just So You Know
 We’ll let you know if the leak needs more than sealant to fix.
 
 ## Upsells and Related Services

@@ -50,6 +50,7 @@ tags:
 - Keeps things tidy and lowers the risk of pests and water damage
 - Quick, affordable maintenance between full cleanings
 
+## Just So You Know
 We don’t walk steep or brittle roofs unless it’s safe to do so — some roofs may be blown off from a ladder.
 Pricing depends on roof size, access, and how much debris needs to be removed.
 

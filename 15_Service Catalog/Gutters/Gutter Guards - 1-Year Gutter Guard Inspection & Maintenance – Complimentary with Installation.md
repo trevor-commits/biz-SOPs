@@ -49,6 +49,7 @@ tags:
 - Extends the life of your gutter system and protects your home
 - Gives you peace of mind heading into the rainy season
 
+## Just So You Know
 This service is complimentary for the first year after your guard installation. After that, we recommend yearly maintenance to keep everything flowing right.
 
 ## Upsells and Related Services

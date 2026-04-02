@@ -50,6 +50,10 @@ tags:
 - Cuts down on odors and dust on the floor
 - Makes it easier to keep the space clean
 
+## Just So You Know
+- Pricing depends on treated square footage, surface condition, buildup severity, and layout.
+- Some stains or discoloration can improve significantly without disappearing completely; specialized stain treatment may need separate quoting.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Pressure Washing/Pressure Washing - Backyard Pressure Washing|Backyard Pressure Washing]]
 - [[15_Service Catalog/Pressure Washing/Pressure Washing - Concrete Stain Removal|Concrete Stain Removal]]

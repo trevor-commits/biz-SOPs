@@ -49,6 +49,7 @@ tags:
 - Helps you avoid repeat leaks and guesswork repairs
 - Gives you a clear plan and estimate for the fix
 
+## Just So You Know
 Rate is $50/hour with a 1-hour minimum. Weather and roof safety may limit testing on the day of service. If water testing is used, minor dripping can occur by design to confirm the source.
 
 ## Upsells and Related Services

@@ -50,6 +50,7 @@ tags:
 - Fast, low-cost fix for isolated flow issues
 - Can save you from needing a full gutter cleaning if that’s not the problem
 
+## Just So You Know
 Pricing depends on how many downspouts need clearing and whether the clogs are minor or packed in deep.
 
 ## Upsells and Related Services

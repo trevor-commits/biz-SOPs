@@ -51,6 +51,7 @@ tags:
 - Covers worn or faded finish on that side
 - Keeps the scope focused if only one side needs attention
 
+## Just So You Know
 Pricing is per door side unless noted otherwise. Color match and finish can vary slightly depending on the existing condition and surface.
 
 ## Upsells and Related Services

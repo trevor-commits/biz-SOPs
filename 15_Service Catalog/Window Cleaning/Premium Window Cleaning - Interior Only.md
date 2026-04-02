@@ -24,7 +24,8 @@ tags:
 # Interior Only
 
 > [!summary] Quick Summary
-> We’ll hand-clean the inside of your windows using professional tools and techniques. It’s more than just wiping glass — we remove buildup, smudges, and grime for a clean, streak-free finish.
+> Interior-only window cleaning for homeowners who want the inside glass cleaned without the exterior work.
+> We hand-clean the interior panes to remove fingerprints, dust, and everyday buildup for a clear, streak-free finish.
 
 > [!info] Pricing
 > - CRM price: $12.00
@@ -34,22 +35,24 @@ tags:
 > - Pricing note: Fixed CRM price and unit are present.
 
 ## Included
-- Hand clean interior window glass with a streak-free, residue-free solution
-- Use super-fine steel wool to remove stuck-on grime
-- Finish with a professional squeegee for crystal-clear results
-- Move furniture or items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+- Hand-clean interior glass using a professional window-cleaning solution
+- Detail normal fingerprints, smudges, and everyday interior buildup
+- Finish with a squeegee and detailing towels for a clear, streak-free result
+- Work carefully around normal access points; please move fragile or high-value items before arrival
 
 ## Not Included
-- Hard-water stain removal
-- Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
-- Track or screen cleaning (available as separate services)
+- Exterior glass cleaning
+- Hard-water stain removal, paint, adhesive, or heavy post-construction debris
+- Screens, tracks, sills, blinds, or other detail add-ons unless they are listed in the quote
 
 ## Best Fit / When To Offer
-- Brightens rooms by letting in more natural light
-- Removes fingerprints, smudges, and dust buildup
-- Keeps your windows looking well maintained and cared for
+- Good when the inside glass needs attention but the exterior work is not needed yet
+- Helps brighten rooms and improve how the glass looks from inside the home
+- Pairs well with tracks and sills, blinds, mirrors, or full interior-and-exterior window cleaning
 
-Pricing depends on window count, accessibility, and layout. Add-ons are available upon request.
+## Just So You Know
+- Pricing depends on pane count, interior access, and layout.
+- Please have fragile or valuable items moved before arrival.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]

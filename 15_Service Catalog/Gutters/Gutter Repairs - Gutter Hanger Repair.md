@@ -46,6 +46,7 @@ tags:
 - Keeps water flowing where it should
 - Extends the life of your current hangers without full replacement
 
+## Just So You Know
 We’ll let you know if any hangers are too worn to be reused.
 
 ## Upsells and Related Services

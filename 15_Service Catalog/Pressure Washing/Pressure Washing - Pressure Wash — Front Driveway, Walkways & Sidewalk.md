@@ -51,6 +51,7 @@ tags:
 - Improves curb appeal without painting or resurfacing
 - Helps slow down future buildup
 
+## Just So You Know
 Pricing is typically per sq ft and depends on total area and how heavy the buildup is. Oil stains usually lighten but may not fully come out, and surfaces can look uneven until fully dry.
 
 ## Upsells and Related Services

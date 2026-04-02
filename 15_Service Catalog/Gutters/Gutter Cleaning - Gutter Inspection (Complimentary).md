@@ -50,6 +50,7 @@ tags:
 - Ideal for homes with trees, aging systems, or suspected issues
 - Great prep before storms, repairs, or real estate listings
 
+## Just So You Know
 You’ll get a verbal summary of our findings and recommendations on the spot. If requested, we can also provide a written summary or quote for any needed work.
 
 ## Upsells and Related Services

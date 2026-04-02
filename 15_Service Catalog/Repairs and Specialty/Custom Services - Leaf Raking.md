@@ -53,6 +53,7 @@ tags:
 - Saves you a weekend of raking and lifting heavy cans
 - Leaves are ready for your regular trash/green waste service
 
+## Just So You Know
 Pricing is based on yard size, access, and how much debris we’re dealing with, charged per visit. Please have your empty yard waste cans or bags ready and accessible when we arrive.
 
 ## Upsells and Related Services

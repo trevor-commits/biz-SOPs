@@ -52,8 +52,9 @@ tags:
 - Cleans effectively while protecting siding, paint, and surroundings
 - Helps extend the life of your siding by keeping it maintained
 
-Please make sure all windows are closed before your house wash. If window seals are not in good condition, cleaning solution may get inside or between panes.
-Pricing depends on square footage, siding type, and level of buildup.
+## Just So You Know
+- Please make sure all windows and doors are closed before the wash begins. Weak seals can allow solution or water intrusion.
+- Pricing depends on treated square footage, siding type, buildup severity, and how much setup or plant protection is needed.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Soft Washing - Brick Soft Washing|Brick Soft Washing]]

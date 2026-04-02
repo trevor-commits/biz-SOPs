@@ -47,6 +47,7 @@ tags:
 - Reduces health risks from bacteria and parasites
 - Leaves the area safe and ready for use or deterrent installation
 
+## Just So You Know
 Pricing depends on severity, access, and square footage.
 
 ## Upsells and Related Services

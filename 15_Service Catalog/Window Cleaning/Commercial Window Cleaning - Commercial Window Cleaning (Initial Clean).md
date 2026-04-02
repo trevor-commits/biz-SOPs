@@ -47,6 +47,7 @@ tags:
 - Improves visibility from the first visit
 - Makes ongoing service easier to maintain
 
+## Just So You Know
 Priced per pane. Initial cleans are usually higher than maintenance service because of extra buildup
 
 ## Upsells and Related Services

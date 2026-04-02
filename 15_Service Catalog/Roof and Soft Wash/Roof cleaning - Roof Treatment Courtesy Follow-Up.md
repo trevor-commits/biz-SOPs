@@ -53,7 +53,9 @@ tags:
 - Gives the customer a clear update after enough time has passed
 - Creates a cleaner handoff between the original service and any next recommendation
 
-Pricing is per follow-up visit unless included with the original service. This is a visual courtesy check about one month after treatment, not a guarantee that all moss will be fully gone by that date.**
+## Just So You Know
+- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- Use the approved quote to decide whether it is bundled or separately charged on a given job.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Roof cleaning - Asphalt Roof Moss Treatment|Asphalt Roof Moss Treatment]]

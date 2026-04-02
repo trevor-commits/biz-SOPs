@@ -50,6 +50,7 @@ tags:
 - Gives you fast peace of mind when timing matters
 - Can help avoid more expensive damage or repairs
 
+## Just So You Know
 This service is designed for urgent situations only. Pricing reflects priority scheduling, availability, and severity of the issue. If you’re in the middle of a storm or notice immediate overflow — don’t wait to reach out.
 
 ## Upsells and Related Services

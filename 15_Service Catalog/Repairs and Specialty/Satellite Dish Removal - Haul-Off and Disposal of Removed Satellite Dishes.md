@@ -48,7 +48,9 @@ tags:
 - Avoids using limited property space for debris storage
 - Leaves the work area cleared of the removed dish materials
 
-Haul-off and disposal for the removed satellite dishes and related hardware. This applies only to materials generated from this scope of work.
+## Just So You Know
+- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- Use the approved quote to decide whether it is bundled or separately charged on a given job.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Repairs and Specialty/Custom Services - Cobweb Removal|Cobweb Removal]]

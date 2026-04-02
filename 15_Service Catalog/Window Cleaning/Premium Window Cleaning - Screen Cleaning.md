@@ -24,7 +24,7 @@ tags:
 # Screen Cleaning
 
 > [!summary] Quick Summary
-> We’ll take care of your removable window screens by getting rid of all the dust, dirt, and debris that builds up over time. Clean screens help your windows stay cleaner longer and keep the air flowing fresh through your home.
+> Window screen cleaning removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.
 
 > [!info] Pricing
 > - CRM price: $0.00
@@ -34,21 +34,23 @@ tags:
 > - Pricing note: CRM stores this as $0.00. Treat as quoted, complimentary, or incomplete until verified.
 
 ## Included
-- Brush or lightly rinse away loose dirt and cobwebs
-- Gently scrub with safe tools and cleaning solution
-- Clean the frames to remove stuck-on grime
-- Reinstall screens once they’re dry
+- Brush or lightly rinse removable screens to remove loose dirt, pollen, and cobwebs
+- Gently scrub the screen material and frame with safe cleaning tools
+- Reinstall screens once they are ready to go back in place
 
 ## Not Included
-- Screen repairs or rescreening (available as a separate service)
-- Cleaning screens that are torn, brittle, or too damaged to safely handle
+- Screen repair, mesh replacement, or frame restoration
+- Cleaning screens that are too brittle, torn, or unsafe to handle
+- Window glass cleaning unless it is also part of the approved quote
 
 ## Best Fit / When To Offer
-- Stops dust from blowing back onto freshly cleaned windows
-- Improves airflow when your windows are open
-- Helps your screens last longer by preventing buildup
+- Best when you want freshly cleaned windows to stay cleaner longer
+- Helps improve airflow and the overall finished look of the window service
+- Pairs well with exterior-only or full window cleaning
 
-This service is included as part of our exterior window cleaning service.
+## Just So You Know
+- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- If screens are brittle or damaged, repair or replacement may be the better recommendation.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]

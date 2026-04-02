@@ -52,6 +52,7 @@ tags:
 - Helps limit staining and corrosion on nearby materials
 - Cuts down odor and buildup that attracts more activity
 
+## Just So You Know
 Priced per visit or hourly (quote provided based on access and how much waste is present).
 
 ## Upsells and Related Services

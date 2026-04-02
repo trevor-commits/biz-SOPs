@@ -52,6 +52,10 @@ tags:
 > - Online booking enabled: No
 > - Pricing note: Fixed CRM price and unit are present.
 
+## Just So You Know
+- Pricing depends on treated roof area, access, and the severity of moss or organic growth.
+- Roof treatment results develop over time, and pre-existing wear or staining can still limit the final cosmetic result.
+
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Roof cleaning - Asphalt Roof Moss Treatment|Asphalt Roof Moss Treatment]]
 - [[15_Service Catalog/Roof and Soft Wash/Roof cleaning - Roof Treatment Courtesy Follow-Up|Roof Treatment Courtesy Follow-Up]]

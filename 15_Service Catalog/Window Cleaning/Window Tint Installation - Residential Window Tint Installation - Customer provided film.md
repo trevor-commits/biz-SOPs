@@ -52,6 +52,7 @@ tags:
 - Gives the film a cleaner, more secure finished edge
 - Includes a follow-up visit so final sealing is done after curing
 
+## Just So You Know
 Priced per window. Some light haze or small water pockets can show during drying, and the return visit for edge sealing is done after the film has had time to cure.
 
 ## Upsells and Related Services

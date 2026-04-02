@@ -53,7 +53,9 @@ tags:
 - Lowers the need for harsher cleaning methods on asphalt shingles
 - Supports ongoing roof maintenance between larger services or repairs
 
-Pricing is typically based on roof size, moss severity, access, and how much of the roof needs treatment. Moss usually dies first and releases gradually over time, so the roof may not look fully cleared immediately after service.
+## Just So You Know
+- Pricing depends on roof size, moss severity, access, and how much of the roof needs treatment.
+- Roof treatments kill and loosen organic growth over time. The roof usually looks better gradually rather than instantly the same day.
 
 ## Upsells and Related Services
 - [[15_Service Catalog/Roof and Soft Wash/Roof cleaning - Roof Treatment Courtesy Follow-Up|Roof Treatment Courtesy Follow-Up]]

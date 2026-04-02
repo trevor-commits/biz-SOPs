@@ -50,6 +50,7 @@ tags:
 - Helps spot issues early so you can avoid bigger repairs
 - Extends the life of your gutter and guard system
 
+## Just So You Know
 Pricing depends on how much debris has built up and the type of guard installed. If your guards haven’t been checked in a while, this is a smart seasonal service.
 
 ## Upsells and Related Services

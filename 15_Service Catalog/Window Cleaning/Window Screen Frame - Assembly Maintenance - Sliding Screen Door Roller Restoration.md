@@ -52,6 +52,7 @@ tags:
 - Helps the door roll more smoothly
 - Clarifies that this is restoration work, not full replacement
 
+## Just So You Know
 Pricing is typically based per door unless noted otherwise. This is restoration of the existing wheel hardware, so final results depend on the condition of the original parts.
 
 ## Upsells and Related Services

@@ -51,6 +51,7 @@ tags:
 - Helps extend the life of your hardscapes by clearing off grime before it settles in
 - Ideal for seasonal maintenance or getting ready for guests
 
+## Just So You Know
 Pricing depends on square footage, surface type, and overall condition.
 Includes:
 - Application of a cleaning solution to assist with organic growth removal

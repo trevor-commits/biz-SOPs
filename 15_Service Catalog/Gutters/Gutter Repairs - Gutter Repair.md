@@ -50,6 +50,7 @@ tags:
 - Prevents small issues from turning into bigger, more expensive repairs
 - Affordable fix that can help extend the life of your system
 
+## Just So You Know
 We’ll always let you know if something looks beyond repair or if a replacement would be a better investment. Pricing depends on the type and number of repairs needed, and whether replacement parts are required.
 
 ## Upsells and Related Services

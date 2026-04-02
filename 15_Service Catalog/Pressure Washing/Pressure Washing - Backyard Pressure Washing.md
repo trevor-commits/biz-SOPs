@@ -49,6 +49,7 @@ tags:
 - Removes slippery buildup for improved safety
 - Helps preserve your hard surfaces by keeping grime from settling in
 
+## Just So You Know
 This service is for ground-level surfaces only.
 If you have a pool, we’ll do our best to keep debris out — but some may still end up in the water during the cleaning process.
 Pricing depends on square footage and surface condition.

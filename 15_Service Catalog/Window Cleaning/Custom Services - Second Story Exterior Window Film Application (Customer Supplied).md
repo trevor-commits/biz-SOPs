@@ -50,6 +50,7 @@ tags:
 - Daytime privacy with a uniform mirror look from outside
 - UV reduction to help minimize interior fading
 
+## Just So You Know
 - Curing look: New film can appear hazy/bubbly while moisture evaporates—expect 1–3 weeks depending on weather. No cleaning for 30 days.
 - Privacy: Reflective films provide daytime privacy only; at night (lights on) privacy reverses.
 - Keep it dry: After we seal, keep water off the seal for 24 hours; avoid washing/sprinklers for 72 hours. Full cure is typically 24–48 hours.

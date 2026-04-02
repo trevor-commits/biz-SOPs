@@ -50,6 +50,7 @@ tags:
 - Helps keep runoff going into the gutter at that section
 - Prevents small issues from spreading into a larger section
 
+## Just So You Know
 Priced per standard section. Best-match materials are used, but exact color/finish matches can vary by manufacturer and age.
 
 ## Upsells and Related Services

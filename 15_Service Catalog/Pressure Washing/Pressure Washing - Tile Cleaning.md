@@ -50,6 +50,7 @@ tags:
 - Helps prevent long-term damage from buildup getting into grout or joints
 - Keeps your patio or porch looking clean and inviting
 
+## Just So You Know
 Pricing depends on tile type, square footage, and surface condition.
 
 ## Upsells and Related Services

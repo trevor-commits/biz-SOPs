@@ -53,6 +53,7 @@ tags:
 - Stops sagging sections from getting worse
 - Improves drainage and keeps seams under less stress
 
+## Just So You Know
 Pricing is typically per linear foot (or by the section). If the fascia wood is soft/rotted or the drip edge is damaged, we can’t anchor into it until that’s addressed.
 
 ## Upsells and Related Services

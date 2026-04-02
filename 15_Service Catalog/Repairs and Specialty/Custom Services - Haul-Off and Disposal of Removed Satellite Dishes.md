@@ -49,6 +49,7 @@ tags:
 - Simplifies cleanup for management and maintenance staff
 - Completes the job without leaving removed materials behind
 
+## Just So You Know
 Included at no additional charge. This applies to the 9 removed satellite dishes and their associated mounting hardware only.
 
 ## Upsells and Related Services

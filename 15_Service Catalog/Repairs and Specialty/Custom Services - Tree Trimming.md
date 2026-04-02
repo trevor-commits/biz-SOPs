@@ -50,6 +50,7 @@ tags:
 - Reduces leaf/needle buildup and clogs
 - Keeps entries and paths clear
 
+## Just So You Know
 This is light–moderate trimming from ground or ladder. Pricing depends on tree size, access, and how much we cut.
 
 ## Upsells and Related Services

@@ -50,6 +50,7 @@ tags:
 - Makes the whole room feel cleaner without replacing the blinds
 - Perfect finishing touch when you're already cleaning windows
 
+## Just So You Know
 Not all blinds can be cleaned the same way. We’ll take a look first and let you know what’s safe and realistic. Pricing depends on how many blinds you have and how dusty or delicate they are.
 
 ## Upsells and Related Services
