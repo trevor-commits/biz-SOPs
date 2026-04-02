@@ -8,6 +8,7 @@
 
 ## Templates
 - `00_System/Templates/SOP Template.md`
+- `00_System/Templates/Service Description Template.md`
 - `00_System/Templates/Equipment Template.md`
 - `00_System/Templates/Purchase Template.md`
 - `00_System/Templates/Maintenance Log Template.md`
@@ -16,6 +17,7 @@
 
 ## Working Areas
 - `10_SOPs/`
+- `15_Service Catalog/`
 - `20_Equipment/`
 - `25_Purchasing/`
 - `30_Maintenance/`
@@ -25,12 +27,13 @@
 - `90_Archive/`
 
 ## Current Build Order
-1. Build the first pilot SOP for window cleaning.
-2. Add the first linked equipment notes for the window-cleaning kit.
-3. Add purchase notes for missing tools, replacements, and restock items tied to those pilots.
-4. Add recurring maintenance Tasks inside those equipment notes.
-5. Build the pressure-washing pilot using the same pattern.
-6. Turn the maintenance and purchasing dashboards into live views once enough pilot notes exist.
+1. Build the service catalog from the CRM export and review the flagged rows.
+2. Build the first pilot SOP for window cleaning.
+3. Add the first linked equipment notes for the window-cleaning kit.
+4. Add purchase notes for missing tools, replacements, and restock items tied to those pilots.
+5. Add recurring maintenance Tasks inside those equipment notes.
+6. Build the pressure-washing pilot using the same pattern.
+7. Turn the service, maintenance, and purchasing dashboards into live views once enough pilot notes exist.
 
 ## Operating Reminders
 - Keep SOP-specific Daily Notes in `00_System/Daily Notes/`.

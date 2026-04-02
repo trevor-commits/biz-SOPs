@@ -1,0 +1,5 @@
+source_uuid,service_line,service_type,customer_visibility,review_status,title_override,initial_audit_note
+olit_a260f84b37e342c3a3d50258b6bc5e7e,Repairs and Specialty,internal-review,review-needed,suspect,Parental Exploitation,"Suspicious/internal CRM row; keep traceability but do not use customer-facing until the service intent is verified."
+olit_44cadddaa78d44aabf6f348f08b1b809,Repairs and Specialty,internal-review,review-needed,suspect,Bruning Exploitation,"Suspicious/internal CRM row with implausible pricing and unprofessional source copy; review before keeping in any active catalog."
+olit_425909f775804c28bccdd2dad2ef7397,Repairs and Specialty,internal-review,review-needed,needs-review,General Work,"Generic CRM row name lacks scope definition. Clarify the actual service before treating it as sellable."
+olit_29af5cb08120493b81e817ffee2fd6b2,Repairs and Specialty,add-on,review-needed,needs-review,Home Bird Proofing,"CRM row is missing description and pricing guidance. Confirm scope, materials, and quoting basis before using it externally."

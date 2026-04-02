@@ -1,0 +1,89 @@
+filters:
+  and:
+    - 'file.inFolder("15_Service Catalog")'
+    - 'file.ext == "md"'
+    - 'type == "service-description"'
+properties:
+  file.name:
+    displayName: Service
+  service_line:
+    displayName: Service Line
+  service_type:
+    displayName: Type
+  customer_visibility:
+    displayName: Visibility
+  review_status:
+    displayName: Review
+  price:
+    displayName: Price
+  unit_of_measure:
+    displayName: Unit
+  online_booking_enabled:
+    displayName: Booking
+  file.mtime:
+    displayName: Updated
+views:
+  - type: table
+    name: All Services
+    order:
+      - service_line
+      - service_type
+      - file.name
+  - type: table
+    name: Customer-Facing
+    filters:
+      and:
+        - 'customer_visibility == "customer-facing"'
+    order:
+      - service_line
+      - file.name
+  - type: table
+    name: Booking Enabled
+    filters:
+      and:
+        - 'online_booking_enabled == true'
+    order:
+      - service_line
+      - file.name
+  - type: table
+    name: Estimates and Internal Review
+    filters:
+      and:
+        - 'service_type == "estimate" || service_type == "warranty" || service_type == "internal-review"'
+    order:
+      - review_status
+      - file.name
+  - type: table
+    name: Needs Review Queue
+    filters:
+      and:
+        - 'review_status == "needs-review" || review_status == "suspect" || review_status == "duplicate-candidate"'
+    order:
+      - review_status
+      - service_line
+      - file.name
+  - type: table
+    name: Duplicate Title / Collision Review
+    filters:
+      and:
+        - 'review_status == "duplicate-candidate"'
+    order:
+      - service_line
+      - file.name
+  - type: table
+    name: Quoted / Variable Pricing
+    filters:
+      and:
+        - 'price == 0'
+    order:
+      - service_type
+      - file.name
+  - type: table
+    name: By Service Line
+    groupBy:
+      property: service_line
+      direction: ASC
+    order:
+      - service_line
+      - service_type
+      - file.name

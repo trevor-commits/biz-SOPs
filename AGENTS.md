@@ -19,7 +19,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 [MANDATORY_STACK_RUNTIME] stack/runtime profile, risk areas, release gates, boundaries, rollback/ops checks
 
 - Stack/runtime profile:
-  - Documentation-first repository for business SOPs, equipment definitions, maintenance rules, and supporting decision notes.
+  - Documentation-first repository for business SOPs, service descriptions, equipment definitions, maintenance rules, and supporting decision notes.
   - The primary release surface is a Markdown knowledge base stored in the `biz-SOPs` Git repo and edited from the preferred Obsidian working copy inside `Systems Command Center`.
 - Primary risk areas:
   - stale or conflicting recommendations across research notes and SOPs
@@ -61,7 +61,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
   - `PROJECT_INTENT.md`
   - `todo.md`
   - `SOP_SYSTEM_PLAN.md`
-- Add live SOPs, equipment notes, maintenance notes, templates, and decision logs inside the preferred Obsidian working copy.
+- Add live service-catalog notes, SOPs, equipment notes, maintenance notes, templates, and decision logs inside the preferred Obsidian working copy.
 
 ## Todo Governance
 [MANDATORY_TODO_ADD] add follow-up work to project `todo.md`

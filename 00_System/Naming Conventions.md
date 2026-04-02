@@ -22,6 +22,19 @@ Examples:
 - `Window Cleaning - Exterior Residential SOP`
 - `Pressure Washing - Driveway SOP`
 
+### Service Catalog Notes
+Pattern:
+- `<Category> - <Service Name>`
+
+Examples:
+- `Premium Window Cleaning - Interior Only`
+- `Gutter Repairs - Downspout Repair`
+- `Roof cleaning - Tile Roof Moss Treatment`
+
+Collision rule:
+- If the same `<Category> - <Service Name>` appears more than once, append a short source UUID suffix to the filename only.
+- Keep the note title human-readable even when the filename needs a suffix.
+
 ### Equipment
 Pattern:
 - `<Asset ID> - <Common Name>`
@@ -85,6 +98,7 @@ Current category codes:
 
 ## Folder Placement Rules
 - SOPs go in the matching service folder under `10_SOPs/`.
+- Service catalog notes go in the matching folder under `15_Service Catalog/`.
 - Equipment notes go in the most specific category folder under `20_Equipment/`.
 - Purchase notes go in `25_Purchasing/`.
 - Maintenance logs go in `30_Maintenance/Logs/`.

@@ -5,11 +5,13 @@ Maintain a durable, searchable, Obsidian-native SOP and equipment system for Gil
 
 ## Problem Statement
 Operational knowledge is otherwise scattered across chats, bookmarks, emails, and memory. That makes it harder to repeat processes consistently, maintain equipment on time, and reuse prior decisions without reopening the same research.
+Service definitions are also trapped inside the CRM export unless they are promoted into a durable, searchable catalog inside the same Obsidian system.
 
 ## Target Users and Top Jobs
 - Primary users: Trevor Gillette as owner-operator.
 - Secondary users: future assistants, contractors, or AI helpers who need to understand past decisions and current operating procedures.
 - Top jobs:
+  - Capture, clean up, and reuse customer-facing service descriptions without leaving them trapped in the CRM.
   - Capture and retrieve the exact way recurring field work should be done.
   - Track equipment, maintenance cadence, and supporting checklists in one place.
   - Track what must be bought now, what can wait, and what should be reordered routinely.
@@ -17,6 +19,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 
 ## In-Scope Outcomes
 - Document repeatable business processes in plain language.
+- Maintain a service catalog that is traceable back to CRM source data but readable as Obsidian notes.
 - Track equipment and maintenance schedules with enough structure to review due work quickly.
 - Track urgent purchases, deferred purchases, and consumable restock needs without a separate system.
 - Preserve process and purchasing decisions with enough context to reuse later.
@@ -43,6 +46,7 @@ Operational knowledge is otherwise scattered across chats, bookmarks, emails, an
 
 ## Primary Journeys and Navigation Model
 - SOP creation: convert a working process into a step-by-step procedure plus a short field checklist.
+- Service catalog management: convert CRM rows into durable Markdown notes, flag weak copy, and link approved service notes to future SOPs and add-ons.
 - Equipment management: document an asset, link it to related SOPs, and keep recurring maintenance tasks in the equipment note.
 - Purchasing management: capture urgent buys, replacements, and restock needs in dedicated purchase notes that can be grouped by service, category, and urgency.
 - Decision capture: compare options, note tradeoffs, record the current best choice, and track follow-up questions.

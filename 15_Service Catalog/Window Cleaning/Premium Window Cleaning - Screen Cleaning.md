@@ -1,0 +1,95 @@
+---
+type: service-description
+status: draft
+owner: Trevor
+created: 2026-04-01
+last_reviewed:
+next_review:
+service_line: Window Cleaning
+service_type: core-service
+customer_visibility: customer-facing
+review_status: needs-review
+source_uuid: olit_fcaa222133e34098a6402fa5d6a0effe
+price: 0
+unit_of_measure: 
+cost: 0
+taxable: false
+online_booking_enabled: true
+aliases: []
+tags:
+  - service-description
+---
+
+# Screen Cleaning
+
+> [!summary] Quick Summary
+> We’ll take care of your removable window screens by getting rid of all the dust, dirt, and debris that builds up over time. Clean screens help your windows stay cleaner longer and keep the air flowing fresh through your home.
+
+> [!info] Pricing
+> - CRM price: $0.00
+> - Unit: Quoted / not specified
+> - Taxable: No
+> - Online booking enabled: Yes
+> - Pricing note: CRM stores this as $0.00. Treat as quoted, complimentary, or incomplete until verified.
+
+## Included
+- Brush or lightly rinse away loose dirt and cobwebs
+- Gently scrub with safe tools and cleaning solution
+- Clean the frames to remove stuck-on grime
+- Reinstall screens once they’re dry
+
+## Not Included
+- Screen repairs or rescreening (available as a separate service)
+- Cleaning screens that are torn, brittle, or too damaged to safely handle
+
+## Best Fit / When To Offer
+- Stops dust from blowing back onto freshly cleaned windows
+- Improves airflow when your windows are open
+- Helps your screens last longer by preventing buildup
+
+This service is included as part of our exterior window cleaning service.
+
+## Upsells and Related Services
+- [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Exterior Only|Exterior Only]]
+- [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Interior & Exterior|Interior & Exterior]]
+- [[15_Service Catalog/Window Cleaning/Premium Window Cleaning - Interior Only|Interior Only]]
+
+## Internal Notes
+- CRM category: Premium Window Cleaning.
+- Pricing is not ready for public use without verification.
+- This row is currently marked as online-bookable in the CRM.
+- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+
+> [!note]- Source Copy
+> We’ll take care of your removable window screens by getting rid of all the dust, dirt, and debris that builds up over time. Clean screens help your windows stay cleaner longer and keep the air flowing fresh through your home.
+>
+> What we do:
+> • Brush or lightly rinse away loose dirt and cobwebs
+> • Gently scrub with safe tools and cleaning solution
+> • Clean the frames to remove stuck-on grime
+> • Reinstall screens once they’re dry
+>
+> Why it’s worth it:
+> • Stops dust from blowing back onto freshly cleaned windows
+> • Improves airflow when your windows are open
+> • Helps your screens last longer by preventing buildup
+>
+> What’s not included:
+> • Screen repairs or rescreening (available as a separate service)
+> • Cleaning screens that are torn, brittle, or too damaged to safely handle
+>
+> Just so you know:
+> This service is included as part of our exterior window cleaning service.
+
+> [!note]- Source Metadata
+> - Industry: Window & Exterior Cleaning
+> - CRM category: Premium Window Cleaning
+> - Source UUID: olit_fcaa222133e34098a6402fa5d6a0effe
+> - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+
+> [!warning]- Audit Notes
+> - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

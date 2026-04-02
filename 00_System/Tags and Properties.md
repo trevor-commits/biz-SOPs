@@ -192,3 +192,38 @@ Good examples:
 - `training`
 - `troubleshooting`
 - `repair`
+
+## Service Description Properties
+
+```yaml
+---
+type: service-description
+status: draft
+owner: Trevor
+created:
+last_reviewed:
+next_review:
+service_line:
+service_type:
+customer_visibility:
+review_status:
+source_uuid:
+price:
+unit_of_measure:
+cost:
+taxable:
+online_booking_enabled:
+aliases: []
+tags:
+  - service-description
+---
+```
+
+Suggested values:
+- `service_type`: `core-service`, `add-on`, `estimate`, `repair`, `warranty`, `internal-review`
+- `customer_visibility`: `customer-facing`, `internal-only`, `review-needed`
+- `review_status`: `clean`, `needs-review`, `suspect`, `duplicate-candidate`
+
+Note:
+- Keep `source_uuid` in frontmatter as the stable sync key for reruns and traceability.
+- Keep `source_category`, `industry_uuid`, source file path, and other archival details in the note body unless a Bases view later proves they need to move into properties.

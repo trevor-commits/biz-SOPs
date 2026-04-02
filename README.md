@@ -13,6 +13,7 @@ The secondary clone at `/Users/gillettes/Coding Projects/Equipment & SOPs` is a 
 
 ## What belongs here
 - SOP drafts and finalized process docs.
+- Service descriptions and service-catalog notes derived from the CRM.
 - Equipment notes with recurring maintenance tasks.
 - Purchase notes and dashboards for urgent buys, replacements, and restock needs.
 - Checklists, maintenance logs, and decision notes that support those SOPs.
@@ -35,6 +36,7 @@ Recommended sections for new notes:
 6. Next action
 
 ## Practical starting categories
+- Service catalog
 - SOPs
 - Equipment
 - Purchasing
