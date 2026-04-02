@@ -1,0 +1,2623 @@
+industry,category,subcategory_1,subcategory_2,name,description,price,cost,taxable,unit_of_measure,task_code,online_booking_enabled
+Window & Exterior Cleaning,Custom Services,,,Exterior String Light Removal,"Removal of lights with clips.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0e36a6fba91645a6a16b9738f75f0e61",200.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Interior Only,"We’ll hand-clean the inside of your windows using professional tools and techniques. It’s more than just wiping glass — we remove buildup, smudges, and grime for a clean, streak-free finish.
+
+What we do:
+• Hand clean interior window glass with a streak-free, residue-free solution
+• Use super-fine steel wool to remove stuck-on grime
+• Finish with a professional squeegee for crystal-clear results
+• Move furniture or items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Brightens rooms by letting in more natural light
+• Removes fingerprints, smudges, and dust buildup
+• Keeps your windows looking well maintained and cared for
+
+What’s not included:
+• Hard-water stain removal
+• Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
+• Track or screen cleaning (available as separate services)
+
+Just so you know:
+Pricing depends on window count, accessibility, and layout. Add-ons are available upon request.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_2ef08e0a44d040959da46888b3973cca",12.00,0.00,FALSE,Per Pane,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Exterior Only,"We’ll clean the outside of your windows by hand using professional tools and techniques. This removes dust, grime, water spots, and anything else the weather leaves behind — leaving your windows clear and streak-free.
+
+What we do:
+• Hand clean exterior window glass with a streak-free, residue-free solution
+• Use super-fine steel wool to remove stuck-on grime or buildup
+• Finish with a professional squeegee for a clean, even result
+• Light rinse beforehand if needed to remove loose dust or cobwebs
+
+Why it’s worth it:
+• Instantly improves curb appeal
+• Removes layers of dirt and debris that dull the glass
+• Keeps your windows looking clean and cared for longer
+
+What’s not included:
+• Hard-water stain removal
+• Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
+• Screen or track cleaning (available as separate services)
+
+Just so you know:
+Pricing depends on window count, accessibility, and layout. Add-ons are available upon request.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_dbfb89c6a73d488cb328c53e0ed08f20",12.00,0.00,FALSE,Per Pane,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Patio Concrete Cleaning,"We’ll pressure wash your patio to remove dirt, grime, moss, algae, and years of buildup. Whether it’s concrete, pavers, or another hard surface, we’ll get it looking cleaner and safer.
+
+What we do:
+• Pressure wash the full patio area
+• Apply a cleaning solution to break down organic growth and grime
+• Rinse thoroughly to lift and clear buildup
+• Focus on shaded or high-traffic areas where dirt and moss collect
+• Move outdoor items as needed — if something is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Makes your patio look clean and more inviting
+• Removes slippery moss and algae
+• Helps protect your surface by keeping buildup from setting in
+
+What’s not included:
+• Oil stain removal — they typically improve, but won’t fully disappear
+• Cleaning of walls, patio furniture, or decorative items not part of the surface
+
+Just so you know:
+Priced per square foot, the extent of organic growth and how much chemical is needed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_62b6a557ddaa492f8fa51c1e248fb0ae",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Roof cleaning,,,Tile Roof Moss Treatment,"We’ll apply a tile-safe moss killer that treats moss, algae, and lichen without scraping or pressure washing. The growth dies and weathers off over time.
+
+What we do:
+• Light blow-off of loose roof debris (if accessible)
+• Apply moss treatment at the proper strength for tile
+• Focus on shaded valleys, north sides, and heavy growth areas
+• No scraping or pressure washing of tile
+• Flush the gutters of all debris
+• Rinse plants to make sure no overspray contaminates them
+
+Why it’s worth it:
+• Helps prevent moisture from sitting under moss and causing leaks
+• Lowers fire risk by eliminating dry moss over time
+• Helps keep gutters from clogging with moss chunks
+• Supports insurance requirements to remove visible roof moss
+
+What’s not included:
+• Rinse-off/physical removal in the same visit
+• Gutter cleaning or repairs
+• Roof tile/underlayment repairs
+
+Just so you know:
+Priced per square foot of roof area. Moss browns in 1–3 weeks and sheds gradually over several weeks/months. Environmentally compliant application; runoff is managed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_c0ae7df4f7e34ff2a4eb887a0f0f7f7a",0.55,0.00,FALSE,ft²,,TRUE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Solar Panel Cleaning,"Dust, pollen, and especially bird droppings can block sunlight and even cause hot spots that damage your panels over time. We’ll safely clean your solar system so it keeps producing at its best.
+
+What we do:
+• Rinse panels with purified water for a spot-free finish
+• Use solar panel–specific brushes to remove stuck-on debris
+• Check for obvious cracks, shading issues, or anything unusual on the surface
+• Look underneath for signs of nesting or chewed wiring from birds or pests
+
+Why it’s worth it:
+• Improves efficiency by letting more sunlight through
+• Removes bird droppings that can etch glass and shorten panel lifespan
+• Helps prevent hot spots and costly long-term damage
+• Recommended 1–2 times a year, especially near trees or heavy bird activity
+
+What’s not included:
+• Bird proofing (available as a separate service)
+• Repairs to damaged panels, wiring, or roofing materials
+
+Just so you know:
+We don’t use pressure washers or harsh chemicals — only solar-approved tools and methods. Pricing depends on system size, layout, and roof access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_f2978cb715ba4308b4217cdc42955c85",12.00,0.00,FALSE,Each,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Sidewalk Cleaning,"We’ll pressure wash your sidewalk to remove dirt, grime, moss, and buildup that collect over time. A clean sidewalk makes your property look better and safer for anyone passing through.
+
+What we do:
+• Pressure wash the full sidewalk area from end to end
+• Apply a cleaning solution to help lift dirt and organic buildup
+• Rinse thoroughly to remove grime and improve traction
+• Focus on high-traffic or shaded areas where moss tends to grow
+• Move small items or planters if needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Instantly improves curb appeal
+• Helps prevent slips by removing moss and grime
+• Keeps your entry area looking clean and maintained
+• Quick, low-cost improvement for homeowners or property managers
+
+What’s not included:
+• Driveway or walkway areas beyond the sidewalk
+• Oil stain removal — some improvement is likely, but not guaranteed
+• Cleaning of walls, fences, or vertical surfaces
+
+Just so you know:
+Pricing depends on sidewalk length, condition, and buildup.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_8b6adf02ca474426b83dd45fc9870bad",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Driveway Cleaning,"We’ll pressure wash your entire driveway to remove dirt, grime, moss, and buildup. Whether your driveway is small, wide, long, or curved, we’ll get it looking fresh again.
+
+What we do:
+• Pressure wash the full driveway from edge to edge
+• Apply a cleaning solution to break down dirt and organic buildup
+• Rinse thoroughly to lift away surface grime
+• Focus on heavy-use areas and common trouble spots
+• Move lightweight items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Makes a huge difference in curb appeal
+• Removes slippery moss and algae for better traction
+• Helps preserve the life of your driveway by keeping grime from settling in
+
+What’s not included:
+• Oil stain removal — they won’t fully come out, but they usually look noticeably better
+• Cleaning of sidewalks, garage doors, walls, or any areas not part of the driveway
+
+Just so you know:
+Pricing depends on total square footage and surface condition.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_d9846f5cad4c476db1d0460ef8f9b828",200.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Concrete Stain Removal,"We’ll treat specific spots on your concrete to reduce or completely remove stains like oil, rust, grease, or other stubborn buildup. This is a focused service meant to improve problem areas — and in many cases, the stains may be fully removed.
+
+What we do:
+• Apply targeted stain removers and degreasers based on the type of stain
+• Agitate with brushes or tools to help lift it from the surface
+• Rinse and re-treat if needed for the best result
+• Keep you informed on what to expect depending on the condition and age of the concrete
+
+Why it’s worth it:
+• Helps improve the look of your concrete without needing to clean the whole surface
+• Makes driveways and walkways look more even and maintained
+• Can reduce or remove stains that stand out after pressure washing
+
+What’s not included:
+• Full pressure washing of the surrounding area (can be added separately)
+• Guaranteed removal of deeply set-in stains — though we’ll do our best, and in many cases they can be fully removed
+
+Just so you know:
+This is a great add-on if you’re already getting your driveway or patio cleaned. Pricing depends on how many spots need attention and how deep the stains are.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_f34595f5192e4e6492eaf4327962c69b",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Solar Panel Bird Proofing,"Birds love nesting under solar panels, but the droppings and debris they leave behind can cause serious problems — from chewed wires to lower energy output. Even worse, bird waste carries bacteria and parasites that can be harmful to your health. We’ll safely secure your system with protective barriers to keep birds and pests out for good.
+
+What we do:
+• Inspect panels and roof edges for nesting activity or damage
+• Clean out droppings and debris around the perimeter
+• Install a protective mesh barrier around your solar array
+• Secure everything without drilling into or damaging your panels
+
+Why it’s worth it:
+• Stops birds from nesting under your panels and making a mess
+• Protects wiring, shingles, and panels from costly damage
+• Helps maintain maximum energy production by keeping airflow clear
+• Reduces exposure to bird waste, which can be unsafe for your health
+• Long-term, low-maintenance solution
+
+What’s not included:
+• Full panel cleaning (available separately or bundled)
+• Repairs to already damaged wiring or roofing materials
+• Removal of active nests during restricted wildlife periods (we’ll advise if that applies)
+
+Just so you know:
+Pricing depends on system size, roof access, and layout. This service can be paired with solar panel cleaning for the best results.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_491f107466274b8b87b14ec1cdf05a51",0.00,0.00,FALSE,Linear Ft.,,FALSE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Debris/Mess Removal,"Removal of bird droppings, nests and other debris around and under solar panels.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_dc6367a434874782bf14f308c6b6f532",200.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Solar Panel Debris Removal (existing bird proofing),"Removal of bird proofing, thorough cleaning underneath panels and re-installation of bird proofing.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_d8fa2b5b887f4788a964b73c456d965d",8.50,0.00,FALSE,Linear Ft.,,FALSE
+Window & Exterior Cleaning,Soft Washing,,,Stone Patio,"Removal of organic growth from stone primarily using chemicals and low pressure.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_e85c15a40f2a4eeb911845854b73e949",250.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Repairs,,,Window Screen Replacement,"If your window screens are torn, brittle, or no longer doing their job, we can replace just the mesh without needing to replace the whole frame. Choose from a range of mesh types to match your needs and budget.
+
+What we do:
+• Remove the damaged screen from the frame
+• Replace with new mesh, cut and fitted to size
+• Secure with new spline and reinstall in the existing frame
+• Check for a clean, tight fit before returning the screen to you
+
+Why it’s worth it:
+• Restores screen function without replacing the frame
+• Keeps bugs and debris out while allowing airflow
+• Helps your windows look clean and maintained
+• Choose from standard, pet-resistant, or solar mesh options
+
+What’s not included:
+• Frame repairs or replacement (this service covers mesh only)
+• Screens that are bent, warped, or damaged beyond repair
+
+Just so you know:
+We install several mesh types including standard, pet-resistant, and solar screen. Let us know what you're looking for and we’ll help you pick the right fit.
+Pricing depends on mesh type, screen size, and how many screens you need done.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_100941bf16e94da1922867aafc1b45b3",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Window & Door Lubrication,"We’ll lubricate the tracks, hinges, and moving parts of your windows and sliding doors to help them open and close more easily. It’s a quick service that makes a big difference in day-to-day use.
+
+What we do:
+• Apply silicone-based lubricant to window tracks and sliding door rails
+• Treat hinges, rollers, and other moving parts where accessible
+• Wipe away excess buildup or dust that may be causing drag
+• Check for signs of sticking, squeaking, or uneven movement
+
+Why it’s worth it:
+• Makes windows and doors easier to operate
+• Reduces wear and tear on rollers, hinges, and tracks
+• Helps prevent sticking or jamming, especially in older frames
+• Quick, affordable maintenance that extends the life of your hardware
+
+What’s not included:
+• Repairs to broken parts, locks, or rollers
+• Deep cleaning of tracks or debris removal (available separately)
+• Service on items that are sealed shut or non-functional
+
+Just so you know:
+This service pairs well with interior window cleaning or screen service. Pricing depends on how many windows or doors need attention and accessibility.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_6540715406af4ffe827082c81e7477f0",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Cleaning,,,Downspout Clearing ,"If your gutters are fine but the downspouts aren’t draining properly, we can clear out the blockage and get things flowing again. This is a focused service for downspouts only.
+
+What we do:
+• Check each downspout for visible clogs or backup
+• Use hand tools, hose flush, or other methods to clear the blockage
+• Confirm water flows freely through the full downspout
+• Inspect for signs of separation or underground drainage issues
+
+Why it’s worth it:
+• Stops water from backing up and spilling over the gutters
+• Helps protect siding, foundations, and landscaping
+• Fast, low-cost fix for isolated flow issues
+• Can save you from needing a full gutter cleaning if that’s not the problem
+
+What’s not included:
+• Full gutter cleaning
+• Repairs to damaged or disconnected downspouts
+• Clearing underground drain lines (quoted separately if needed)
+
+Just so you know:
+Pricing depends on how many downspouts need clearing and whether the clogs are minor or packed in deep.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_461deb689b234bf6b6f06af51b5cef2c",75.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Tracks & Sill Cleaning,"Thorough cleaning of window tracks and sills to remove dust, dirt, and debris — included at no extra charge when you’re getting your interior windows cleaned.
+
+What we do:
+• Brush out tracks to loosen built-up dust and debris
+• Vacuum and wipe down tracks and sills to remove remaining dirt
+• Clean commonly overlooked areas that affect how your windows look and function
+
+Why it’s worth it:
+• Makes your windows look more complete when the glass is clean
+• Helps reduce dust and allergens that collect in the frames
+• Prevents buildup that can lead to sticking or drainage issues over time
+• Included automatically when we clean your interior windows
+
+What’s not included:
+• Deep restoration for mold, caulking damage, or weatherstripping issues
+• Cleaning of windows without accessible tracks or that require disassembly
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_a2eba04c2cb04a7bb451984ef28c40ed",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Screen Cleaning,"We’ll take care of your removable window screens by getting rid of all the dust, dirt, and debris that builds up over time. Clean screens help your windows stay cleaner longer and keep the air flowing fresh through your home.
+
+What we do:
+• Brush or lightly rinse away loose dirt and cobwebs
+• Gently scrub with safe tools and cleaning solution
+• Clean the frames to remove stuck-on grime
+• Reinstall screens once they’re dry
+
+Why it’s worth it:
+• Stops dust from blowing back onto freshly cleaned windows
+• Improves airflow when your windows are open
+• Helps your screens last longer by preventing buildup
+
+What’s not included:
+• Screen repairs or rescreening (available as a separate service)
+• Cleaning screens that are torn, brittle, or too damaged to safely handle
+
+Just so you know:
+This service is included as part of our exterior window cleaning service.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_fcaa222133e34098a6402fa5d6a0effe",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Estimates,,,General Estimate,"You let us know the area that needs attention — whether it’s gutters, windows, solar panels, or something else — and we’ll come take a look. We’ll check the condition, explain your options, and give you a clear estimate. In some cases, we may be able to take care of the job during the same visit, depending on time, scope, and materials needed.
+
+What we do:
+• Walk the property with you (or independently, if preferred)
+• Inspect the area(s) of concern and explain available service options
+• Offer add-on suggestions if we see anything worth flagging
+• Provide a quote — either on-site or shortly after
+• Perform same-day service if time, prep, and materials allow
+
+Why it’s worth it:
+• Gives you a clear understanding of what needs to be done
+• Saves you a second appointment if we’re able to take care of things right then
+• Honest, no-pressure recommendations based on what we see
+• Great option for seasonal maintenance or property prep
+
+What’s not included:
+• Full written reports for real estate or insurance purposes
+• Interior walkthroughs unless scheduled in advance
+• Guaranteed same-day service — depends on scope and prep
+
+Just so you know:
+Estimates are always free and based on the real condition of your property. If we’ve worked together before, we’ll refer back to your service history when recommending anything new.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0f7e2317852a4250893bd9b3e6fa8afd",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Cleaning,,,Roof Blowoff ,"We’ll remove loose debris like leaves, pine needles, and branches from your roof to help prevent clogs, buildup, and early wear. It’s a smart seasonal service, especially before or after storms.
+
+What we do:
+• Use a leaf blower to clear loose debris from the roof surface
+• Focus on valleys, overhangs, and debris-prone areas
+• Clear out any debris that’s gathered around vents or flashing
+• Do a quick visual check for any noticeable roof concerns
+
+Why it’s worth it:
+• Helps prevent gutter and downspout clogs
+• Reduces roof wear from moisture-trapping debris
+• Keeps things tidy and lowers the risk of pests and water damage
+• Quick, affordable maintenance between full cleanings
+
+What’s not included:
+• Gutter cleaning (can be added separately)
+• Moss, algae, or stuck-on debris removal
+• Repairs or inspections for leaks or roof structure issues
+
+Just so you know:
+We don’t walk steep or brittle roofs unless it’s safe to do so — some roofs may be blown off from a ladder.
+Pricing depends on roof size, access, and how much debris needs to be removed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_af80249ad849491f8e9c67f332599a55",150.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Estimates,,,Gutter Cleaning Estimate,"If you're not sure how full your gutters are or what it'll take to get them flowing again, we can take a look and give you a straightforward quote — no pressure, just honest info.
+
+What we do:
+• Inspect gutters and downspouts for visible clogs, buildup, or damage
+• Check roofline, pitch, and access to determine service difficulty
+• Let you know if anything needs cleaning, repair, or replacement
+• Provide a clear quote based on linear footage, height, and debris level
+• Same-day cleaning may be available depending on time and materials
+
+Why it’s worth it:
+• Helps you avoid gutter overflow and water damage before it starts
+• Gives you upfront pricing — no surprises or unnecessary work
+• We’ll let you know if cleaning isn’t needed yet, and when to check back
+• Option to handle it all in one visit if the timing works out
+
+What’s not included:
+• Gutter cleaning itself (unless performed during the same visit)
+• Full roof inspections or real estate reports
+• Repairs or upgrades unless discussed during the quote
+
+Just so you know:
+Estimates are always free and include a quick visual check. If you've had work done before, we'll take your past service history into account.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_080ffbaccedb48089d84ba75d668bc03",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Backyard Pressure Washing,"We’ll pressure wash the main surfaces in your backyard to remove dirt, moss, algae, and buildup. Perfect for patios, walkways, and other areas that need a refresh.
+
+What we do:
+• Pressure wash patios, concrete, pavers, and walkways
+• Apply a cleaning solution to help break down grime and organic growth
+• Rinse thoroughly to flush out dirt and lift buildup
+• Focus on high-traffic areas and shaded spots where moss and algae collect
+• Move furniture and outdoor items as needed — if something is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Makes your outdoor space look cleaner and more inviting
+• Removes slippery buildup for improved safety
+• Helps preserve your hard surfaces by keeping grime from settling in
+
+What’s not included:
+• Oil stain removal (available separately if needed)
+• Cleaning of vertical walls, furniture, or delicate materials
+
+Just so you know:
+This service is for ground-level surfaces only.
+If you have a pool, we’ll do our best to keep debris out — but some may still end up in the water during the cleaning process.
+Pricing depends on square footage and surface condition.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1400bf00d76346929e1faa09d3a1a30d",900.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Cleaning,,,Gutter Cleaning (Roof & Downspouts),"We’ll clear leaves, pine needles, and roof debris from your gutters and downspouts so rainwater drains away from your home properly. This does not include patio covers.
+
+What we do:
+• Remove all gutter debris by hand or blower
+• Flush gutters and downspouts (as needed) to confirm flow
+• Quick visual check for obvious clogs or disconnected sections
+• Clean up the work area before we leave
+• Take before/after pictures of the roof and gutters
+
+Why it’s worth it:
+• Prevents overflow that can damage fascia, siding, and foundations
+• Reduces the chance of roof leaks during heavy rain
+• Stays ahead of costly repairs by removing buildup
+• Prevents damage to gutters themselves
+• Keeps water flowing
+• You are able to see a part of your home that you wouldn’t otherwise
+
+What’s not included:
+• Cleaning the outside faces of gutters (separate service)
+• Repairs or gutter guard installation
+• Patio cover gutter cleaning
+• Window cleaning if windows get dirty in the process
+
+Just so you know:
+Gutter cleaning can get messy and nearby windows may get splashed—we always clean up after ourselves, but window cleaning isn’t included. Pricing typically depends on sq ft of building
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_53cb5a041ec94100bd643b3615783111",0.12,0.00,FALSE,Sq. Ft.,,FALSE
+Window & Exterior Cleaning,Gutter Cleaning,,,Emergency Gutter Cleaning,"If your gutters are overflowing, your downspouts are clogged, or water’s going where it shouldn’t — we’ll get out there quickly to clear it up and stop the damage from getting worse.
+
+What we do:
+• Remove leaves, pine needles, and debris causing the blockage
+• Clear out downspouts to restore water flow
+• Check for clogs, sagging sections, or water spilling over
+• Prioritize key problem areas to stop the immediate issue
+
+Why it’s worth it:
+• Prevents water from backing up under shingles or into your home
+• Protects your siding, fascia, and foundation during heavy rain
+• Gives you fast peace of mind when timing matters
+• Can help avoid more expensive damage or repairs
+
+What’s not included:
+• Full gutter system inspection (available afterward if needed)
+• Repairs or major gutter adjustments
+• Non-urgent general cleaning (this service is for active issues)
+
+Just so you know:
+This service is designed for urgent situations only. Pricing reflects priority scheduling, availability, and severity of the issue. If you’re in the middle of a storm or notice immediate overflow — don’t wait to reach out.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0566e7eda25d48098e3d8b56d0f3148e",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Estimates,,,Window Cleaning Estimate,"If you're not sure how many windows you have, how dirty they really are, or what it’ll cost to get them cleaned — we’ll come take a look and give you a no-pressure quote. In many cases, we can take care of the job on the spot if the timing and scope work out.
+
+What we do:
+• Walk around the property and count all cleanable windows
+• Check the condition of the glass, height, and access points
+• Ask if you’d like interior, exterior, or both
+• Recommend any add-ons (like screens, tracks, mirrors, or skylights)
+• Provide a clear quote based on what you need
+• Same-day cleaning may be available depending on time and prep
+
+Why it’s worth it:
+• Gives you a firm quote before committing to anything
+• Saves you a second visit if we’re able to do the work right away
+• We’ll show you options without upselling what you don’t need
+• Great way to customize your cleaning based on your goals and budget
+
+What’s not included:
+• Cleaning itself (unless scheduled or approved at the time of the estimate)
+• Full walkthrough of interiors unless requested in advance
+• Repairs, hard water removal, or specialty services not discussed during the visit
+
+Just so you know:
+Estimates are free, and we’re happy to adjust them on the spot if you want to add or remove anything. You can always ask questions or make changes before we start.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_cb16209a93e0437e939dd219b9b64ec1",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Guards,,,Gutter Guard Maintenance,"Even with guards installed, debris can still build up on top or get through over time. This service keeps your protected gutter system flowing properly and avoids hidden clogs or overflow issues.
+
+What we do:
+• Remove surface debris sitting on top of the guards
+• Open sections (if needed) to check inside for trapped debris or clogs
+• Clear out downspouts or trouble areas if buildup is found
+• Inspect the guards for damage, sagging, or signs of failure
+
+Why it’s worth it:
+• Keeps your guard system working like it should
+• Prevents overflow from debris piling up on top
+• Helps spot issues early so you can avoid bigger repairs
+• Extends the life of your gutter and guard system
+
+What’s not included:
+• Full guard removal (available separately)
+• Repair or replacement of broken guards (quoted if needed)
+• Full gutter cleaning of unguarded systems
+
+Just so you know:
+Pricing depends on how much debris has built up and the type of guard installed. If your guards haven’t been checked in a while, this is a smart seasonal service.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_cac084d16ee64fddb5b2dd5e2ecd5a14",400.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Guards,,,Gutter Guard Installation,"We install durable metal micro-mesh guards that keep leaves and pine needles out while letting water flow through.
+
+What we do:
+• Inspect and measure your existing gutters for fit
+• Custom cut and install metal micro-mesh guards
+• Secure each section for a tight, clean finish
+• Check key spots (especially at downspouts) for proper flow
+
+Why it’s worth it:
+• Prevents frequent clogs and overflow
+• Helps protect fascia, siding, and foundation
+• Low-profile look that blends with the roofline
+• Includes your first annual guard maintenance at no extra cost
+
+What’s not included:
+• Gutter cleaning before install
+• Removal of old guards
+• Repairs to damaged or sagging sections
+
+Just so you know:
+We recommend yearly guard maintenance to keep everything flowing right. Pricing is based on linear footage, roof height, and access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_7649f1b24e154612bcc0e46e1b922c4e",10.00,1.90,FALSE,Linear Ft.,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Interior & Exterior,"Full window cleaning service for both the inside and outside of your home using professional tools and techniques. We use a streak-free solution, super-fine steel wool, and a squeegee to remove dirt, smudges, and grime for clean, clear glass.
+
+What we do:
+• Hand clean interior and exterior window glass
+• Use super-fine steel wool to remove built-up grime
+• Clean with a streak-free, residue-free solution that doesn't attract dust
+• Move furniture or items as needed, unless the item is fragile or valuable (although we try, things may not be put back exactly the way they were)
+
+Why it’s worth it:
+• Brightens your home with clear, streak-free glass
+• Removes dirt, fingerprints, and everyday buildup
+• Keeps windows looking clean and well maintained for longer
+
+What’s not included:
+• Hard-water stain removal
+• Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
+
+Just so you know:
+Add-ons are available upon request.
+Pricing depends on window count, accessibility, and layout.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_de95f1a50fab4749a497f26d51fe989d",20.00,0.00,FALSE,Per Pane,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Skylight Cleaning,"We’ll carefully clean your skylights to remove dirt, grime, and buildup that block sunlight and make them look cloudy. Whether they’re flat or domed, we’ll make sure they shine without damage.
+
+What we do:
+• Clean exterior skylight glass or plastic using a streak-free, residue-free solution
+• Use soft tools to avoid scratching delicate surfaces
+• Light rinse if needed to remove loose debris
+• Interior cleaning available upon request (if safely accessible)
+
+Why it’s worth it:
+• Lets in more natural light and keeps your home feeling bright
+• Removes buildup that can etch or stain skylight surfaces
+• Helps your skylights last longer and look better over time
+
+What’s not included:
+• Hard-water stain removal
+• Interior cleaning that requires roof or attic access beyond what’s safely reachable
+• Repair of skylight seals, frames, or flashing
+
+Just so you know:
+Access varies depending on roof pitch, location, and skylight type.
+We’ll always let you know what’s safely doable and what might need a different approach.
+Pricing depends on number of skylights and difficulty of access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_2be3a90f434c427a82bbdc80f3b41728",80.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Cobweb Removal,"Removal of visible cobwebs around entryways, eaves, porch ceilings, window frames, and other accessible exterior areas.  
+
+Includes:
+• Extension pole brushing to clear high corners and hard-to-reach spots  
+• Light brushing of exterior light fixtures and trim  
+• Cleanup of brushed cobweb material from ground-level surfaces  
+
+Note: Service focuses on visible cobwebs in accessible areas.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_17a51e56418b4dd8a1261186f59b2577",150.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,General Work,"Price TBD
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_425909f775804c28bccdd2dad2ef7397",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Window Blind Cleaning,"We’ll gently clean your window blinds to remove dust, pet hair, and buildup so they look fresher and function better. It’s a great add-on for spring cleaning or after a remodel.
+
+What we do:
+• Wipe down each slat by hand using a microfiber cloth or duster
+• Lightly vacuum blinds if there’s heavy dust or pet hair buildup
+• Spot clean edges, cords, and brackets as needed
+• Handle gently to avoid bending or damaging delicate materials
+
+Why it’s worth it:
+• Gets rid of the dust that settles and sticks to blinds over time
+• Helps improve air quality and reduce allergens
+• Makes the whole room feel cleaner without replacing the blinds
+• Perfect finishing touch when you're already cleaning windows
+
+What’s not included:
+• Deep cleaning or soaking of fabric or heavily stained blinds
+• Removal and reinstallation of blinds
+• Repairs to cords, slats, or mounting hardware
+
+Just so you know:
+Not all blinds can be cleaned the same way. We’ll take a look first and let you know what’s safe and realistic. Pricing depends on how many blinds you have and how dusty or delicate they are.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_7bb7f3a297664d758f290dbbfbe1f59d",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Guards,,,1-Year Gutter Guard Inspection & Maintenance – Complimentary with Installation,"Every gutter guard system needs a checkup to make sure it’s working the way it should. With every guard installation, your first annual inspection and maintenance visit is included at no extra cost.
+
+What we do:
+• Inspect guards for sagging, shifting, or damage
+• Blow off roof and clear debris sitting on top of the guards
+• Confirm water flow at downspouts
+
+Why it’s worth it:
+• Keeps your gutter guards performing like they should
+• Catches small issues before they turn into clogs or overflows
+• Extends the life of your gutter system and protects your home
+• Gives you peace of mind heading into the rainy season
+
+What’s not included:
+• Full gutter cleaning under the guards
+• Repairs or replacement of damaged sections beyond minor adjustments
+• Service for systems we didn’t install
+
+Just so you know:
+This service is complimentary for the first year after your guard installation. After that, we recommend yearly maintenance to keep everything flowing right.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_be09c2cb29624113bf76df2ff7a57856",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Guards,,,Gutter Guard Removal,"If your current gutter guards are broken, clogged, or just not doing their job, we can remove them carefully without damaging your gutter system. This service clears the way for a proper cleaning or future upgrade.
+
+What we do:
+• Remove existing gutter guards by hand
+• Clear out any debris trapped underneath
+• Inspect for downspout clogs, damage, or loose gutter sections
+• Dispose of the old guards or leave them on-site if you prefer
+
+Why it’s worth it:
+• Makes your gutters easier to maintain and clean
+• Gets rid of guards that are doing more harm than good
+• Clears out hidden debris that can cause overflow and drainage problems
+
+What’s not included:
+• Gutter cleaning (can be added separately)
+• Gutter guard replacement or upgrade (available upon request)
+
+Just so you know:
+Pricing depends on the type of guard, condition of the system, and how much debris is trapped underneath.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_a8ee8e67d2a3456d88fa3d177e4fb85b",200.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Cleaning,,,Gutter Stick Installation,"Gutter Sticks are a low-cost, high-impact way to prevent gutter clogs right at the downspout. We’ll install them where they’re needed most to help keep water flowing even when leaves and debris pile up.
+
+What we do:
+• Clear any debris and confirm the downspout is flowing properly
+• Cut or adjust the Gutter Stick to fit your gutter and downspout setup
+• Install it securely in the outlet
+• Test to make sure it’s seated properly and working as intended
+
+Why it’s worth it:
+• Guarantees downspouts don’t get clogged
+• Keeps water flowing during heavy rain
+• Low-cost, low-maintenance upgrade to protect your home
+
+What’s not included:
+• Full gutter cleaning (must be done first if the gutters are clogged)
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_529baf376c524a6c9f784afded581865",35.00,12.75,FALSE,Each,,FALSE
+Window & Exterior Cleaning,Repairs,,,Roof Tile Repair/Replacement,"If you’ve got cracked, chipped, or missing roof tiles, we’ll fix the problem before it leads to leaks or water damage. Whether we can repair it or need to replace it, we’ll handle it with care and attention to detail.
+
+What we do:
+• Inspect the damaged area and check nearby tiles for impact or movement
+• Remove broken tiles carefully without disturbing the surrounding area
+• Repair minor cracks using appropriate sealants and tools
+• Replace tiles when they’re beyond repair using best-matching materials
+• Confirm proper fit and alignment to maintain water flow
+
+Why it’s worth it:
+• Prevents roof leaks and underlayment damage
+• Helps avoid costly ceiling stains and interior water issues
+• Keeps your roof looking uniform and functioning properly
+• Extends the life of your tile roof by staying ahead of small problems
+
+What’s not included:
+• Replacement of large roof sections
+• Repairs of the actual roof or material underneath tile
+• Full roof inspection or leak tracing beyond the repair area
+• Cleaning underneath tiles
+
+Just so you know:
+If matching tiles are unavailable, we’ll source the closest possible option — or use one you provide. Some older tile types may be discontinued, but we’ll always let you know your options before starting.
+Pricing depends on roof height, access, and number of tiles being repaired or replaced.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_430277d614fb4da1bba8bd01556f070a",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Paint Touch up,"Paint touch up of repaired roof tiles and asphalt.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_e51c61e673fb4ba393eeacd4fd1d8217",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Soft Washing,,,Brick Soft Washing,"Low pressure washing of all accessible exterior brick wall surfaces and the brick planter. Focus on removing dirt, mold, mildew, and soil residue, preserving the color of the brick while restoring its look.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_54187bc9dcb0452ca01fa12d56bc2fc4",150.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Paver Pressure Washing,"We’ll pressure wash your paver surfaces to remove dirt, moss, algae, and grime that build up over time. Whether it’s a patio, walkway, or driveway made of pavers, we’ll clean them without damaging the joints or lifting the sand.
+
+What we do:
+• Pressure wash the surface of the pavers to remove dirt and organic buildup
+• Apply a cleaning solution to help loosen grime and stains
+• Rinse thoroughly, paying attention to joints and edges
+• Focus on high-traffic or shaded areas where moss and algae collect
+• Move furniture or items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Restores the natural look and color of your pavers
+• Removes slippery buildup for safer walking areas
+• Helps prevent long-term wear and keeps the surface looking maintained
+• Great prep if you plan to re-sand or seal afterward
+
+What’s not included:
+• Re-sanding or sealing (available separately)
+• Oil stain removal — some improvement is likely, but not guaranteed
+• Deep restoration for sunken, heavily stained, or damaged pavers
+
+Just so you know:
+Pricing depends on square footage, buildup level, and layout complexity.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_a19cdd20fa67416ea1f6808ee4b648f7",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Front Yard Pressure Washing (Driveway not included),"We’ll pressure wash the main ground-level surfaces in your front yard to remove dirt, moss, algae, and grime. This is a quick but noticeable way to freshen up your entry area and walkways.
+
+What we do:
+• Pressure wash walkways, porch steps, and other concrete or paved areas
+• Apply a cleaning solution to help break down organic buildup
+• Rinse thoroughly to remove dirt, moss, and surface stains
+• Move lightweight items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Instantly improves curb appeal
+• Removes slippery moss and buildup from entryways
+• Helps preserve your concrete and pavers by clearing off grime
+
+What’s not included:
+• Driveway cleaning (can be added separately)
+• Oil stain removal — some improvement is likely, but stains may not fully come out
+• Cleaning of siding, garage doors, or vertical surfaces
+
+Just so you know:
+Pricing depends on the total area being cleaned and how dirty the surface is.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0ea934facead4dd9a1ee33e35adba77e",150.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Solar Panel Cleaning Minimum,"Dust, pollen, and especially bird droppings can block sunlight and create hot spots that damage panels. We’ll clean your system safely so it keeps producing at its best.
+
+What we do:
+• Rinse panels with purified water
+• Gently brush with solar panel–specific tools to remove stuck-on debris
+• Light visual check for cracks, shading issues, or anything unusual
+• Look underneath for signs of nesting or chewed wiring (where accessible)
+
+Why it’s worth it:
+• Improves energy production by letting in more sunlight
+• Removes bird droppings that can cause hot spots and etch the glass
+• Helps prevent long-term damage and keeps your system performing well
+
+What’s not included:
+• Bird proofing (available separately)
+• Repairs to panels, wiring, or roofing materials
+
+Just so you know:
+We don’t use pressure washers or harsh chemicals — only solar-approved methods. Pricing depends on panel count, roof access, and layout.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_6cce784706ee4108acb76dec257c666f",200.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Home Bird Proofing ,"Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_29af5cb08120493b81e817ffee2fd6b2",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Plastic Installation on skylight,"High quality plastic installed in order to reduce the amount of light and glare coming through skylights.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_50baf4dcfe174ffb824f3d9e8561427d",550.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Window Blind Removal,"Careful removal of window blinds and associated hardware from window frames.  
+
+Includes:
+• Detaching of blinds from mounting brackets  
+• Removal of screws, anchors, and brackets from window trim or drywall  
+• Light cleanup of dust or debris from mounting area  
+
+Note: Does not include patching, painting, or disposal of blinds or hardware. Blinds must be accessible and free of excessive obstruction.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_76050b7f6e7647f593d4c98eec0555b8",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Tree Trimming ,"Tree Trimming – Cut Back Branches That Cause Problems
+
+Branches that touch or hang over the house can scrape roofs, break gutters, and dump debris. We’ll trim them back around the home.
+
+What we do:
+• Trim small–medium branches away from roofs, gutters, and walkways
+• Cut back limbs around solar panels, skylights, and windows
+• Light tidy of the immediate work area (blow/rake)
+
+Why it’s worth it:
+• Helps prevent roof and gutter damage
+• Reduces leaf/needle buildup and clogs
+• Keeps entries and paths clear
+
+What’s not included:
+• Large-limb work, climbing, or crane jobs
+• Full debris haul-away (see Tree Trimming Removal)
+• Stump grinding or full tree removal
+
+Just so you know:
+This is light–moderate trimming from ground or ladder. Pricing depends on tree size, access, and how much we cut.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_6b5682ee4a434d7a8c856ff15ab27fe3",50.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Cleaning,,,Gutter Inspection (Complimentary),"We’ll take a full look at your gutter system to check for issues like leaks, clogs, sagging, or improper drainage. Whether you're noticing overflow or just want peace of mind before the rainy season, this inspection gives you a clear picture of your system’s condition.
+
+What we do:
+• Inspect gutters and downspouts for visible clogs, leaks, or separation
+• Check for sagging, improper slope, or overflow points
+• Look at fasteners, joints, and seams for signs of wear or failure
+• Identify any areas that may need cleaning, repair, or replacement
+
+Why it’s worth it:
+• Helps catch problems early — before they cause water damage
+• Gives you a clear plan for maintenance or upgrades
+• Ideal for homes with trees, aging systems, or suspected issues
+• Great prep before storms, repairs, or real estate listings
+
+What’s not included:
+• Gutter cleaning or debris removal
+• Repairs, resealing, or part replacement (quoted separately)
+• Inspection of underground drainage systems
+
+Just so you know:
+You’ll get a verbal summary of our findings and recommendations on the spot. If requested, we can also provide a written summary or quote for any needed work.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_54c7d498a77847f0aec2211078b2ba7d",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Post Construction Clean,"We’ll carefully clean your windows after new construction, remodeling, or painting — removing dust, overspray, stickers, and debris so your glass looks the way it should.
+
+What we do:
+• Remove construction dust, paint overspray, and sticker residue from glass
+• Use scrapers, steel wool, and cleaning solutions suited to post-construction cleanup
+• Hand clean both sides of the glass if accessible
+• Wipe down frames to remove major dust and debris
+
+Why it’s worth it:
+• Makes your new space look finished and move-in ready
+• Removes stubborn buildup you can’t get off with regular cleaning
+• Avoids scratched glass by using the right tools the right way
+• Saves you time and hassle — we’ve done this before
+
+What’s not included:
+• Removal of hard-water stains or deep mineral etching
+• Repairs to scratched or damaged glass
+• Cleaning of screens, tracks, or windows that aren’t safely accessible
+
+Just so you know:
+Construction cleaning takes more time and care than standard window cleaning.
+Pricing depends on window count, debris level, and whether we’re cleaning interior, exterior, or both.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0fdff6ba89d24222b72eec8ef51a8ed4",20.00,0.00,FALSE,Per Pane,,FALSE
+Window & Exterior Cleaning,Gutter Repairs,,,Downspout Repair,"If your downspout is leaking, disconnected, or not flowing properly, we’ll repair the issue so water drains away from your home the way it should — especially at the elbows where problems often start.
+
+What we do:
+• Reconnect or reseal loose or leaking downspout joints
+• Replace damaged or missing downspout elbows to restore proper flow
+• Secure downspouts to walls or fascia where they’ve come loose
+• Realign sections for better slope and drainage away from the foundation
+
+Why it’s worth it:
+• Prevents water from pooling near your home’s foundation
+• Fixes noisy drips, leaks, or overflows during storms
+• Helps protect siding, walkways, and landscaping
+• Affordable fix that makes a big difference when water’s going the wrong way
+
+What’s not included:
+• Full downspout replacement or rerouting into underground drainage
+• Major gutter system repairs (quoted separately if needed)
+
+Just so you know:
+Most repairs can be done on the spot. Pricing depends on the number of sections needing attention, ladder access, and parts required.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ee7a7cc2656841a7b419026b7ed3edf6",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Roof cleaning,,,Tile Roof Cleaning – Rinse-Off Soft Wash (Full Removal),"Full-service tile roof cleaning using a professional soft-wash treatment followed by a controlled low-pressure rinse. Ideal for heavier growth or customers wanting immediate visual results.
+
+Includes:
+• Brushing or blowing of loose debris and heavy moss (if accessible)
+• Application of roof-safe cleaning solution to kill moss, algae, and lichen
+• Full rinse using low-pressure water — safe for clay and concrete tile
+• Perimeter cleanup of all roof runoff and debris
+• Visual inspection of roof for damage, loose tiles, or water entry points
+• Optional before/after photo documentation
+
+Benefits:
+• Removes growth more quickly and restores roof appearance immediately
+• Prevents leaks, rot, fire risk, and drainage issues
+• Safe for tile — no high pressure or scraping
+• Meets insurance and environmental compliance standards
+• Higher-level service ideal for homes with heavy buildup or resale prep
+
+Note:
+We avoid scraping or pressure washing tile to prevent removal of protective coating of roof or directly damage it. This service involves careful rinsing using soft-wash tools. Not recommended for highly brittle or deteriorating tile roofs.
+Pricing is based on total roof square footage and is higher than leave-on treatment due to additional labor and cleanup.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_cc51e64724e747e581a6eeac47da27fd",0.80,0.00,FALSE,ft²,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,"Full Exterior Ground Pressure Washing – Front, Backyard & Driveway","We’ll pressure wash all major ground-level surfaces around your home — including patios, walkways, entryways, and more. This is a full exterior refresh that covers both the front and backyard in one visit.
+
+What we do:
+• Pressure wash walkways, patios, entry areas, and other concrete or paved surfaces
+• Apply a cleaning solution to break down dirt, moss, and algae
+• Rinse thoroughly to lift buildup and improve surface appearance
+• Focus on high-traffic and shaded areas where grime tends to build up
+• Move outdoor furniture or items as needed — if something is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Gives your entire exterior a clean, refreshed look
+• Removes slippery moss and algae for better safety
+• Helps extend the life of your hardscapes by clearing off grime before it settles in
+• Ideal for seasonal maintenance or getting ready for guests
+
+What’s not included:
+• Oil stain removal — they usually improve, but likely won’t come out completely
+• Cleaning of siding, garage doors, outdoor furniture, or vertical surfaces
+• Pool deck or sealed/decorative surfaces unless discussed ahead of time
+
+Just so you know:
+Pricing depends on square footage, surface type, and overall condition.
+Includes:
+• Application of a cleaning solution to assist with organic growth removal
+• Pressure washing of front and backyard patios, walkways, and hard surfaces
+• Driveway cleaning (up to sidewalk or curb)
+• Rinse-down of surrounding borders and landscaping edges
+• Final rinse for a clean and finished look
+
+Benefits:
+• Loosens and removes organic growth like moss and algae for safer surfaces
+• Instantly improves curb appeal and backyard appearance
+• Prepares surfaces for sealing or staining if desired
+• Helps preserve the condition of concrete, pavers, and other hardscape materials
+
+Note:
+This service does not include oil stain removal, though visible improvement is common. Ask about optional degreasing for targeted stain treatment.
+Pricing is based on total square footage and overall site complexity.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_9f8b4e7620ba4aba82fa72c6abb61252",500.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Repair,"If your gutters are leaking, sagging, or coming apart at the seams, we’ll take care of the problem with targeted repairs. This service is perfect for small fixes that help extend the life of your system.
+
+What we do:
+• Seal minor leaks or dripping seams using durable, weatherproof sealant
+• Reattach or replace missing screws, hangers, or brackets
+• Realign sections that are pitched incorrectly or sagging
+• Reconnect sections that have pulled apart at the joints
+
+Why it’s worth it:
+• Stops water from leaking behind siding or pooling near the foundation
+• Helps your gutters drain properly during storms
+• Prevents small issues from turning into bigger, more expensive repairs
+• Affordable fix that can help extend the life of your system
+
+What’s not included:
+• Full gutter system replacement
+• Major structural adjustments or rerouting of gutters and downspouts
+• Repairs to underground drainage or fascia boards
+
+Just so you know:
+We’ll always let you know if something looks beyond repair or if a replacement would be a better investment. Pricing depends on the type and number of repairs needed, and whether replacement parts are required.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_9f8edb4d923c4176b71023bb0f37e2e7",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Mirror Cleaning,"Interior mirror cleaning using the same tools and techniques we use for professional window cleaning — for a clear, streak-free result.
+
+Includes:
+• Removes dust, fingerprints, and smudges
+• Edges and corners wiped down clean
+
+Benefits:
+• Streak-free clarity using the same method we use for windows
+• Safe for all types of mirrors, including large vanities and wall mirrors
+• Leaves your mirrors looking clean, clear, and like they should
+
+Note:
+This is for indoor, accessible mirrors only. Extra-large or hard-to-reach mirrors may be priced differently depending on access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0f1f990aa4084f3187673af49cf24365",10.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Tile Cleaning,"We’ll gently pressure wash your outdoor tile surfaces to remove dirt, grime, and organic buildup without damaging the tile or grout. Great for patios, porches, and walkways made of ceramic, porcelain, or stone tile.
+
+What we do:
+• Apply a cleaning solution to help break down buildup on the tile and in the grout lines
+• Gently pressure wash the surface without damaging the finish
+• Rinse thoroughly to lift dirt, moss, and algae
+• Move outdoor items as needed — if anything is fragile or valuable, we ask that it be moved ahead of time
+
+Why it’s worth it:
+• Restores the natural color and shine of your tile
+• Removes slippery moss and grime for safer footing
+• Helps prevent long-term damage from buildup getting into grout or joints
+• Keeps your patio or porch looking clean and inviting
+
+What’s not included:
+• Re-grouting or tile repair
+• Oil or rust stain removal — some improvement is possible but not guaranteed
+• Sealing (available separately if needed)
+
+Just so you know:
+Pricing depends on tile type, square footage, and surface condition.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_94c54fb879b84ad0ac08d1596e71168e",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Soft Washing,,,Tile Patio Soft Wash,"Soft washing is a gentle, chemical-assisted cleaning method that’s ideal for tile patios where pressure washing could damage the surface or grout. Great for removing organic buildup like algae, moss, and grime without using high pressure.
+
+Includes:
+• Application of a tile-safe cleaning solution to loosen dirt and organic growth
+• Light brushing or agitation as needed
+• Low-pressure rinse to wash away buildup without damaging tile or grout
+• Careful attention to edges, grout lines, and shaded areas where buildup is common
+
+Benefits:
+• Safely removes moss, algae, and grime without damaging delicate surfaces
+• Restores tile appearance and helps prevent slippery areas
+• Preserves grout lines and protects against cracking from aggressive cleaning
+• Ideal for more fragile or decorative tile surfaces that can’t handle high pressure
+
+Note:
+This is a low-pressure process — not a pressure wash. Results depend on tile condition, buildup type, and grout age.
+Pricing depends on square footage and condition of the patio.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_27777cbd60ac4f88900aab8ceacf20fe",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Window Scraping,"If you’ve got regular windows with things like old paint drips, tape, tree sap, or sticker residue — we can carefully scrape it off to get your glass clean again. This is not a full construction clean, just targeted scraping where needed.
+
+What we do:
+• Use scrapers or blades to remove stuck-on debris without damaging the glass
+• Target specific problem areas like paint specks, tape, sap, or sticker glue
+• Clean the glass afterward for a clear, even finish
+• Let you know if anything looks risky or requires extra time
+
+Why it’s worth it:
+• Removes stubborn spots regular cleaning can’t touch
+• Helps restore clarity to neglected or mistreated windows
+• Gives your windows a noticeably cleaner, more finished look
+
+What’s not included:
+• Full post-construction window cleaning
+• Hard-water stain removal or deep glass restoration
+• Repairs for scratched or damaged glass
+
+Just so you know:
+Scraping is only done when it's safe for the glass type. Some tempered or low-E coated windows are more prone to scratching — if there’s any risk, we’ll let you know before starting. Pricing depends on how many windows need scraping and how much buildup there is.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_72bf79bc27174c9ba515ff4734d84cf1",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Estimates,,,Solar Bird Proofing Estimate,"If you're seeing signs of nesting, droppings, or debris under your solar panels — or just want to prevent a problem before it starts — we’ll come take a look and give you a quote for bird proofing. In some cases, we may be able to install same-day if everything lines up.
+
+What we do:
+• Inspect the perimeter and underside of your solar panels
+• Check for signs of nesting, droppings, or chewed wiring
+• Measure the system layout to determine materials and access needs
+• Explain how bird proofing works and what your options are
+• Provide a clear quote based on panel count, roof type, and access
+• Same-day installation may be available depending on timing and materials
+
+Why it’s worth it:
+• Prevents costly damage to wires, panels, and roofing
+• Stops birds and pests from nesting or making a mess under your system
+• Helps protect your energy production and avoid repairs
+• Gives you a long-term solution with minimal visual impact
+
+What’s not included:
+• Panel cleaning (available separately or as part of an install package)
+• Removal of active nests (if found, we’ll advise based on timing and legal restrictions)
+• Repairs to damaged wiring or roofing materials
+
+Just so you know:
+Estimates are always free. If you’re also due for a solar panel cleaning, we can bundle both services into one visit — just let us know ahead of time.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_6a166ff155d34eda96971526f59e67d0",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Estimates,,,Gutter Guard Installation Estimate,"If you're tired of cleaning your gutters constantly and want a long-term solution, we’ll come take a look and give you a quote for professional gutter guard installation. We’ll check the condition of your system, measure everything out, and let you know what makes the most sense.
+
+What we do:
+• Measure your gutters and inspect roof edges for access and compatibility
+• Check for damage, sagging, or sections that need repair before installation
+• Go over your options for high-quality metal micro-mesh guards
+• Provide a clear quote based on linear footage, height, and system condition
+• Same-day installation may be available depending on scope and prep
+
+Why it’s worth it:
+• Helps you decide if gutter guards are right for your home
+• Lets you ask questions about pros, cons, and what to expect
+• Saves you the hassle of ongoing cleanings in the future
+• Gives you a full plan, not just a price
+
+What’s not included:
+• Gutter cleaning or repair (may be required before installation)
+• Installation of plastic or foam guards — we only recommend what works
+• Full roof inspection or unrelated drainage system work
+
+Just so you know:
+Estimates are always free and based on what we see on-site. If you’ve had issues with clogs, trees nearby, or water overflow, this is a great step toward a lower-maintenance system.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_425635fd3b4a418d8f99b382a254f09a",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Seam Repair,"We’ll reseal leaking gutter seams so water flows through your downspouts instead of dripping onto your home.
+
+What we do:
+• Inspect the leaking joint
+• Clean, dry, and reseal with durable, weatherproof sealant
+• Check flow once cured
+
+Why it’s worth it:
+• Prevents water damage to siding, fascia, and foundation
+• Extends the life of your gutters without full replacement
+• Quick, affordable fix
+
+What’s not included:
+• Full system reseal or replacement
+• Downspout repairs or cleaning
+
+Just so you know:
+We’ll let you know if the leak needs more than sealant to fix.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_f57a33a46e6146f4b34782c7fbc83544",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Hanger Replacement - Single Story,"We replace failed or missing gutter hangers to secure the gutter back to the fascia.
+
+What we do:
+• Remove and dispose of damaged/loose hangers
+• Install new hidden hangers where needed
+• Re-secure the gutter run to the fascia in the worked area
+• Tighten and stabilize sections that have shifted
+
+Why it’s worth it:
+• Reduces sagging that can lead to overflow
+• Helps prevent sections from pulling away in wind and rain
+• Lowers the chance of joints opening up from movement
+
+What’s not included:
+• Gutter cleaning or downspout flushing
+• Outside faces of gutters
+• Seam sealing or leak repairs
+• Downspout replacement or reroutes
+• Gutter guard install or removal
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_60162feffe0e4ea4931e885aed8bc4a3",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Downspout Attachment,"We’ll attach or reattach loose downspouts so water flows down the pipe like it should — not out the top or sides.
+
+What we do:
+• Inspect downspout straps, screws, and connection points
+• Replace or tighten hardware as needed
+• Ensure proper fit and alignment with the gutter outlet
+
+Why it’s worth it:
+• Prevents water from spilling where it shouldn’t
+• Keeps drainage working properly
+• Helps avoid foundation and siding damage
+
+What’s not included:
+• Replacement of full downspout sections
+• Major gutter repairs
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_4c0a380f5c004945b278ecb34cc0b490",75.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Bird Proofing,,,Roof Bird Waste Cleaning and Removal,"Bird droppings are unsightly, corrosive, and can carry harmful bacteria. We’ll safely remove and disinfect the area so it’s clean and safe again.
+
+What we do:
+• Remove droppings, feathers, and nesting debris
+• Clean and disinfect surfaces to neutralize stains and germs
+• Dispose of waste properly
+
+Why it’s worth it:
+• Protects your property from damage and staining
+• Reduces health risks from bacteria and parasites
+• Leaves the area safe and ready for use or deterrent installation
+
+What’s not included:
+• Repairs to roofing, siding, or wiring
+• Installation of bird spikes or other deterrents (available separately)
+
+Just so you know:
+Pricing depends on severity, access, and square footage.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_84936ebf7a214695a476dce9e382db84",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Bird Proofing,,,Bird Spike Installation,"Once the area is cleaned, we’ll install deterrents such as bird spikes in the problem zones — ledges, rooflines, and vents — to keep birds from nesting or roosting again.
+
+What we do:
+• Inspect the property to find common roosting/nesting spots
+• Install bird spikes or other deterrents where needed
+• Secure materials without damaging roofing, gutters, or siding
+• Test placement to ensure coverage in problem areas
+
+Why it’s worth it:
+• Stops birds from landing and nesting on your property
+• Protects against droppings, feathers, and nesting messes returning
+• Helps protect your family’s health by reducing exposure to bird waste
+• Long-term solution with minimal upkeep
+
+What’s not included:
+• Full exclusion netting (requires specialized service)
+• Pest control for other animals (rodents, insects, etc.)
+
+Just so you know:
+Pricing is based on linear footage, access, and type of deterrent installed. We’ll recommend the best approach for your property after inspection.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_95f45b61521f40ce8ca3db8c79bf9b97",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Bird Proofing,,,Solar Panel Bird Proofing,"Birds love nesting under solar panels, but the droppings and debris they leave behind can damage wiring, lower energy output, create fire risks, and spread harmful bacteria. We’ll install a protective barrier to keep them out for good.
+
+What we do:
+• Inspect panels and roof edges for nesting or droppings
+• Clean out debris around the perimeter
+• Install protective mesh around your solar array
+• Secure everything without drilling into or damaging the panels
+
+Why it’s worth it:
+• Stops birds from nesting under your panels
+• Protects wiring, shingles, and panels from costly damage
+• Prevents fire hazards caused by dry nesting material near wiring
+• Helps your system produce at its full potential
+• Reduces health risks from bird waste buildup
+
+What’s not included:
+• Full solar panel cleaning (available separately or bundled)
+• Cleaning up bird droppings outside of the solar panel area (available separately as bird waste cleaning)
+• Repairs to damaged wiring or roofing materials
+
+Just so you know:
+Pricing depends on system size, layout, and roof access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_45ef1f6c75ca48698929b06cca134cef",40.00,0.00,FALSE,Each,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Tree Trimming Removal,"We’ll remove and dispose of tree trimmings so your yard is clear and ready to use again.
+
+What we do:
+• Collect and haul away branches, sticks, and leaf debris
+• Light rake or blow-off of the work area
+• Dispose of everything properly
+
+Why it’s worth it:
+• Keeps your yard clean and safe after trimming
+• Avoids hazards from leftover debris
+• Bundles easily with trimming service for a complete job
+
+What’s not included:
+• Tree trimming itself (available separately)
+• Stump grinding or large trunk removal
+• Clearing storm-damaged or fallen whole trees
+
+Just so you know:
+Pricing depends on the amount of debris and disposal fees.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1065a0102a394207bb1cbd077aa8e729",300.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Hanger Repair,"We’ll reinforce your existing gutter hangers so your system stays tight and drains properly.
+
+What we do:
+• Refasten loose hangers with proper screws
+• Replace old gutter nails with durable screws
+
+Why it’s worth it:
+• Stops gutters from sagging or pulling away
+• Keeps water flowing where it should
+• Extends the life of your current hangers without full replacement
+
+What’s not included:
+• Installing new hangers (available separately)
+• Repairing or replacing damaged fascia
+
+Just so you know:
+We’ll let you know if any hangers are too worn to be reused.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1534a3cfcf4545239b64b347c9b7c96a",10.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Soft Washing,,,Low Pressure House Wash (Single Story),"Dirt, algae, mildew, and cobwebs build up on siding over time, making your home look dull and worn. We use a cleaning solution with sodium hypochlorite (the active ingredient in bleach), but only at the strength needed to clean effectively without damaging siding, paint, or other surfaces.
+
+What we do:
+• Apply a sodium hypochlorite-based cleaning solution at the proper strength for your home
+• Rinse thoroughly with low-pressure water (safe for siding and paint)
+• Brush or rinse away cobwebs around siding, trim, and eaves
+• Protect keyholes, outlets, and other sensitive areas to avoid damage
+• Take special care around plants and landscaping — let us know if you have delicate plants so we can cover, rinse, or move them if needed
+
+Why it’s worth it:
+• Restores your home’s curb appeal quickly
+• Removes algae, mildew, grime, and cobwebs that make siding look neglected
+• Cleans effectively while protecting siding, paint, and surroundings
+• Helps extend the life of your siding by keeping it maintained
+
+What’s not included:
+• Roof washing, gutter cleaning, or window cleaning (available separately)
+• Paint or stain removal
+• Cleaning of delicate surfaces not safe for washing
+• Oxidation Removal
+
+Just so you know:
+Please make sure all windows are closed before your house wash. If window seals are not in good condition, cleaning solution may get inside or between panes.
+Pricing depends on square footage, siding type, and level of buildup.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ed483ec690f74daf827546a30bf5a767",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Soft Washing,,,Low Pressure House Wash (Two Story),"Dirt, algae, mildew, and cobwebs build up on siding over time, making your home look dull and worn. We use a cleaning solution with sodium hypochlorite (the active ingredient in bleach), but only at the strength needed to clean effectively without damaging siding, paint, or other surfaces.
+
+What we do:
+• Apply a sodium hypochlorite-based cleaning solution at the proper strength for your home
+• Rinse thoroughly with low-pressure water (safe for siding and paint)
+• Brush or rinse away cobwebs around siding, trim, and eaves
+• Protect keyholes, outlets, and other sensitive areas to avoid damage
+• Take special care around plants and landscaping — let us know if you have delicate plants so we can cover, rinse, or move them if needed
+
+Why it’s worth it:
+• Restores your home’s curb appeal quickly
+• Removes algae, mildew, grime, and cobwebs that make siding look neglected
+• Cleans effectively while protecting siding, paint, and surroundings
+• Helps extend the life of your siding by keeping it maintained
+
+What’s not included:
+• Roof washing, gutter cleaning, or window cleaning (available separately)
+• Paint or stain removal
+• Cleaning of delicate surfaces not safe for washing
+• Oxidation Removal
+
+Just so you know:
+Please make sure all windows are closed before your house wash. If window seals are not in good condition, cleaning solution may get inside or between panes.
+Pricing depends on square footage, siding type, and level of buildup.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_7b52026f4c4f4e81837c4d6e24ed8e6c",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Downspout Extension Installation,"We’ll attach a flexible downspout extension to the bottom of your gutter downspout to help carry water further away from your home.
+
+What we do:
+• Connect extension securely to existing downspout
+• Adjust length and direction as needed
+• Make sure water flows away from the house
+
+Why it’s worth it:
+• Helps prevent water from pooling near the foundation
+• Reduces risk of erosion and damage around your home
+• Quick, affordable fix with immediate results
+
+What’s not included:
+• Gutter or downspout cleaning
+• Underground drainage work
+
+Just so you know:
+Extensions are flexible and can be adjusted later if needed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1abbefbc74b3474f86bfb9662b142e52",10.00,0.00,FALSE,Each,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Parental Exploitation ,"Not enough work for too much pay.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_a260f84b37e342c3a3d50258b6bc5e7e",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Second Story Exterior Window Film Application (Customer Supplied),"We’ll install your exterior-rated reflective film on a second-story window from the outside with a trim gap and a proper silicone edge seal.
+
+What we do:
+• Prep and clean the exterior glass to film-ready condition
+• Wet-apply your film, align, and precision-trim (1–2 mm perimeter gap)
+• Hard-squeegee and detail edges; leave written cure/aftercare
+• Return in 24–72 hours to apply a neutral-cure silicone edge seal once the perimeter is dry
+
+Why it’s worth it:
+• Cuts glare and solar heat before it reaches the glass
+• Daytime privacy with a uniform mirror look from outside
+• UV reduction to help minimize interior fading
+
+What’s not included:
+• Interior window cleaning
+• Removal of old film/adhesive, hard-water stain removal, or scratch repair
+• Interior-only/“flip” installs of exterior-rated film
+• Textured/wired/specialty-coated glass, skylights, or panes needing special rigging beyond ladder/roof access
+
+Just so you know:
+• Curing look: New film can appear hazy/bubbly while moisture evaporates—expect 1–3 weeks depending on weather. No cleaning for 30 days.
+• Privacy: Reflective films provide daytime privacy only; at night (lights on) privacy reverses.
+• Keep it dry: After we seal, keep water off the seal for 24 hours; avoid washing/sprinklers for 72 hours. Full cure is typically 24–48 hours.
+• Do not open the window for at least 24 hours after the edge seal is applied.
+• Sprinklers: If wind can blow sprinkler mist to this window, turn them off for 72 hours after sealing.
+• Thermal stress: Dark/reflective films raise glass temperature; on some dual-pane/low-E units with shade lines or edge chips, crack risk increases.
+• Weather: Exterior installs require calm, dry conditions; wind or rain may require rescheduling.
+• Warranty: Customer-supplied material = labor-only workmanship warranty (no warranty on the film, glass, or seals).
+
+Prep before we arrive:
+• Confirm the film is exterior-rated and not creased
+• Clear ground area below the window; move vehicles/outdoor items; secure pets/kids
+
+Aftercare basics:
+• Don’t touch film edges; let midday sun help curing
+• First clean after 30 days with a soft cloth and a non-ammonia cleaner (optional)
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_d48a69b9b4f546db8951bf6b99382806",200.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Cleaning,,,Gutter Ball Installation (Customer Purchased),"We’ll install the wire “gutter balls” you purchased into your downspout outlets to help keep big debris out.
+
+What we do:
+• Clear the outlet area and seat each strainer in the downspout opening
+• Trim/adjust as needed for a snug fit
+• Quick flow check to make sure water can pass
+
+Why it’s worth it:
+• Helps stop large leaves/pinecones from entering downspouts
+• Simple, no-cost add-on when you supply the parts
+
+What’s not included:
+• Full gutter cleaning or repairs
+• Supplying the strainers
+• Removal of guards or major adjustments to your system
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_99f56290374a48de85adc81695067fb8",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Repairs,,,Roof Leak Diagnosis – $50/hour,"We’ll track down the source of a roof leak with a focused inspection and targeted water testing so you know what’s going on and how to fix it.
+
+What we do:
+• Inspect roof surfaces, tiles/shingles, flashing, penetrations, and valleys
+• Check inside (attic/ceiling areas) if safely accessible
+• Controlled hose testing to replicate the leak when appropriate
+• Document findings with notes/photos and recommend repairs
+
+Why it’s worth it:
+• Pinpoints the actual entry point (not just the stain you see inside)
+• Helps you avoid repeat leaks and guesswork repairs
+• Gives you a clear plan and estimate for the fix
+
+What’s not included:
+• Permanent repairs or materials
+• Interior remediation (drywall/paint/flooring)
+• Opening walls/ceilings or any destructive testing
+
+Just so you know:
+Rate is $50/hour with a 1-hour minimum. Weather and roof safety may limit testing on the day of service. If water testing is used, minor dripping can occur by design to confirm the source.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ba8eab67eadc4305b816488fdbb287a6",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Bird Proofing,,,Plastic Bird Spike Installation,"We’ll install plastic bird spikes on your roofline, gutters, and ledges to prevent birds from roosting and nesting in unwanted areas.
+
+What we do:
+• Install plastic bird spikes along key roosting spots (roofline, gutters, ledges)
+• Secure the spikes with adhesive or screws, ensuring they’re firmly in place
+• Clean the surface and remove any existing debris before installation
+• Use a safe, non-toxic adhesive and apply as needed
+
+Why it’s worth it:
+• Affordable option compared to metal spikes
+• Quick and easy installation with minimal disruption
+• Helps prevent bird nesting and roosting in problem areas
+• Low-maintenance once installed
+
+What’s not included:
+• Full roof cleaning or repairs
+• Additional birdproofing measures (e.g., netting or solar panel mesh)
+
+Just so you know:
+Plastic bird spikes are cheaper, but they don’t last as long as metal ones and may become yellowish or brittle within 1–2 years depending on weather exposure. Annual maintenance can extend their life.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_46456bdcb58e401fbd3d7298d6643e85",16.00,2.40,FALSE,,,TRUE
+Window & Exterior Cleaning,Bird Proofing,,,Metal Bird Spike Installation,"We’ll install high-quality metal bird spikes to protect your roofline, gutters, and ledges from unwanted bird activity, providing long-lasting and effective deterrence.
+
+What we do:
+• Install metal bird spikes along key roosting spots (roofline, gutters, ledges)
+• Secure the spikes with screws or appropriate fasteners
+• Clean the surface and remove any existing debris before installation
+• Use weather-resistant materials for maximum durability
+
+Why it’s worth it:
+• Long-lasting and durable, even in harsh weather conditions
+• Effective at preventing bird nesting without needing frequent maintenance
+• Provides a permanent solution for bird control
+• Sleek, professional look that won’t detract from your home’s appearance
+
+What’s not included:
+• Full roof cleaning or repairs
+• Additional birdproofing measures (e.g., netting or solar panel mesh)
+
+Just so you know:
+Metal spikes are more expensive but last longer than plastic alternatives. They are ideal for high-impact areas and will stand up to the elements without becoming discolored or brittle.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_50532df335e44a259809df939bc67a62",20.00,3.80,FALSE,,,TRUE
+Window & Exterior Cleaning,Repairs,,,Seal Leaky Roof Vent,"A small leak around a roof vent can turn into ceiling stains and drywall damage. We’ll seal the vent so water sheds the way it should.
+
+What we do:
+• Inspect the vent boot, flashing, and shingles around the leaking vent
+• Clean the area so sealant can bond properly
+• Reseal exposed nail heads, gaps, and cracked sealant at the vent
+• Apply roof-grade sealant or flashing tape where appropriate
+• Take photos before/after on request so you can see what was done
+
+Why it’s worth it:
+• Helps stop active drips and ceiling stains from getting worse
+• Buys time before larger, more expensive roof work is needed
+• Keeps wind-driven rain from sneaking in around the vent
+• Gives you a simple, documented fix you can share with a roofer or insurance if needed
+
+What’s not included:
+• Full roof inspection or full-roof leak tracing
+• Replacement of the vent, boot, or surrounding shingles
+• Repairs to interior damage (paint, drywall, insulation, framing)
+• Work on other roof penetrations (chimneys, skylights, pipes) unless added to the job
+• Long-term “no leak anywhere on the roof” guarantee—this targets the vent only
+
+Just so you know:
+Pricing is typically per vent, with additional time billed at our hourly diagnostic rate if the leak source is more complex than a simple vent seal
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_f41cc1a332d344d1b5cfdaa5d1317868",80.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Leaf Raking,"Tired of staring at leaf piles? We’ll rake them up, load your cans, and leave everything ready for your green waste pickup.
+
+What we do:
+• Rake leaves from lawn, hardscape, and open planting beds
+• Pile and load leaves into your yard waste cans (or paper yard bags if provided)
+• Light blow-off of walkways and driveway after raking
+• Consolidate extra leaf piles neatly if cans fill up
+• Do a quick visual walk-through of the work area before we wrap up  ￼
+
+Why it’s worth it:
+• Keeps leaves from smothering your lawn and plants
+• Reduces slip hazards on wet patios, steps, and walkways
+• Saves you a weekend of raking and lifting heavy cans
+• Leaves are ready for your regular trash/green waste service
+
+What’s not included:
+• Hauling leaves or debris offsite
+• Gutter cleaning or roof debris removal
+• Detailed garden bed weeding or pruning
+• Mowing, edging, or other lawn care services
+• Disposal fees or extra cans/bags (we use what you provide)
+
+Just so you know:
+Pricing is based on yard size, access, and how much debris we’re dealing with, charged per visit. Please have your empty yard waste cans or bags ready and accessible when we arrive.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_b8d26d1e306144b4bc60a63e53af017b",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Drip Edge Replacement – Standard Section,"If you’ve got a smaller problem area, we can install drip edge on that short run so water sheds into the gutter instead of behind it.
+
+What we do:
+• Prep the problem area and remove/loosen fasteners as needed
+• Install new drip edge on a standard section (up to about 10')
+• Secure with standard materials and hardware
+• Clean up jobsite debris
+
+Why it’s worth it:
+• Reduces water getting behind the gutter at the problem spot
+• Helps keep runoff going into the gutter at that section
+• Prevents small issues from spreading into a larger section
+
+What’s not included:
+• Any gutter leveling, reshaping, or re-hanging
+• Full gutter cleaning or downspout flushing
+• Fascia/roof deck repairs or repainting
+• Replacing gutters or downspouts
+
+Just so you know:
+Priced per standard section. Best-match materials are used, but exact color/finish matches can vary by manufacturer and age.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1b1d4e8b26814404b58a8b5c898e0d2f",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Drip Edge Replacement – Standard Section,"Water can slip behind the gutter when the drip edge is missing or the gutter has sagged. We re-level that stretch and install new drip edge so runoff sheds where it should.
+
+What we do:
+• Remove existing fasteners as needed in the work area
+• Re-level the gutter along the affected long run (about 10')
+• Install new drip edge and secure with appropriate hardware
+• Reseat/secure gutter attachment points in that section
+• Clean up jobsite debris
+
+Why it’s worth it:
+• Helps reduce overflow behind the gutter at that section
+• Improves drainage and reduces standing water in a sag
+• Helps protect fascia edges from repeated wetting
+
+What’s not included:
+• Full gutter cleaning or downspout clearing
+• Replacing gutter sections, downspouts, or hangers outside the work area
+• Wood rot repair, fascia replacement, or painting fascia/trim
+• Roofing repairs beyond the drip edge line
+
+Just so you know:
+Priced per large section. If we uncover hidden damage behind the gutter/drip edge, we’ll flag it before doing anything beyond this scope.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_3d6a5cd3cbc642fb9425306ac77d18e7",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Downspout Outlet Repair – Rivet,"If a screw is blocking the downspout outlet, it can catch debris and slow drainage. We remove the obstruction and replace it with a rivet so water can flow through more freely.
+
+What we do:
+• Remove the screw or obstruction at the downspout outlet
+• Clear the outlet opening at the connection point
+• Install a rivet to secure the outlet without blocking flow
+• Quick flow check at the outlet area
+
+Why it’s worth it:
+• Reduces snag points that can trap leaves and grit
+• Helps improve drainage speed at the outlet
+• Lowers the chance of repeat clogs at that connection
+
+What’s not included:
+• Full downspout snaking or clearing beyond the outlet area
+• Replacing the outlet, downspout, or gutter section
+• Gutter cleaning or roof debris removal
+• Leak sealing outside the outlet connection
+
+Just so you know:
+Priced per outlet. If the outlet or downspout is crushed, split, or heavily corroded, replacement is a separate service item.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_fd304b861862496eb52f23d196a5ce29",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Wire Removal from Gutter/Roof,"Loose leftover wiring can end up sitting in the gutter line or sticking out along the roof edge. We access the roofline and remove the abandoned wire so it’s out of the way.
+
+What we do:
+• Set up ladder access to reach the gutter/roof edge area
+• Cut and remove abandoned exterior wire (ex: old satellite/low-voltage line)
+• Pull wire out of the gutter line and remove loose clips/straps when possible
+• Bag/dispose of removed material and clean up
+
+Why it’s worth it:
+• Keeps wire from catching debris in the gutter line
+• Reduces the chance of the wire rubbing or snagging in wind
+• Cleans up the roof edge and gutter area
+
+What’s not included:
+• Electrical work, testing, or reconnecting services
+• Tracing where the wire came from or what it powered
+• Removing active utility/provider lines
+• Repairs to roofing, fascia, or gutter components
+
+Just so you know:
+Priced per removal item. We remove what’s accessible and clearly abandoned; anything tied into active equipment is excluded.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_4b8d73e4cbc1408ea1f2e3fcacdf6fc2",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Downspout End Trim & Safety Cap,"If a downspout end gets bent inward, it can catch debris and slow drainage. We trim off the bent section, then cover the sharp cut edge with a plastic connector/cap.
+
+What we do:
+• Cut off the bent-in/downspout end section to reopen the outlet
+• Deburr and smooth the cut edge as much as possible
+• Install a plastic connector/cap to cover the sharp edge
+• Clean up metal shavings and debris
+
+Why it’s worth it:
+• Helps debris and water exit the downspout more freely
+• Removes the sharp-edge contact risk at the cut point
+• Keeps the discharge end cleaner and more uniform
+
+What’s not included:
+• Rerouting downspouts or changing discharge location
+• Adding extensions, splash blocks, or underground drains
+• Repairing crushed downspout sections above the cut
+• Gutter cleaning or downspout clearing
+
+Just so you know:
+Priced per downspout end. Once a downspout is cut shorter, changing the length later requires additional parts/work.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_60dc2e10714a4b588cbe8f343c375ba6",30.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Downspout Elbow Replacement – Ground Level,"A cracked or smashed elbow can dump water where you don’t want it. We replace the elbow, trim for fit, and paint it to blend with the downspout.
+
+What we do:
+• Remove the damaged downspout elbow
+• Trim/cut for proper fit as needed
+• Install a new plastic elbow (customer-provided or approved equivalent)
+• Prep and paint the elbow to match the existing downspout
+
+Why it’s worth it:
+• Directs water away more predictably at the base
+• Reduces leaks and splashing at the elbow connection
+• Improves appearance with paint to blend
+
+What’s not included:
+• Replacing vertical downspout runs or gutter outlets
+• Underground drain work or extensions beyond the elbow
+• Repainting the full downspout or gutter system
+• Repairs to landscaping or concrete from previous drainage issues
+
+Just so you know:
+Priced per elbow. Paint is best-match and may look slightly different until it fully cures and weathers.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_fb96505ef9124aa78b1b1d59f8667cff",60.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Cleaning,,,Extensive Gutter Cleaning w/Guards,"If your gutters are protected but still backing up or just very dirty, the guards will need to come off so we can clear everything underneath. We’ll remove the existing guards, clean the gutters properly, then reinstall the guards when we’re done.
+
+What we do:
+• Remove existing gutter guards (as needed for access)
+• Clear debris from inside the gutters by hand/blower
+• Flush gutters and downspouts as needed to confirm flow
+• Reinstall the existing guards and secure them back in place
+• Bag and haul off loosened debris from the work area
+
+Why it’s worth it:
+• Stops overflow caused by buildup under the guards
+• Helps gutters and downspouts drain the way they should
+• Reduces leak risk at seams and corners from standing water
+• Extends the time between cleanings on guarded systems
+
+What’s not included:
+• Cleaning the outside faces of gutters
+• Repairing broken guards, clips, fasteners, or damaged gutter sections
+• Replacing guards or upgrading to a new guard system
+• Roof debris removal beyond what falls during guard removal
+• Window cleaning (nearby windows may get splashed during flushing)
+
+Just so you know:
+Priced per linear foot, with additional labor when guards must be fully removed and reinstalled. Guard removal/reinstall time depends on guard type, fastener condition, and roofline access.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_324d98557cd74ab392a15a1acd6f837a",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Repairs,,,Reattach Drip Edge & Secure Gutter – Hanger/Screw Re-Fasten,"If your gutter is sagging or pulling away, we’ll reattach the drip edge where needed and re-secure the gutter to the fascia so it sits tight and drains the way it should.
+
+What we do:
+• Reattach loose drip edge sections at the gutter line
+• Re-seat gutter and re-secure to fascia with screws where needed
+• Refasten/replace loose gutter hangers (minor hardware as needed)
+• Check for proper slope and obvious gaps along the repaired section
+• Clean up any debris created during the work
+
+Why it’s worth it:
+• Reduces dripping and overflow behind the gutter
+• Helps prevent fascia rot and water staining
+• Stops sagging sections from getting worse
+• Improves drainage and keeps seams under less stress
+
+What’s not included:
+• Full gutter cleaning or downspout clearing
+• Sealed seam repairs or leak troubleshooting beyond the worked area
+• Replacing damaged fascia/rafters/drip edge over large sections
+• Gutter guard install or guard removal
+• Exterior gutter face cleaning
+
+Just so you know:
+Pricing is typically per linear foot (or by the section). If the fascia wood is soft/rotted or the drip edge is damaged, we can’t anchor into it until that’s addressed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_344b4f7fab7c43558dd1486c938d5861",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Gutter Guards,,,Gutter Guard Install w/Cleaning (Customer Provided),"We will install the guards you provided after cleaning your gutters
+
+What we do:
+• Remove gutter debris by hand or blower
+• Flush gutters and downspouts as needed to confirm flow
+• Inspect the provided guards for obvious fit issues before starting
+• Prep the gutter edge so the guards sit flat
+• Cut and install guards to match gutter runs and corners
+• Secure the guards based on their design and your roof/gutter edge
+
+Why it’s worth it:
+• Clears existing buildup so water flows correctly right away
+• Helps reduce how often gutters clog up moving forward
+• Lowers overflow risk during heavy rain
+
+What’s not included:
+• Removal of existing/old guards
+• Gutter repairs, seam sealing, or re-leveling
+• Cleaning the outside faces of gutters
+• Replacing missing/incorrect guard parts or hardware
+
+Just so you know:
+Pricing is per linear foot (LF). Customer-provided guards must be complete (enough pieces, fasteners, and correct size). If the product doesn’t fit or parts are missing, we’ll stop and let you know before going further.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ebb0cc4a257f44f7b95ef2a4ea6b233d",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Warranty Work,,,Service Guarantee Return Visit (No Charge),"If something we cleaned or installed isn’t holding up the way it should, we’ll come back out and make it right at no charge.
+
+What we do:
+• Review the original service notes and your concern
+• Re-clean or re-check the specific area related to the original visit
+• Touch up missed spots within the original scope
+• Confirm drainage/flow or performance before we leave
+
+Why it’s worth it:
+• Saves you from paying twice for the same issue
+• Gets the result back to the original standard
+• Keeps small problems from turning into a bigger service call
+
+What’s not included:
+• New areas that weren’t part of the original service
+• Repairs, replacements, or upgrades
+• Exterior faces of gutters
+• Full window cleaning if windows were splashed during gutter work
+
+Just so you know:
+This is a per-visit return service at no charge when it’s tied to the original scope. It doesn’t cover new issues, add-ons, or unrelated work discovered after the first appointment.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_63c6595c9cf54751afd4c204714256c9",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Front Porch/Walkway Pressure Washing – Moss/Algae Treatment,"We’ll clean your front porch surfaces and apply a moss/algae treatment to slow regrowth in damp or shaded areas.
+
+What we do:
+• Clear loose debris from the porch area
+• Pre-treat moss/algae buildup where needed
+• Pressure wash flat surfaces and steps/walkways in the porch zone
+• Rinse down surrounding edges and tidy up the work area
+• Apply a moss/algae treatment to help reduce future growth
+
+Why it’s worth it:
+• Reduces slippery green buildup on walking surfaces
+• Helps slow regrowth in problem spots
+• Makes regular upkeep easier between cleanings
+
+What’s not included:
+• Washing siding or walls (flatwork only)
+• Sealing or coating the surface
+• Deep stain removal (rust, paint, or heavy oil)
+• Repairs to concrete, pavers, or mortar joints
+• Movement of fragile items
+
+Just so you know:
+Pricing is per square foot. Treatment helps slow new growth, but regrowth can still happen depending on shade, moisture, and surface type.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ea56ab7b7a9e4c1bafac7128c168ea5b",100.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Cleaning,,,Gutter Cleaning w/Patio Cover (Roof & Downspouts),"We’ll clear leaves, pine needles, and roof debris from your gutters and downspouts so rainwater drains away from your home and patio cover properly. 
+
+What we do:
+• Remove all gutter debris by hand or blower
+• Flush gutters and downspouts (as needed) to confirm flow
+• Quick visual check for obvious clogs or disconnected sections
+• Clean up the work area before we leave
+• Take before/after pictures of the roof and gutters
+
+Why it’s worth it:
+• Prevents overflow that can damage fascia, siding, and foundations
+• Reduces the chance of roof leaks during heavy rain
+• Stays ahead of costly repairs by removing buildup
+• Prevents damage to gutters themselves
+• Keeps water flowing
+• You are able to see a part of your home that normally goes unnoticed
+
+What’s not included:
+• Cleaning the outside faces of gutters (separate service)
+• Repairs or gutter guard installation
+
+Just so you know:
+Gutter cleaning can get messy and nearby windows may get splashed—we always clean up after ourselves, but window cleaning isn’t included. Pricing typically depends on sq ft of building
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_e32599d9245e47728ee83d607c50f61b",250.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Driveway Moss Treatment & Pressure Washing,"We treat moss/algae to slow regrowth, then pressure wash to thoroughly clean the driveway surface and lift dirt, grime, and buildup.
+
+What we do:
+• Apply a moss/algae treatment to target organic growth
+• Allow proper dwell time before rinsing
+• Pressure wash the driveway to remove surface dirt and buildup
+• Rinse down edges and clean up loosened debris
+
+Why it’s worth it:
+• Cleans the driveway surface, not just the moss
+• Reduces slippery areas caused by organic growth
+• Helps brighten concrete and improve curb appeal
+• Slows regrowth compared to pressure washing alone
+
+What’s not included:
+• Pressure washing walls, siding, or the house
+• Rust removal or specialty stain removal
+• Crack repair, patching, or sealing
+• Guaranteed oil stain removal (often improves, but results vary)
+• Removing heavy items (planters, vehicles, stored materials)
+
+Just so you know:
+Priced per square foot. We can improve most buildup and organic staining, but some deep stains may remain depending on the surface condition and age.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_3e023eb3f937451699bfe7f1bde9b7e8",200.00,0.00,FALSE,1,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Front Walkway Moss/Algae Treatment & Pressure Washing,"We treat organic growth to slow regrowth, then pressure wash to clean the surface and lift dirt, grime, and buildup.
+
+What we do:
+• Apply a moss/algae treatment to target organic growth
+• Allow proper dwell time before rinsing
+• Pressure wash the walkway to remove surface dirt and buildup
+• Rinse edges and clean up loosened debris
+
+Why it’s worth it:
+• Reduces slippery spots caused by organic growth
+• Cleans the surface, not just the green growth
+• Helps brighten concrete and improve curb appeal
+• Slows regrowth compared to pressure washing alone
+
+What’s not included:
+• Pressure washing walls, siding, or the house
+• Rust removal or specialty stain removal
+• Crack repair, patching, or sealing
+• Guaranteed removal of deep stains (results vary by surface and age)
+• Moving heavy items or clearing stored materials
+
+Just so you know:
+Priced per square foot. We can improve most organic staining and surface buildup, but some discoloration may remain if it’s set deep into the concrete or pavers.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_fbf579385cc341b0b70e7cc7f76b1029",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Gutter Repairs,,,Gutter Hanger Replacement - Two Story,"We replace failed or missing gutter hangers to secure the gutter back to the fascia.
+
+What we do:
+• Remove and dispose of damaged/loose hangers
+• Install new hidden hangers where needed
+• Re-secure the gutter run to the fascia in the worked area
+• Tighten and stabilize sections that have shifted
+
+Why it’s worth it:
+• Reduces sagging that can lead to overflow
+• Helps prevent sections from pulling away in wind and rain
+• Lowers the chance of joints opening up from movement
+
+What’s not included:
+• Gutter cleaning or downspout flushing
+• Outside faces of gutters
+• Seam sealing or leak repairs
+• Downspout replacement or reroutes
+• Gutter guard install or removal
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_2b268cf9b33246efaa64095f232e35f3",50.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,"Pressure Wash — Front Driveway, Walkways & Sidewalk","We’ll pressure wash your front driveway, walkways, and sidewalk to remove built-up dirt and organic growth so the surfaces look cleaner and feel safer.
+
+What we do:
+• Pre-treat heavy organic growth where needed
+• Surface clean driveway, walkways, and sidewalk
+• Rinse edges and rinse down surrounding areas
+• Blow off remaining water and debris and tidy up
+
+Why it’s worth it:
+• Reduces slick algae/mildew on walking areas
+• Improves curb appeal without painting or resurfacing
+• Helps slow down future buildup
+
+What’s not included:
+• Washing siding, stucco, or walls
+• Oil/rust stain removal (may improve, not guaranteed)
+• Sealing or re-sanding joints (pavers)
+• Gum removal or specialty stain treatments
+• Moving heavy items (planters, furniture, vehicles)
+
+Just so you know:
+Pricing is typically per sq ft and depends on total area and how heavy the buildup is. Oil stains usually lighten but may not fully come out, and surfaces can look uneven until fully dry.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_daa1fb5869e14cd3a97ec9373de6cf22",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Pressure Washing,,,Garage Pressure Washing,"We’ll pressure wash the garage floor to remove dirt and grime so it’s safer and easier to keep clean.
+What we do:
+• Sweep/blow out loose debris
+• Pre-treat heavy buildup as needed
+• Pressure wash the concrete floor surface
+• Rinse toward the garage door and tidy up runoff at the threshold
+Why it’s worth it:
+• Removes slippery buildup and tracked-in grime
+• Cuts down on odors and dust on the floor
+• Makes it easier to keep the space clean
+What’s not included:
+• Walls, shelving, cabinets, or stored items
+• Oil/rust stain removal (may improve but not guaranteed)
+• Epoxy/coating work or repairs to cracks/joints
+• Hauling away large items or trash
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_1fe69e05a8184ceebd7b252555875500",150.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Bruning Exploitation,"An insane amount of money for unprofessional, most likely going to have to redo and/or repair the work that was done.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_44cadddaa78d44aabf6f348f08b1b809",10000.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Under Roof Tile Cleaning - Bird Droppings,"We’ll remove the buildup from accessible under-tile areas and disinfect so the space is safer and cleaner.
+
+What we do:
+• Set up ladder access and wear protective PPE
+• Remove droppings and nesting debris from accessible under-tile/eave areas
+• Bag and dispose of waste on site
+• Apply disinfectant to treated areas
+• Clean up any fallout around the work area
+
+Why it’s worth it:
+• Reduces bacteria/parasite exposure around your home
+• Helps limit staining and corrosion on nearby materials
+• Cuts down odor and buildup that attracts more activity
+
+What’s not included:
+• Lifting/removing roof tiles to reach hidden areas
+• Repairs to tiles, underlayment, fascia, vents, or soffits
+• Full roof cleaning or moss/algae treatment
+• Bird proofing/mesh installation
+• Attic cleanup or insulation removal
+
+Just so you know:
+Priced per visit or hourly (quote provided based on access and how much waste is present).
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0e02b2e81bcf4f16aa03bbaeb7071405",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Pressure Washing,,,Large Exterior Carpet Cleaning,"We’ll deep clean large outdoor carpeted areas to remove dirt, organic buildup, and stains so the surface looks better and is safer to walk on.
+
+What we do:
+• Pre-treat heavy traffic lanes and stains
+• Pressure wash using carpet-safe settings
+• Apply a light detergent/degreaser as needed
+• Rinse thoroughly to reduce residue
+• Spot-treat remaining problem areas (as possible)
+
+Why it’s worth it:
+• Lifts embedded dirt and grime
+• Reduces slippery organic growth
+• Helps carpet dry cleaner and smell fresher
+• Extends the usable life of the carpet
+
+What’s not included:
+• Interior carpet cleaning
+• Repairs, re-stretching, or re-gluing carpet
+• Paint, rust, or permanent dye/bleach stain removal
+• Mold remediation or sub-surface moisture correction
+• Moving heavy furniture or large built-ins
+
+Just so you know:
+Priced per sq ft. Results depend on the material type, the extent of organic growth, and how much chemical is needed, and some stains may lighten but not fully come out.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_b8691eb0b06e4d41913a45d92a8dec94",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Repairs,,,Large Sliding Screen Door Mesh Replacement – Premium Pet Resistant Mesh,"If your sliding screen door has tears, holes, or loose mesh, we’ll re-screen it with premium pet-resistant material so it holds up better to claws and daily use.
+
+What we do:
+• Remove the old screen mesh and spline
+• Inspect the frame and screen channel for fit issues
+• Install premium pet-resistant mesh and new spline as needed
+• Tension and trim the mesh for a clean, tight finish
+• Rehang the screen door and verify it rolls and latches properly
+
+Why it’s worth it:
+• Stops bugs from getting in through rips and gaps
+• Holds up better against pets than standard fiberglass mesh
+• Extends the life of your existing screen door frame
+• Improves door glide by correcting loose or wavy screening
+
+What’s not included:
+• Frame replacement or structural door repairs
+• Roller, latch, or track repairs/replacement
+• Track cleaning or lubrication
+• Custom color-matching beyond available mesh options
+• Full door adjustment if the slider is warped or out of square
+
+Just so you know:
+Priced per screen door. 
+Final price depends on door size, frame condition, and how much spline/channel cleanup is needed.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_6c4f3fac36c1496abd5fca3810360404",0.00,150.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Window Screen Mesh Replacement – Premium High Visibility Mesh (UltraVue),"Your screens take a beating from sun, pets, and everyday wear. We’ll replace the torn or brittle mesh with UltraVue high-visibility material so you get airflow and a clearer view.
+
+What we do: 
+• Remove the screen frame (as needed) and take out the old mesh and spline
+• Clean the screen channel and prep the frame for re-meshing
+• Install UltraVue high-visibility mesh and new spline for a tight fit
+• Reinstall the screen and verify it sits properly in the window
+
+Why it’s worth it: 
+• Improves visibility without sacrificing airflow
+• Helps keep bugs out with a tighter, newer mesh
+• Extends the life of your existing screen frames
+
+What’s not included: 
+• Frame rebuilding, bent frame straightening, or corner/hardware replacement
+• Pet-proof mesh upgrades or specialty security screens
+• Window track cleaning or window washing
+• Repairs to window latches, rollers, or window operation issues
+• New screen frame fabrication (full new screens)
+
+Just so you know: 
+Priced per screen, based on screen size and frame condition. 
+If the frame is warped or damaged, the mesh may not tension evenly and we’ll let you know what options make sense.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_4ab160198fff48f4a0bac0c72b6dfb45",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Premium Window Cleaning – Exterior Only (Second-Story Feature Window),"We’ll clean the outside of this second-story window by hand using professional tools and techniques. Because of the height and access involved, this service takes extra setup and care to safely remove dust, grime, and normal exterior buildup — leaving the glass clear and streak-free.
+
+What we do:
+• Hand clean exterior window glass with a streak-free, residue-free solution
+• Use super-fine steel wool to remove stuck-on grime or buildup
+• Use ladder access and careful positioning as needed for safe second-story service
+
+Why it’s worth it:
+• Safely cleans hard-to-reach second-story glass
+• Removes dirt and debris that dull the glass
+• Gives you a clear, professionally cleaned finish
+
+What’s not included:
+• Hard-water stain removal
+• Excessive paint, adhesive, or heavy stuck-on debris (unless quoted separately)
+• Screen or track cleaning (available as separate services)
+
+Just so you know:
+Pricing for second-story windows is higher than standard lower-story windows because of the extra height, ladder work, setup, and access involved.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_42371586ae814e85991c4725faf27575",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Premium Window Cleaning,,,Second Story Window Paint Removal,"We’ll remove paint and other stubborn construction-type debris from the exterior glass of this second-story window by hand using safe, professional techniques. Because of the height, ladder access, and extra detailing involved, this service takes more time and care than standard window cleaning.
+
+What we do:
+• Carefully remove paint, overspray, and stuck-on debris from exterior glass
+• Use professional hand tools and techniques designed for glass-safe detailing
+• Work through problem areas by hand for a cleaner, more uniform finish
+• Access the window safely using ladder setup and careful positioning as needed
+
+Why it’s worth it:
+• Restores clarity to glass affected by paint or construction debris
+• Improves the appearance of the window beyond standard cleaning alone
+• Helps remove stubborn buildup that regular window cleaning does not address
+• Gives hard-to-reach second-story glass the extra detail it needs
+
+What’s not included:
+• Hard-water stain removal
+• Scratched, etched, or permanently damaged glass
+• Interior paint or debris removal
+• Full post-construction cleanup beyond the quoted window area
+
+Just so you know:
+Pricing depends on the amount of paint or debris present, the time required for removal, and second-story access.
+This service is priced separately from standard window cleaning because it requires more detailed labor and specialty removal work.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_b08d1ed03d7848fb9505d0576b6dedb2",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Commercial Window Cleaning,,,Commercial Window Cleaning (Initial Clean),"If it’s been awhile since your last clean, we 
+
+What we do:
+• Clean interior/exterior window glass
+• Wipe frames and sills as needed during normal cleaning
+
+Why it’s worth it:
+• Gives the property a cleaner starting point
+• Improves visibility from the first visit
+• Makes ongoing service easier to maintain
+
+What’s not included:
+• Screens and tracks (if there is any)
+• Hard water stain removal, paint, or adhesive removal
+• Lift rental or specialty access equipment (if multiple stories
+
+Just so you know:
+Priced per pane. Initial cleans are usually higher than maintenance service because of extra buildup
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_70e124b03dd04a188ebc9d11ebd43c09",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Window Tint Installation,,,Residential Window Tint Installation - Customer provided film,"We install window film on your home’s glass and come back on a second day to seal the edges after the film cures.  ￼
+
+What we do:
+• Clean and prep the glass before installation
+• Apply residential window film to the agreed windows
+• Trim and set the film to fit each pane
+• Return after drying to seal the film edges
+
+Why it’s worth it:
+• Reduces glare and helps with daytime privacy
+• Helps lower heat and sun exposure through the glass
+• Gives the film a cleaner, more secure finished edge
+• Includes a follow-up visit so final sealing is done after curing
+
+What’s not included:
+• Window film
+• Glass repair or scratch removal
+• Removal of old film unless added separately
+• Frame, track, or screen cleaning
+• Film replacement for failed seals, broken glass, or moisture between panes
+
+Just so you know:
+Priced per window. Some light haze or small water pockets can show during drying, and the return visit for edge sealing is done after the film has had time to cure.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_8907659bffdd4119bf0f46c97227dfbf",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Repairs,,,Window Screen Frame Repair w/ Mesh Replacement,"We repair damaged window screen frames and replace worn or torn mesh so the screen fits properly and does its job again. This is a good option when the frame is bent, separated, or loose and the mesh also needs to be redone.
+
+What we do:
+• Inspect the frame, corners, and screen fit
+• Re-square or rebuild the frame as needed
+• Replace damaged frame sections or hardware when applicable
+• Install new screen mesh and spline if necessary
+• Reinstall the screen and check fit in the opening
+
+Why it’s worth it:
+• Helps the screen sit properly in the window
+• Reduces gaps that let bugs and debris in
+• Replaces torn or stretched mesh
+• Extends the life of the screen when the frame can still be repaired
+
+What’s not included:
+• Window cleaning
+• Pet-resistant or specialty mesh unless added separately
+
+Just so you know:
+Priced per screen. Final price depends on screen size, frame condition, mesh type, and whether standard repair materials will match the existing frame.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_095e0ca80c1447b8a3138c7bd6971e3b",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Solar Panel Maintenance,,,Solar Panels - Debris Removal,"Debris can pack in under your solar array and hold moisture, block drainage, and create a mess on the roof. We remove loose buildup like pine needles, leaves, and small debris where it’s safely accessible.
+
+What we do:
+• Remove debris from under and around the array
+• Hand-clear packed areas where we can safely reach
+• Clean up the ground the best we can
+
+Why it’s worth it:
+• Lowers buildup that can trap moisture
+• Helps reduce clogging around the array
+• Cuts down on debris sitting against the roof
+• Gives you a cleaner area around the panels
+
+What’s not included:
+• Full solar panel cleaning
+• Bird proofing or mesh installation
+• Roof repairs or roof cleaning
+• Electrical work or panel detachment
+• Removal of debris we can’t safely reach without disassembly
+
+Just so you know:
+Priced per panel. Final price depends on panel count, roof access, and how much debris is packed under the array. We use a leaf blower and blow as much of the debris that we can from under the solar panels.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_0857c921f0de4aa58bc8b347bc649601",50.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Custom Services,,,Satellite Dish Removal – Two-Story Apartment Buildings,"We’ll remove satellite dishes from two-story apartment buildings and take down the attached mounting hardware at each location. This covers removal of 9 dish assemblies as whole units from roof, eaves, and wall-mounted locations as applicable.
+
+What we do:
+• Access two-story mounting locations
+• Detach each dish as a whole unit
+• Remove associated brackets and mounting hardware
+• Lower and stage removed units for haul-off
+
+Why it’s worth it:
+• Clears obsolete equipment from the buildings
+• Includes two-story access as part of the scope
+• Removes attached hardware, not just the dish face
+• Leaves mounting areas ready for basic closure
+
+What’s not included:
+• Disassembly of dishes into parts on site
+• Roofing, carpentry, or stucco repair
+• Painting, texture matching, or finish work
+• New equipment installation or relocation
+
+Just so you know:
+Priced per dish.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_c3c9364745434168b84d4fa80f78fabc",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Penetration Sealing / Surface Closure After Removal of Satellite Dishes,"After the dishes are removed, we’ll seal or close exposed holes and penetrations left at the mounting points. This is basic weather sealing only, using appropriate sealant or patch material based on whether the location is at the roof, eaves, or stucco/wall surface.
+
+What we do:
+• Seal exposed holes left by removed hardware
+• Close basic penetrations at roof, eaves, or wall surfaces
+• Apply appropriate sealant or patch material by surface type
+• Leave mounting areas in a closed, weather-sealed condition
+
+Why it’s worth it:
+• Helps limit moisture entry at former mounting points
+• Addresses exposed penetrations as part of the removal work
+• Keeps the scope clear and easy to document
+
+What’s not included:
+• Cosmetic repair or surface restoration
+• Painting or texture matching
+• Shingle replacement or roof repair
+• Stucco patch blending or finish work
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_d6e8f6c06dc5421f8c03c798da54bfa7",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Custom Services,,,Haul-Off and Disposal of Removed Satellite Dishes,"We’ll remove the discarded satellite dishes from the property and dispose of them off site. This is included for site cleanup and convenience since the customer does not have room in the onsite dumpster.
+
+What we do:
+• Load removed dishes and hardware from the property
+• Haul debris off site
+• Dispose of removed materials
+• Leave the work area cleared of removed dish debris
+
+Why it’s worth it:
+• Keeps debris out of the property’s dumpster
+• Simplifies cleanup for management and maintenance staff
+• Completes the job without leaving removed materials behind
+
+What’s not included:
+• Disposal of unrelated jobsite debris
+• Dumpster service or onsite container rental
+• Removal of equipment not included in this scope
+
+Just so you know:
+Included at no additional charge. This applies to the 9 removed satellite dishes and their associated mounting hardware only.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_4890c29488c242c28b0f7e786055a68d",0.00,0.00,FALSE,,,FALSE
+Window & Exterior Cleaning,Window Screen Mesh Replacement,,,Small Window Sized Screen Replacement (Premium Vue Mesh),"If your window screens are torn, brittle, or no longer doing their job, we can replace just the mesh without needing to replace the whole frame. Choose from a range of mesh types to match your needs and budget.
+
+What we do:
+• Remove the damaged screen from the frame
+• Replace with new mesh, cut and fitted to size
+• Secure with new spline and reinstall in the existing frame
+• Check for a clean, tight fit before returning the screen to you
+
+Why it’s worth it:
+• Restores screen function without replacing the frame
+• Keeps bugs and debris out while allowing airflow
+• Helps your windows look clean and maintained
+• Choose from standard, pet-resistant, or solar mesh options
+
+What’s not included:
+• Frame repairs or replacement (this service covers mesh only)
+• Screens that are bent, warped, or damaged beyond repair
+
+Just so you know:
+We install several mesh types including standard, pet-resistant, and solar screen. Let us know what you're looking for and we’ll help you pick the right fit.
+
+Pricing depends on mesh type, screen size, and how many screens you need done.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_d85c936d25894dbbad24be50eb077c49",75.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Window Screen Mesh Replacement,,,Normal Window Sized Screen Replacement (Premium Vue Mesh),"If your window screens are torn, brittle, or no longer doing their job, we can replace just the mesh without needing to replace the whole frame. Choose from a range of mesh types to match your needs and budget.
+
+What we do:
+• Remove the damaged screen from the frame
+• Replace with new mesh, cut and fitted to size
+• Secure with new spline and reinstall in the existing frame
+• Check for a clean, tight fit before returning the screen to you
+
+Why it’s worth it:
+• Restores screen function without replacing the frame
+• Keeps bugs and debris out while allowing airflow
+• Helps your windows look clean and maintained
+• Choose from standard, pet-resistant, or solar mesh options
+
+What’s not included:
+• Frame repairs or replacement (this service covers mesh only)
+• Screens that are bent, warped, or damaged beyond repair
+
+Just so you know:
+We install several mesh types including standard, pet-resistant, and solar screen. Let us know what you're looking for and we’ll help you pick the right fit.
+
+Pricing depends on mesh type, screen size, and how many screens you need done.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_2cf716269ea74d3ebe6903811a2dcce0",100.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Window Screen Frame/Assembly Maintenance,,,Sliding Screen Door Roller Restoration,"We restore the rolling hardware on the sliding screen door by cleaning up the wheel and bolt assembly and reinstalling it. This includes rust removal, wire brushing, and greasing the wheels before putting them back in place.
+
+What we do:
+• Remove the wheel and bolt hardware
+• Soak rusted parts in rust remover
+• Wire brush the wheels and bolts
+• Reinstall the wheels
+• Grease the wheels after reinstalling
+
+Why it’s worth it:
+• Improves appearance and functionality of existing hardware
+• Helps the door roll more smoothly
+• Clarifies that this is restoration work, not full replacement
+
+What’s not included:
+• New wheels, bolts, or other replacement parts
+• Screen mesh repair or replacement
+• Frame repair or track repair
+• Lock, handle, or latch repair
+• Full door replacement or new door installation
+
+Just so you know:
+Pricing is typically based per door unless noted otherwise. This is restoration of the existing wheel hardware, so final results depend on the condition of the original parts.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_43294b5d0a044fc7bcf89b4f6e7974cd",95.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Window Screen Frame/Assembly Maintenance,,,Sliding Screen Door Frame Painting - One side,"We paint one side of the sliding screen door frame. This is for the frame only and does not include the mesh or full door restoration. 
+
+What we do:
+• Prep the paintable side of the screen door frame
+• Apply paint to one side of the frame only
+• Work around the existing screen and frame layout
+• Clean up the immediate work area when finished
+
+Why it’s worth it:
+• Freshens up the side of the door you see most
+• Helps the frame look more uniform with nearby trim or doors
+• Covers worn or faded finish on that side
+• Keeps the scope focused if only one side needs attention
+
+What’s not included:
+• Painting both sides of the screen door frame
+• Screen mesh repair or replacement
+• Track cleaning or sliding door service
+• Dent repair, frame straightening, or hardware replacement
+
+Just so you know:
+Pricing is per door side unless noted otherwise. Color match and finish can vary slightly depending on the existing condition and surface.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_051bf7d799654d41924b511fa1a8808f",120.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Satellite Dish Removal,,,Haul-Off and Disposal of Removed Satellite Dishes,"We will haul off and dispose of the removed satellite dishes and related hardware as part of this job. This is included because onsite dumpster space is not available.
+
+What we do:
+• Load removed dishes and mounting hardware for removal from the property
+• Haul off all materials generated by the dish removals
+• Dispose of removed materials offsite
+
+Why it’s worth it:
+• Keeps removed materials from being left onsite
+• Avoids using limited property space for debris storage
+• Leaves the work area cleared of the removed dish materials
+
+What’s not included:
+• Disposal of unrelated property debris or bulk items
+• Use of onsite dumpster space
+• Haul-off of materials not generated by this scope
+
+Just so you know:
+Haul-off and disposal for the removed satellite dishes and related hardware. This applies only to materials generated from this scope of work.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_07dba61ddd9d4c02869ca9c05d13339d",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Roof cleaning,,,Asphalt Roof Moss Treatment,"Treat moss growth on asphalt shingle roofing using a low-pressure roof-safe application. This service is for asphalt roofs only and is intended to address organic growth without using high-pressure washing.
+
+What we do:
+• Inspect the roof surface for visible moss growth and treatment needs
+• Apply moss treatment to affected asphalt shingle areas
+• Use a low-pressure application method suited for asphalt roofing
+• Treat organic growth with the goal of stopping further moss activity
+• Note visible roof condition issues that may affect service results
+
+Why it’s worth it:
+• Slows ongoing moss growth that can hold moisture against the roof
+• Helps reduce further buildup in shaded or damp areas
+• Lowers the need for harsher cleaning methods on asphalt shingles
+• Supports ongoing roof maintenance between larger services or repairs
+
+What’s not included:
+• Manual scraping, brushing, or physical moss removal unless listed separately
+• Gutter cleaning or removal of roof debris from gutters and downspouts
+• Roof repairs, shingle replacement, or leak diagnosis
+• Treatment of tile, metal, cedar, or other non-asphalt roofing
+• Cleanup of heavy moss falloff from landscaping or surrounding areas unless listed separately
+
+Just so you know:
+Pricing is typically based on roof size, moss severity, access, and how much of the roof needs treatment. Moss usually dies first and releases gradually over time, so the roof may not look fully cleared immediately after service.
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_ba72f734db4b457f84719146b87d4219",0.00,0.00,FALSE,,,TRUE
+Window & Exterior Cleaning,Roof cleaning,,,Roof Treatment Courtesy Follow-Up,"Return after service to check treatment progress and confirm the roof is responding as expected. This visit is a visual follow-up for previously treated roof areas.
+
+What we do:
+• Reinspect previously treated roof areas from the ground or accessible vantage points
+• Check visible moss condition and treatment progress
+• Look for areas where moss remains heavy or progress appears uneven
+• Document visible results with notes or photos when needed
+• Recommend next steps if additional treatment or related service appears needed
+
+Why it’s worth it:
+• Helps confirm the treatment is progressing normally
+• Catches areas that may need more attention before they become a bigger issue
+• Gives the customer a clear update after enough time has passed
+• Creates a cleaner handoff between the original service and any next recommendation
+
+What’s not included:
+• New roof treatment beyond the original approved scope
+• Roof repairs, leak diagnosis, or shingle replacement
+• Full roof cleaning or removal of newly fallen debris
+• Gutter cleaning or cleanup of roof runoff debris
+• Walking fragile or unsafe roof sections unless separately approved
+
+Just so you know:
+Pricing is per follow-up visit unless included with the original service. This is a visual courtesy check about one month after treatment, not a guarantee that all moss will be fully gone by that date.**
+
+Source metadata (preserved from HCP export):
+- industry_uuid: ind_50413bdcbb67410da504845ec48af17d
+- source_uuid: olit_e1e6fa80d36f463aba7f9d6e5e162e16",0.00,0.00,FALSE,,,TRUE
