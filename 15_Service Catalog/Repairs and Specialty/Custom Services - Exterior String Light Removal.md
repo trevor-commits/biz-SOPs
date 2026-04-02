@@ -49,7 +49,7 @@ tags:
 > - CRM category: Custom Services
 > - Source UUID: olit_0e36a6fba91645a6a16b9738f75f0e61
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

@@ -4,7 +4,9 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 
 ## How To Use
 - Treat `15_Service Catalog/` as the curated working home for service descriptions.
-- Keep the raw and normalized CSV source files in `50_Reference/CRM Service Descriptions/`.
+- Keep both CRM CSV reference files in `50_Reference/CRM Service Descriptions/`.
+- Treat the raw HCP export as the generator source of truth so UUIDs and categories stay first-class fields instead of being re-parsed from note copy.
+- Treat the template-compatible CSV as a downstream import/reference derivative, not the identity source for note generation.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
 - Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 

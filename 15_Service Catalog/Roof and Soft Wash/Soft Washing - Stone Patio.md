@@ -49,7 +49,7 @@ tags:
 > - CRM category: Soft Washing
 > - Source UUID: olit_e85c15a40f2a4eeb911845854b73e949
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.

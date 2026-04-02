@@ -89,7 +89,7 @@ This is a great add-on if you’re already getting your driveway or patio cleane
 > - CRM category: Pressure Washing
 > - Source UUID: olit_f34595f5192e4e6492eaf4327962c69b
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.

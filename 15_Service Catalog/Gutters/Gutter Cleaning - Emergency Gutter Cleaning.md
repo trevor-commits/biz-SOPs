@@ -94,7 +94,7 @@ This service is designed for urgent situations only. Pricing reflects priority s
 > - CRM category: Gutter Cleaning
 > - Source UUID: olit_0566e7eda25d48098e3d8b56d0f3148e
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

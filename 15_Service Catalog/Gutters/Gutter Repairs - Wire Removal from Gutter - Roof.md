@@ -94,7 +94,7 @@ Priced per removal item. We remove what’s accessible and clearly abandoned; an
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_4b8d73e4cbc1408ea1f2e3fcacdf6fc2
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

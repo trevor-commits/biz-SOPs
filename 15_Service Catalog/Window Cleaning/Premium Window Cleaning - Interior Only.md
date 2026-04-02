@@ -91,7 +91,7 @@ Pricing depends on window count, accessibility, and layout. Add-ons are availabl
 > - CRM category: Premium Window Cleaning
 > - Source UUID: olit_2ef08e0a44d040959da46888b3973cca
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

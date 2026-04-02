@@ -90,7 +90,7 @@ tags:
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_2b268cf9b33246efaa64095f232e35f3
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

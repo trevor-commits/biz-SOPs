@@ -97,7 +97,7 @@ Priced per square foot. We can improve most buildup and organic staining, but so
 > - CRM category: Pressure Washing
 > - Source UUID: olit_3e023eb3f937451699bfe7f1bde9b7e8
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.

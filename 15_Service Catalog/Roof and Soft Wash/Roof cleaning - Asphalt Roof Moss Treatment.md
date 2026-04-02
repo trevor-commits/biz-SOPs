@@ -100,7 +100,7 @@ Pricing is typically based on roof size, moss severity, access, and how much of 
 > - CRM category: Roof cleaning
 > - Source UUID: olit_ba72f734db4b457f84719146b87d4219
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

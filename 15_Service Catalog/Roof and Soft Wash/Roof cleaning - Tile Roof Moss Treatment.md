@@ -97,7 +97,7 @@ Priced per square foot of roof area. Moss browns in 1–3 weeks and sheds gradua
 > - CRM category: Roof cleaning
 > - Source UUID: olit_c0ae7df4f7e34ff2a4eb887a0f0f7f7a
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

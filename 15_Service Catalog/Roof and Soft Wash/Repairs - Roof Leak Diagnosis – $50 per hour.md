@@ -91,7 +91,7 @@ Rate is $50/hour with a 1-hour minimum. Weather and roof safety may limit testin
 > - CRM category: Repairs
 > - Source UUID: olit_ba8eab67eadc4305b816488fdbb287a6
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

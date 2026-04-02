@@ -95,7 +95,7 @@ Pricing depends on roof size, access, and how much debris needs to be removed.
 > - CRM category: Gutter Cleaning
 > - Source UUID: olit_af80249ad849491f8e9c67f332599a55
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

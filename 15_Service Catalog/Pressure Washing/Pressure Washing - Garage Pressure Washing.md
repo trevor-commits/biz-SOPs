@@ -85,7 +85,7 @@ tags:
 > - CRM category: Pressure Washing
 > - Source UUID: olit_1fe69e05a8184ceebd7b252555875500
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.

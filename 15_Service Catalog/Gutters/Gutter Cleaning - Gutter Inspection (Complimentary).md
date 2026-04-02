@@ -94,7 +94,7 @@ You’ll get a verbal summary of our findings and recommendations on the spot. I
 > - CRM category: Gutter Cleaning
 > - Source UUID: olit_54c7d498a77847f0aec2211078b2ba7d
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

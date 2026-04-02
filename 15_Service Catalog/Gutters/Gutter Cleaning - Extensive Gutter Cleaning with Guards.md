@@ -100,7 +100,7 @@ Priced per linear foot, with additional labor when guards must be fully removed 
 > - CRM category: Gutter Cleaning
 > - Source UUID: olit_324d98557cd74ab392a15a1acd6f837a
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

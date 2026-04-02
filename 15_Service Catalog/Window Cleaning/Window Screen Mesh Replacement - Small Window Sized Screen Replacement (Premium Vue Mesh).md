@@ -95,7 +95,7 @@ Pricing depends on mesh type, screen size, and how many screens you need done.
 > - CRM category: Window Screen Mesh Replacement
 > - Source UUID: olit_d85c936d25894dbbad24be50eb077c49
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

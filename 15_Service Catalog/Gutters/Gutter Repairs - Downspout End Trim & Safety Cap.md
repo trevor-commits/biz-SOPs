@@ -93,7 +93,7 @@ Priced per downspout end. Once a downspout is cut shorter, changing the length l
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_60dc2e10714a4b588cbe8f343c375ba6
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

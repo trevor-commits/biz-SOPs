@@ -93,7 +93,7 @@ Pricing depends on how much debris has built up and the type of guard installed.
 > - CRM category: Gutter Guards
 > - Source UUID: olit_cac084d16ee64fddb5b2dd5e2ecd5a14
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

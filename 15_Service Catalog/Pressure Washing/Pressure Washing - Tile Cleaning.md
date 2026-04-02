@@ -94,7 +94,7 @@ Pricing depends on tile type, square footage, and surface condition.
 > - CRM category: Pressure Washing
 > - Source UUID: olit_94c54fb879b84ad0ac08d1596e71168e
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

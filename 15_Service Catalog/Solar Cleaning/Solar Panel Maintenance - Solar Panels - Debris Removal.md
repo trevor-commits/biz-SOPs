@@ -95,7 +95,7 @@ Priced per panel. Final price depends on panel count, roof access, and how much 
 > - CRM category: Solar Panel Maintenance
 > - Source UUID: olit_0857c921f0de4aa58bc8b347bc649601
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

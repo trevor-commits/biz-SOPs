@@ -91,7 +91,7 @@ We don’t use pressure washers or harsh chemicals — only solar-approved tools
 > - CRM category: Solar Panel Maintenance
 > - Source UUID: olit_f2978cb715ba4308b4217cdc42955c85
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.

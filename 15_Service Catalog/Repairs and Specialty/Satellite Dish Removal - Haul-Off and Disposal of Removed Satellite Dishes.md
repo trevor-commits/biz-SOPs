@@ -90,11 +90,11 @@ Haul-off and disposal for the removed satellite dishes and related hardware. Thi
 > - CRM category: Satellite Dish Removal
 > - Source UUID: olit_07dba61ddd9d4c02869ca9c05d13339d
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
-> - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - This title appears more than once across CRM categories. Verify whether the rows should remain distinct or be renamed for clearer catalog routing.
 > - Description says this work is included with another service, but the CRM row is also online-bookable. Confirm whether it should stay as a separate bookable item.
 
 > [!abstract]- Review History

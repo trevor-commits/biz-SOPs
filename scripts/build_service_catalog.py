@@ -14,14 +14,14 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_ROOT = ROOT / "15_Service Catalog"
-NORMALIZED_CSV = (
+RAW_EXPORT_CSV = (
     ROOT
-    / "50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv"
+    / "50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv"
 )
 OVERRIDES_CSV = CATALOG_ROOT / "service_catalog_overrides.csv"
 DASHBOARD_MD = CATALOG_ROOT / "Dashboard.md"
 BASE_FILE = CATALOG_ROOT / "Service Catalog.base"
-SOURCE_FILE_LABEL = "GilletteWindowSolarCleaning_pricebook_template_compatible.csv"
+SOURCE_FILE_LABEL = "GilletteWindowSolarCleaning_pricebook_export.csv"
 
 SERVICE_FOLDERS = [
     "Window Cleaning",
@@ -51,6 +51,62 @@ STANDARD_SERVICE_CATEGORIES = {
     "Solar Panel Maintenance",
     "Roof cleaning",
     "Soft Washing",
+}
+
+CATEGORY_SERVICE_LINE_MAP = {
+    "Premium Window Cleaning": "Window Cleaning",
+    "Commercial Window Cleaning": "Window Cleaning",
+    "Pressure Washing": "Pressure Washing",
+    "Gutter Cleaning": "Gutters",
+    "Gutter Guards": "Gutters",
+    "Gutter Repairs": "Gutters",
+    "Solar Panel Maintenance": "Solar Cleaning",
+    "Roof cleaning": "Roof and Soft Wash",
+    "Soft Washing": "Roof and Soft Wash",
+    "Window Screen Mesh Replacement": "Window Cleaning",
+    "Window Screen Frame/Assembly Maintenance": "Window Cleaning",
+    "Window Tint Installation": "Window Cleaning",
+    "Warranty Work": "Estimates and Internal Review",
+    "Satellite Dish Removal": "Repairs and Specialty",
+}
+
+BIRD_PROOFING_SERVICE_LINE_BY_TITLE = {
+    "Roof Bird Waste Cleaning and Removal": "Roof and Soft Wash",
+    "Bird Spike Installation": "Roof and Soft Wash",
+    "Solar Panel Bird Proofing": "Solar Cleaning",
+    "Plastic Bird Spike Installation": "Roof and Soft Wash",
+    "Metal Bird Spike Installation": "Roof and Soft Wash",
+}
+
+REPAIR_SERVICE_LINE_BY_TITLE = {
+    "Window Screen Replacement": "Window Cleaning",
+    "Roof Tile Repair/Replacement": "Roof and Soft Wash",
+    "Roof Leak Diagnosis – $50/hour": "Roof and Soft Wash",
+    "Seal Leaky Roof Vent": "Roof and Soft Wash",
+    "Large Sliding Screen Door Mesh Replacement – Premium Pet Resistant Mesh": "Window Cleaning",
+    "Window Screen Frame Repair w/ Mesh Replacement": "Window Cleaning",
+}
+
+CUSTOM_SERVICE_LINE_BY_TITLE = {
+    "Exterior String Light Removal": "Repairs and Specialty",
+    "Cobweb Removal": "Repairs and Specialty",
+    "General Work": "Repairs and Specialty",
+    "Paint Touch up": "Repairs and Specialty",
+    "Home Bird Proofing": "Repairs and Specialty",
+    "Plastic Installation on skylight": "Window Cleaning",
+    "Window Blind Removal": "Window Cleaning",
+    "Tree Trimming": "Repairs and Specialty",
+    "Tree Trimming Removal": "Repairs and Specialty",
+    "Downspout Extension Installation": "Gutters",
+    "Parental Exploitation": "Repairs and Specialty",
+    "Second Story Exterior Window Film Application (Customer Supplied)": "Window Cleaning",
+    "Leaf Raking": "Repairs and Specialty",
+    "Bruning Exploitation": "Repairs and Specialty",
+    "Under Roof Tile Cleaning - Bird Droppings": "Roof and Soft Wash",
+    "Window Screen Mesh Replacement – Premium High Visibility Mesh (UltraVue)": "Window Cleaning",
+    "Satellite Dish Removal – Two-Story Apartment Buildings": "Repairs and Specialty",
+    "Penetration Sealing / Surface Closure After Removal of Satellite Dishes": "Repairs and Specialty",
+    "Haul-Off and Disposal of Removed Satellite Dishes": "Repairs and Specialty",
 }
 
 WINDOW_KEYWORDS = (
@@ -182,7 +238,7 @@ def sanitize_filename(value: str) -> str:
 
 
 def money_to_float(value: str) -> float:
-    value = value.strip()
+    value = value.strip().replace("$", "").replace(",", "")
     if not value:
         return 0.0
     return float(value)
@@ -190,20 +246,6 @@ def money_to_float(value: str) -> float:
 
 def bool_from_csv(value: str) -> bool:
     return value.strip().lower() == "true"
-
-
-def split_description_and_metadata(value: str) -> tuple[str, dict[str, str]]:
-    marker = "Source metadata (preserved from HCP export):\n"
-    if marker not in value:
-        return value.strip(), {}
-    body, metadata_block = value.split(marker, 1)
-    metadata: dict[str, str] = {}
-    for line in metadata_block.splitlines():
-        if not line.startswith("- "):
-            continue
-        key, raw_value = line[2:].split(":", 1)
-        metadata[key.strip()] = raw_value.strip()
-    return body.rstrip().strip(), metadata
 
 
 def load_overrides() -> dict[str, dict[str, str]]:
@@ -227,23 +269,22 @@ def load_overrides() -> dict[str, dict[str, str]]:
 
 def load_records() -> list[SourceRecord]:
     records: list[SourceRecord] = []
-    with NORMALIZED_CSV.open(newline="", encoding="utf-8-sig") as handle:
+    with RAW_EXPORT_CSV.open(newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            source_copy, metadata = split_description_and_metadata(row["description"])
             records.append(
                 SourceRecord(
                     industry=clean_whitespace(row["industry"]),
                     category=clean_whitespace(row["category"]),
                     source_name=row["name"],
-                    description=source_copy,
+                    description=row["description"].strip(),
                     price=money_to_float(row["price"]),
                     cost=money_to_float(row["cost"]),
                     taxable=bool_from_csv(row["taxable"]),
                     unit_of_measure=clean_whitespace(row["unit_of_measure"]),
                     online_booking_enabled=bool_from_csv(row["online_booking_enabled"]),
-                    source_uuid=metadata.get("source_uuid", ""),
-                    source_industry_uuid=metadata.get("industry_uuid", ""),
+                    source_uuid=clean_whitespace(row["uuid"]),
+                    source_industry_uuid=clean_whitespace(row["industry_uuid"]),
                 )
             )
     return records
@@ -258,18 +299,9 @@ def infer_service_line(record: SourceRecord) -> str:
     category = record.category
     title = clean_whitespace(record.source_name)
     combined = f"{category} {title}"
-    if category in {"Premium Window Cleaning", "Commercial Window Cleaning"}:
-        return "Window Cleaning"
-    if category == "Pressure Washing":
-        return "Pressure Washing"
-    if category in {"Gutter Cleaning", "Gutter Guards", "Gutter Repairs"}:
-        return "Gutters"
-    if category == "Solar Panel Maintenance":
-        return "Solar Cleaning"
-    if category in {"Roof cleaning", "Soft Washing"}:
-        return "Roof and Soft Wash"
-    if category in {"Window Screen Mesh Replacement", "Window Screen Frame/Assembly Maintenance", "Window Tint Installation"}:
-        return "Window Cleaning"
+    explicit_category_route = CATEGORY_SERVICE_LINE_MAP.get(category)
+    if explicit_category_route and category not in {"Bird Proofing", "Repairs", "Custom Services", "Estimates"}:
+        return explicit_category_route
     if category == "Estimates":
         if contains_any(combined, GUTTER_KEYWORDS):
             return "Gutters"
@@ -278,17 +310,19 @@ def infer_service_line(record: SourceRecord) -> str:
         if contains_any(combined, WINDOW_KEYWORDS):
             return "Window Cleaning"
         return "Estimates and Internal Review"
-    if category == "Warranty Work":
-        return "Estimates and Internal Review"
     if category == "Bird Proofing":
+        explicit_title_route = BIRD_PROOFING_SERVICE_LINE_BY_TITLE.get(title)
+        if explicit_title_route:
+            return explicit_title_route
         if contains_any(combined, SOLAR_KEYWORDS):
             return "Solar Cleaning"
         if contains_any(combined, ROOF_KEYWORDS):
             return "Roof and Soft Wash"
         return "Repairs and Specialty"
-    if category == "Satellite Dish Removal":
-        return "Repairs and Specialty"
     if category == "Repairs":
+        explicit_title_route = REPAIR_SERVICE_LINE_BY_TITLE.get(title)
+        if explicit_title_route:
+            return explicit_title_route
         if contains_any(combined, WINDOW_KEYWORDS):
             return "Window Cleaning"
         if contains_any(combined, ROOF_KEYWORDS):
@@ -297,6 +331,9 @@ def infer_service_line(record: SourceRecord) -> str:
             return "Gutters"
         return "Repairs and Specialty"
     if category == "Custom Services":
+        explicit_title_route = CUSTOM_SERVICE_LINE_BY_TITLE.get(title)
+        if explicit_title_route:
+            return explicit_title_route
         if contains_any(combined, WINDOW_KEYWORDS):
             return "Window Cleaning"
         if contains_any(combined, GUTTER_KEYWORDS):
@@ -345,6 +382,7 @@ def description_contains_heading(description: str, heading: str) -> bool:
 def infer_review_status(
     record: SourceRecord,
     duplicate_title_counts: Counter,
+    duplicate_category_title_counts: Counter,
     duplicate_filename_counts: Counter,
     records_by_line: dict[str, list[SourceRecord]],
 ) -> tuple[str, bool, list[str]]:
@@ -370,7 +408,14 @@ def infer_review_status(
     if title_collision:
         if review_status == "clean":
             review_status = "duplicate-candidate"
-        notes.append("This title appears more than once in the export. Verify whether the rows should remain distinct.")
+        if duplicate_category_title_counts[(record.category, record.title)] > 1:
+            notes.append(
+                "This exact title appears more than once in the same CRM category. Treat it as a likely source duplicate until the CRM rows are reviewed and either merged or intentionally differentiated."
+            )
+        else:
+            notes.append(
+                "This title appears more than once across CRM categories. Verify whether the rows should remain distinct or be renamed for clearer catalog routing."
+            )
 
     if record.online_booking_enabled and any(pattern in lowered_description for pattern in INCLUDED_BOOKING_PATTERNS):
         review_status = escalate_status(review_status, "needs-review")
@@ -1006,7 +1051,9 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 
 ## How To Use
 - Treat `15_Service Catalog/` as the curated working home for service descriptions.
-- Keep the raw and normalized CSV source files in `50_Reference/CRM Service Descriptions/`.
+- Keep both CRM CSV reference files in `50_Reference/CRM Service Descriptions/`.
+- Treat the raw HCP export as the generator source of truth so UUIDs and categories stay first-class fields instead of being re-parsed from note copy.
+- Treat the template-compatible CSV as a downstream import/reference derivative, not the identity source for note generation.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
 - Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 
@@ -1067,6 +1114,7 @@ def build_records(overrides: dict[str, dict[str, str]]) -> list[SourceRecord]:
         record.filename = f"{base_filename}.md"
 
     duplicate_title_counts = Counter(record.title for record in records)
+    duplicate_category_title_counts = Counter((record.category, record.title) for record in records)
     duplicate_filename_counts = Counter(record.filename for record in records)
     records_by_line: dict[str, list[SourceRecord]] = defaultdict(list)
     for record in records:
@@ -1077,6 +1125,7 @@ def build_records(overrides: dict[str, dict[str, str]]) -> list[SourceRecord]:
         auto_review_status, title_collision, auto_audit_notes = infer_review_status(
             record,
             duplicate_title_counts,
+            duplicate_category_title_counts,
             duplicate_filename_counts,
             records_by_line,
         )

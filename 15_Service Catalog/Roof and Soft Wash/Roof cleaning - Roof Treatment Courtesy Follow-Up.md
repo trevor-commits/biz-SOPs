@@ -100,7 +100,7 @@ Pricing is per follow-up visit unless included with the original service. This i
 > - CRM category: Roof cleaning
 > - Source UUID: olit_e1e6fa80d36f463aba7f9d6e5e162e16
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

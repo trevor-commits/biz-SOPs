@@ -96,11 +96,11 @@ Priced per large section. If we uncover hidden damage behind the gutter/drip edg
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_3d6a5cd3cbc642fb9425306ac77d18e7
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
-> - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - This exact title appears more than once in the same CRM category. Treat it as a likely source duplicate until the CRM rows are reviewed and either merged or intentionally differentiated.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

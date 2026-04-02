@@ -98,7 +98,7 @@ Priced per square foot. We can improve most organic staining and surface buildup
 > - CRM category: Pressure Washing
 > - Source UUID: olit_fbf579385cc341b0b70e7cc7f76b1029
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

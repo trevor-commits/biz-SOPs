@@ -93,7 +93,7 @@ Priced per elbow. Paint is best-match and may look slightly different until it f
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_fb96505ef9124aa78b1b1d59f8667cff
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

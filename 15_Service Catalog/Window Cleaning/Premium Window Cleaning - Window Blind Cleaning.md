@@ -94,7 +94,7 @@ Not all blinds can be cleaned the same way. We’ll take a look first and let yo
 > - CRM category: Premium Window Cleaning
 > - Source UUID: olit_7bb7f3a297664d758f290dbbfbe1f59d
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

@@ -87,7 +87,7 @@ We’ll let you know if the leak needs more than sealant to fix.
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_f57a33a46e6146f4b34782c7fbc83544
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

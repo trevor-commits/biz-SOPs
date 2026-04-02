@@ -94,7 +94,7 @@ Priced per screen. Final price depends on screen size, frame condition, mesh typ
 > - CRM category: Repairs
 > - Source UUID: olit_095e0ca80c1447b8a3138c7bd6971e3b
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

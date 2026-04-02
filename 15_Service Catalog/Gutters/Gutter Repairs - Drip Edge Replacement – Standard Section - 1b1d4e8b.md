@@ -94,11 +94,11 @@ Priced per standard section. Best-match materials are used, but exact color/fini
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_1b1d4e8b26814404b58a8b5c898e0d2f
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
-> - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - This exact title appears more than once in the same CRM category. Treat it as a likely source duplicate until the CRM rows are reviewed and either merged or intentionally differentiated.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

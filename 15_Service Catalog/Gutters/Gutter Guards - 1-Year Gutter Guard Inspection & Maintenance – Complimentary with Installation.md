@@ -92,7 +92,7 @@ This service is complimentary for the first year after your guard installation. 
 > - CRM category: Gutter Guards
 > - Source UUID: olit_be09c2cb29624113bf76df2ff7a57856
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

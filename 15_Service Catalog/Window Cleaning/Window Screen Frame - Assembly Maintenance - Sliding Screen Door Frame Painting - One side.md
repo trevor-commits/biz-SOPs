@@ -95,7 +95,7 @@ Pricing is per door side unless noted otherwise. Color match and finish can vary
 > - CRM category: Window Screen Frame/Assembly Maintenance
 > - Source UUID: olit_051bf7d799654d41924b511fa1a8808f
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

@@ -97,7 +97,7 @@ Pricing is typically based per door unless noted otherwise. This is restoration 
 > - CRM category: Window Screen Frame/Assembly Maintenance
 > - Source UUID: olit_43294b5d0a044fc7bcf89b4f6e7974cd
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

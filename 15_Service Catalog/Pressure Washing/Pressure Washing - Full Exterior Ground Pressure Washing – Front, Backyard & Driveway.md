@@ -127,7 +127,7 @@ Pricing is based on total square footage and overall site complexity.
 > - CRM category: Pressure Washing
 > - Source UUID: olit_9f8b4e7620ba4aba82fa72c6abb61252
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Description contains multiple structure styles stitched together. Consolidate it into one customer-facing format.

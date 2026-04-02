@@ -93,7 +93,7 @@ We recommend yearly guard maintenance to keep everything flowing right. Pricing 
 > - CRM category: Gutter Guards
 > - Source UUID: olit_7649f1b24e154612bcc0e46e1b922c4e
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

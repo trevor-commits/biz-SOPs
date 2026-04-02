@@ -97,7 +97,7 @@ Gutter cleaning can get messy and nearby windows may get splashed—we always cl
 > - CRM category: Gutter Cleaning
 > - Source UUID: olit_e32599d9245e47728ee83d607c50f61b
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.

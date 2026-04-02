@@ -96,11 +96,11 @@ Pricing depends on system size, roof access, and layout. This service can be pai
 > - CRM category: Solar Panel Maintenance
 > - Source UUID: olit_491f107466274b8b87b14ec1cdf05a51
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
-> - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - This title appears more than once across CRM categories. Verify whether the rows should remain distinct or be renamed for clearer catalog routing.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

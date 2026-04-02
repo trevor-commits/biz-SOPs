@@ -92,11 +92,11 @@ Included at no additional charge. This applies to the 9 removed satellite dishes
 > - CRM category: Custom Services
 > - Source UUID: olit_4890c29488c242c28b0f7e786055a68d
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
-> - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - This title appears more than once across CRM categories. Verify whether the rows should remain distinct or be renamed for clearer catalog routing.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

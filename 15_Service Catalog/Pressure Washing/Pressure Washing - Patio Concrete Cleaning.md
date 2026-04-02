@@ -91,7 +91,7 @@ Priced per square foot, the extent of organic growth and how much chemical is ne
 > - CRM category: Pressure Washing
 > - Source UUID: olit_62b6a557ddaa492f8fa51c1e248fb0ae
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.

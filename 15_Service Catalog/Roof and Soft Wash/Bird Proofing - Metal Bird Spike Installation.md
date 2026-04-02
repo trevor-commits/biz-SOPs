@@ -91,7 +91,7 @@ Metal spikes are more expensive but last longer than plastic alternatives. They 
 > - CRM category: Bird Proofing
 > - Source UUID: olit_50532df335e44a259809df939bc67a62
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

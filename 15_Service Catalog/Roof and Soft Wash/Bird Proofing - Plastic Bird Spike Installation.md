@@ -91,7 +91,7 @@ Plastic bird spikes are cheaper, but they don’t last as long as metal ones and
 > - CRM category: Bird Proofing
 > - Source UUID: olit_46456bdcb58e401fbd3d7298d6643e85
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

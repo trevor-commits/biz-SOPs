@@ -89,7 +89,7 @@ Pricing depends on the amount of debris and disposal fees.
 > - CRM category: Custom Services
 > - Source UUID: olit_1065a0102a394207bb1cbd077aa8e729
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

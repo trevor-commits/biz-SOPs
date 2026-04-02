@@ -92,7 +92,7 @@ Scraping is only done when it's safe for the glass type. Some tempered or low-E 
 > - CRM category: Premium Window Cleaning
 > - Source UUID: olit_72bf79bc27174c9ba515ff4734d84cf1
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

@@ -102,7 +102,7 @@ Final price depends on door size, frame condition, and how much spline/channel c
 > - CRM category: Repairs
 > - Source UUID: olit_6c4f3fac36c1496abd5fca3810360404
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

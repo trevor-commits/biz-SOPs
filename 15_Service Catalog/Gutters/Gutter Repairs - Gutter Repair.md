@@ -93,7 +93,7 @@ We’ll always let you know if something looks beyond repair or if a replacement
 > - CRM category: Gutter Repairs
 > - Source UUID: olit_9f8edb4d923c4176b71023bb0f37e2e7
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.

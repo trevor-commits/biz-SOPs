@@ -98,7 +98,7 @@ Pricing is per linear foot (LF). Customer-provided guards must be complete (enou
 > - CRM category: Gutter Guards
 > - Source UUID: olit_ebb0cc4a257f44f7b95ef2a4ea6b233d
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.

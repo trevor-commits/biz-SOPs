@@ -97,7 +97,7 @@ Pricing is per square foot. Treatment helps slow new growth, but regrowth can st
 > - CRM category: Pressure Washing
 > - Source UUID: olit_ea56ab7b7a9e4c1bafac7128c168ea5b
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.

@@ -99,7 +99,7 @@ Pricing is typically per vent, with additional time billed at our hourly diagnos
 > - CRM category: Repairs
 > - Source UUID: olit_f41cc1a332d344d1b5cfdaa5d1317868
 > - Industry UUID: ind_50413bdcbb67410da504845ec48af17d
-> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
+> - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_export.csv
 
 > [!warning]- Audit Notes
 > - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
