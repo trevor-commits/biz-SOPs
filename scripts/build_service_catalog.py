@@ -739,7 +739,7 @@ def format_frontmatter(record: SourceRecord, aliases: list[str], existing_note: 
         f"title_collision: {str(record.title_collision).lower()}",
         f"source_uuid: {record.source_uuid}",
         f"price: {record.price:g}",
-        f"unit_of_measure: {record.unit_of_measure}",
+        f"unit_of_measure: {record.unit_of_measure}" if record.unit_of_measure else "unit_of_measure:",
         f"cost: {record.cost:g}",
         f"taxable: {str(record.taxable).lower()}",
         f"online_booking_enabled: {str(record.online_booking_enabled).lower()}",

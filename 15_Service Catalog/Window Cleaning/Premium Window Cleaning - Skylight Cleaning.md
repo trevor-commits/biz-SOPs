@@ -12,7 +12,7 @@ review_status: clean
 title_collision: false
 source_uuid: olit_2be3a90f434c427a82bbdc80f3b41728
 price: 80
-unit_of_measure: 
+unit_of_measure:
 cost: 0
 taxable: false
 online_booking_enabled: false

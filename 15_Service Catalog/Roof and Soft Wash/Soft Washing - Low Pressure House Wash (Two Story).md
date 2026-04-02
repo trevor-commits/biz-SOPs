@@ -12,7 +12,7 @@ review_status: needs-review
 title_collision: false
 source_uuid: olit_7b52026f4c4f4e81837c4d6e24ed8e6c
 price: 0
-unit_of_measure: 
+unit_of_measure:
 cost: 0
 taxable: false
 online_booking_enabled: false
