@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_95f45b61521f40ce8ca3db8c79bf9b97
 price: 0
 unit_of_measure: 
@@ -59,7 +60,10 @@ Pricing is based on linear footage, access, and type of deterrent installed. We�
 - CRM category: Bird Proofing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Once the area is cleaned, we’ll install deterrents such as bird spikes in the problem zones — ledges, rooflines, and vents — to keep birds from nesting or roosting again.

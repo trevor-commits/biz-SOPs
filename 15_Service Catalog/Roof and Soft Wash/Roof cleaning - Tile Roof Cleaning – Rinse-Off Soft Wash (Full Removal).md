@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_cc51e64724e747e581a6eeac47da27fd
 price: 0.8
 unit_of_measure: ft²
@@ -59,7 +60,10 @@ tags:
 ## Internal Notes
 - CRM category: Roof cleaning.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Full-service tile roof cleaning using a professional soft-wash treatment followed by a controlled low-pressure rinse. Ideal for heavier growth or customers wanting immediate visual results.

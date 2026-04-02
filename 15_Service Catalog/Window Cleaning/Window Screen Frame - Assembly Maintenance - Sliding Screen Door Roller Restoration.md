@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_43294b5d0a044fc7bcf89b4f6e7974cd
 price: 95
 unit_of_measure: 
@@ -61,7 +62,10 @@ Pricing is typically based per door unless noted otherwise. This is restoration 
 ## Internal Notes
 - CRM category: Window Screen Frame/Assembly Maintenance.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We restore the rolling hardware on the sliding screen door by cleaning up the wheel and bolt assembly and reinstalling it. This includes rust removal, wire brushing, and greasing the wheels before putting them back in place.

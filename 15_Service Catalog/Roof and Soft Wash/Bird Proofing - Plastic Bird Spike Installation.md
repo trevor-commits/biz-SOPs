@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_46456bdcb58e401fbd3d7298d6643e85
 price: 16
 unit_of_measure: 
@@ -58,7 +59,10 @@ Plastic bird spikes are cheaper, but they don’t last as long as metal ones and
 ## Internal Notes
 - CRM category: Bird Proofing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll install plastic bird spikes on your roofline, gutters, and ledges to prevent birds from roosting and nesting in unwanted areas.

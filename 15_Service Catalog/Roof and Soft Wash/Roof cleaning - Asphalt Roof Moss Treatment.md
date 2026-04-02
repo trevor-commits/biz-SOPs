@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_ba72f734db4b457f84719146b87d4219
 price: 0
 unit_of_measure: 
@@ -63,7 +64,10 @@ Pricing is typically based on roof size, moss severity, access, and how much of 
 - CRM category: Roof cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Treat moss growth on asphalt shingle roofing using a low-pressure roof-safe application. This service is for asphalt roofs only and is intended to address organic growth without using high-pressure washing.

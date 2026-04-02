@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_ba8eab67eadc4305b816488fdbb287a6
 price: 50
 unit_of_measure: 
@@ -58,7 +59,10 @@ Rate is $50/hour with a 1-hour minimum. Weather and roof safety may limit testin
 ## Internal Notes
 - CRM category: Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll track down the source of a roof leak with a focused inspection and targeted water testing so you know what’s going on and how to fix it.

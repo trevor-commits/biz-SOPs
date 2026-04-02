@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_42371586ae814e85991c4725faf27575
 price: 0
 unit_of_measure: 
@@ -58,7 +59,10 @@ Pricing for second-story windows is higher than standard lower-story windows bec
 - CRM category: Premium Window Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll clean the outside of this second-story window by hand using professional tools and techniques. Because of the height and access involved, this service takes extra setup and care to safely remove dust, grime, and normal exterior buildup — leaving the glass clear and streak-free.

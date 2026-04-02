@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_fcaa222133e34098a6402fa5d6a0effe
 price: 0
 unit_of_measure: 
@@ -58,7 +59,10 @@ This service is included as part of our exterior window cleaning service.
 - CRM category: Premium Window Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll take care of your removable window screens by getting rid of all the dust, dirt, and debris that builds up over time. Clean screens help your windows stay cleaner longer and keep the air flowing fresh through your home.
@@ -90,6 +94,7 @@ This service is included as part of our exterior window cleaning service.
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+> - Description says this work is included with another service, but the CRM row is also online-bookable. Confirm whether it should stay as a separate bookable item.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

@@ -9,6 +9,7 @@ service_line: Estimates and Internal Review
 service_type: warranty
 customer_visibility: internal-only
 review_status: needs-review
+title_collision: false
 source_uuid: olit_63c6595c9cf54751afd4c204714256c9
 price: 0
 unit_of_measure: 
@@ -37,7 +38,10 @@ tags:
 - Do not treat this note as approved customer-facing copy until the flagged issues are resolved.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If something we cleaned or installed isn’t holding up the way it should, we’ll come back out and make it right at no charge.
@@ -71,3 +75,6 @@ tags:
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_ed483ec690f74daf827546a30bf5a767
 price: 0
 unit_of_measure: 
@@ -63,7 +64,10 @@ Pricing depends on square footage, siding type, and level of buildup.
 - CRM category: Soft Washing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Dirt, algae, mildew, and cobwebs build up on siding over time, making your home look dull and worn. We use a cleaning solution with sodium hypochlorite (the active ingredient in bleach), but only at the strength needed to clean effectively without damaging siding, paint, or other surfaces.

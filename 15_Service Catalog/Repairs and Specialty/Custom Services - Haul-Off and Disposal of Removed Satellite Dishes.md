@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: true
 source_uuid: olit_4890c29488c242c28b0f7e786055a68d
 price: 0
 unit_of_measure: 
@@ -59,7 +60,10 @@ Included at no additional charge. This applies to the 9 removed satellite dishes
 - CRM category: Custom Services.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll remove the discarded satellite dishes from the property and dispose of them off site. This is included for site cleanup and convenience since the customer does not have room in the onsite dumpster.

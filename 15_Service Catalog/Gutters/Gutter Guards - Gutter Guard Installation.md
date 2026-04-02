@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_7649f1b24e154612bcc0e46e1b922c4e
 price: 10
 unit_of_measure: Linear Ft.
@@ -59,7 +60,10 @@ We recommend yearly guard maintenance to keep everything flowing right. Pricing 
 ## Internal Notes
 - CRM category: Gutter Guards.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We install durable metal micro-mesh guards that keep leaves and pine needles out while letting water flow through.

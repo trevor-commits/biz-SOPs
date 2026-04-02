@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_99f56290374a48de85adc81695067fb8
 price: 0
 unit_of_measure: 
@@ -55,7 +56,10 @@ tags:
 - CRM category: Gutter Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll install the wire “gutter balls” you purchased into your downspout outlets to help keep big debris out.

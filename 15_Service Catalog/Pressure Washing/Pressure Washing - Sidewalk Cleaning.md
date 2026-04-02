@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_8b6adf02ca474426b83dd45fc9870bad
 price: 100
 unit_of_measure: 
@@ -60,7 +61,10 @@ Pricing depends on sidewalk length, condition, and buildup.
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash your sidewalk to remove dirt, grime, moss, and buildup that collect over time. A clean sidewalk makes your property look better and safer for anyone passing through.
@@ -94,7 +98,7 @@ Pricing depends on sidewalk length, condition, and buildup.
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
-> - No auto-detected issues during import.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

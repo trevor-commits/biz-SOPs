@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: estimate
 customer_visibility: internal-only
 review_status: needs-review
+title_collision: false
 source_uuid: olit_6a166ff155d34eda96971526f59e67d0
 price: 0
 unit_of_measure: 
@@ -37,7 +38,10 @@ tags:
 - Do not treat this note as approved customer-facing copy until the flagged issues are resolved.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If you're seeing signs of nesting, droppings, or debris under your solar panels — or just want to prevent a problem before it starts — we’ll come take a look and give you a quote for bird proofing. In some cases, we may be able to install same-day if everything lines up.
@@ -73,3 +77,6 @@ tags:
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

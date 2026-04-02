@@ -14,6 +14,8 @@ properties:
     displayName: Visibility
   review_status:
     displayName: Review
+  title_collision:
+    displayName: Duplicate Title
   price:
     displayName: Price
   unit_of_measure:
@@ -66,7 +68,7 @@ views:
     name: Duplicate Title / Collision Review
     filters:
       and:
-        - 'review_status == "duplicate-candidate"'
+        - 'title_collision == true'
     order:
       - service_line
       - file.name

@@ -9,6 +9,7 @@ service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_fbf579385cc341b0b70e7cc7f76b1029
 price: 0
 unit_of_measure: 
@@ -62,7 +63,10 @@ Priced per square foot. We can improve most organic staining and surface buildup
 - CRM category: Pressure Washing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We treat organic growth to slow regrowth, then pressure wash to clean the surface and lift dirt, grime, and buildup.
@@ -98,6 +102,8 @@ Priced per square foot. We can improve most organic staining and surface buildup
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
+> - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

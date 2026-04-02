@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_4b8d73e4cbc1408ea1f2e3fcacdf6fc2
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Priced per removal item. We remove what’s accessible and clearly abandoned; an
 - CRM category: Gutter Repairs.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Loose leftover wiring can end up sitting in the gutter line or sticking out along the roof edge. We access the roofline and remove the abandoned wire so it’s out of the way.

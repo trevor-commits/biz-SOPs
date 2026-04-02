@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_e32599d9245e47728ee83d607c50f61b
 price: 250
 unit_of_measure: 
@@ -61,7 +62,10 @@ Gutter cleaning can get messy and nearby windows may get splashed—we always cl
 ## Internal Notes
 - CRM category: Gutter Cleaning.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll clear leaves, pine needles, and roof debris from your gutters and downspouts so rainwater drains away from your home and patio cover properly. 

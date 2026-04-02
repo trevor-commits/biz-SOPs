@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_0f1f990aa4084f3187673af49cf24365
 price: 10
 unit_of_measure: 
@@ -52,7 +53,10 @@ tags:
 ## Internal Notes
 - CRM category: Premium Window Cleaning.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Interior mirror cleaning using the same tools and techniques we use for professional window cleaning — for a clear, streak-free result.

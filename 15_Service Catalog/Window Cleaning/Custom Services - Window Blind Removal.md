@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_76050b7f6e7647f593d4c98eec0555b8
 price: 50
 unit_of_measure: 
@@ -47,7 +48,10 @@ tags:
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Careful removal of window blinds and associated hardware from window frames.  

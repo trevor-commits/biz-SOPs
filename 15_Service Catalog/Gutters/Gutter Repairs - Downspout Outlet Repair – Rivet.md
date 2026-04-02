@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_fd304b861862496eb52f23d196a5ce29
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Priced per outlet. If the outlet or downspout is crushed, split, or heavily corr
 - CRM category: Gutter Repairs.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If a screw is blocking the downspout outlet, it can catch debris and slow drainage. We remove the obstruction and replace it with a rivet so water can flow through more freely.

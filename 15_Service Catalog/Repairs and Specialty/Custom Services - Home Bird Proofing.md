@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: review-needed
 review_status: needs-review
+title_collision: false
 source_uuid: olit_29af5cb08120493b81e817ffee2fd6b2
 price: 0
 unit_of_measure: 
@@ -38,7 +39,10 @@ tags:
 - Pricing is not ready for public use without verification.
 - Add cleaned customer-facing copy before treating this as an approved service note.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > TODO: verify original source copy; the CRM description field was empty in the export.
@@ -54,3 +58,6 @@ tags:
 > - CRM row is missing description and pricing guidance. Confirm scope, materials, and quoting basis before using it externally.
 > - CRM description field is empty. Add customer-facing copy before operational use.
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

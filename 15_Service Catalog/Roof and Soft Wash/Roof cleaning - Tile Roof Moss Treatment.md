@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_c0ae7df4f7e34ff2a4eb887a0f0f7f7a
 price: 0.55
 unit_of_measure: ft²
@@ -61,7 +62,10 @@ Priced per square foot of roof area. Moss browns in 1–3 weeks and sheds gradua
 ## Internal Notes
 - CRM category: Roof cleaning.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll apply a tile-safe moss killer that treats moss, algae, and lichen without scraping or pressure washing. The growth dies and weathers off over time.

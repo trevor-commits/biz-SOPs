@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_6b5682ee4a434d7a8c856ff15ab27fe3
 price: 50
 unit_of_measure: 
@@ -59,7 +60,10 @@ This is light–moderate trimming from ground or ladder. Pricing depends on tree
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Tree Trimming – Cut Back Branches That Cause Problems

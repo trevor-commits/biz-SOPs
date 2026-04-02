@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_54187bc9dcb0452ca01fa12d56bc2fc4
 price: 150
 unit_of_measure: 
@@ -35,7 +36,10 @@ tags:
 ## Internal Notes
 - CRM category: Soft Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Low pressure washing of all accessible exterior brick wall surfaces and the brick planter. Focus on removing dirt, mold, mildew, and soil residue, preserving the color of the brick while restoring its look.
@@ -49,3 +53,6 @@ tags:
 
 > [!warning]- Audit Notes
 > - No auto-detected issues during import.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_1abbefbc74b3474f86bfb9662b142e52
 price: 10
 unit_of_measure: Each
@@ -56,7 +57,10 @@ Extensions are flexible and can be adjusted later if needed.
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll attach a flexible downspout extension to the bottom of your gutter downspout to help carry water further away from your home.

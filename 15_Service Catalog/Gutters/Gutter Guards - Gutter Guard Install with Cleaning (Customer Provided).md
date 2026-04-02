@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_ebb0cc4a257f44f7b95ef2a4ea6b233d
 price: 0
 unit_of_measure: 
@@ -62,7 +63,10 @@ Pricing is per linear foot (LF). Customer-provided guards must be complete (enou
 - CRM category: Gutter Guards.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We will install the guards you provided after cleaning your gutters

@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_1534a3cfcf4545239b64b347c9b7c96a
 price: 10
 unit_of_measure: 
@@ -55,7 +56,10 @@ We’ll let you know if any hangers are too worn to be reused.
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll reinforce your existing gutter hangers so your system stays tight and drains properly.

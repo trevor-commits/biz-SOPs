@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_0fdff6ba89d24222b72eec8ef51a8ed4
 price: 20
 unit_of_measure: Per Pane
@@ -60,7 +61,10 @@ Pricing depends on window count, debris level, and whether we’re cleaning inte
 ## Internal Notes
 - CRM category: Premium Window Cleaning.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll carefully clean your windows after new construction, remodeling, or painting — removing dust, overspray, stickers, and debris so your glass looks the way it should.

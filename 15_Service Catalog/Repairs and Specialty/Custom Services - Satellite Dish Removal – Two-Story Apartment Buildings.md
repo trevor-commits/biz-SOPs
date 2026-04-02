@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_c3c9364745434168b84d4fa80f78fabc
 price: 0
 unit_of_measure: 
@@ -61,7 +62,10 @@ Priced per dish.
 - CRM category: Custom Services.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll remove satellite dishes from two-story apartment buildings and take down the attached mounting hardware at each location. This covers removal of 9 dish assemblies as whole units from roof, eaves, and wall-mounted locations as applicable.

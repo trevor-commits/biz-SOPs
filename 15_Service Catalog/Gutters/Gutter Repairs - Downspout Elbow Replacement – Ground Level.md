@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_fb96505ef9124aa78b1b1d59f8667cff
 price: 60
 unit_of_measure: 
@@ -59,7 +60,10 @@ Priced per elbow. Paint is best-match and may look slightly different until it f
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > A cracked or smashed elbow can dump water where you don’t want it. We replace the elbow, trim for fit, and paint it to blend with the downspout.

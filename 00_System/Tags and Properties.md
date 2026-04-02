@@ -207,6 +207,7 @@ service_line:
 service_type:
 customer_visibility:
 review_status:
+title_collision: false
 source_uuid:
 price:
 unit_of_measure:
@@ -226,4 +227,6 @@ Suggested values:
 
 Note:
 - Keep `source_uuid` in frontmatter as the stable sync key for reruns and traceability.
+- Keep `title_collision` in frontmatter because the duplicate-title Bases review queue relies on it even when another issue is more severe than the duplicate itself.
 - Keep `source_category`, `industry_uuid`, source file path, and other archival details in the note body unless a Bases view later proves they need to move into properties.
+- Put approved SOP, checklist, equipment, and purchase-note links in a note's `Local Notes and Links` section so generator reruns can preserve them.

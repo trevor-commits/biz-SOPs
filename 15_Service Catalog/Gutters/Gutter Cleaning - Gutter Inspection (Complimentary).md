@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_54c7d498a77847f0aec2211078b2ba7d
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ You’ll get a verbal summary of our findings and recommendations on the spot. I
 - CRM category: Gutter Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll take a full look at your gutter system to check for issues like leaks, clogs, sagging, or improper drainage. Whether you're noticing overflow or just want peace of mind before the rainy season, this inspection gives you a clear picture of your system’s condition.

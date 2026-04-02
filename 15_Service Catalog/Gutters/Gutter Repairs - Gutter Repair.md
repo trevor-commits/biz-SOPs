@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_9f8edb4d923c4176b71023bb0f37e2e7
 price: 50
 unit_of_measure: 
@@ -59,7 +60,10 @@ We’ll always let you know if something looks beyond repair or if a replacement
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your gutters are leaking, sagging, or coming apart at the seams, we’ll take care of the problem with targeted repairs. This service is perfect for small fixes that help extend the life of your system.

@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: true
 source_uuid: olit_1b1d4e8b26814404b58a8b5c898e0d2f
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Priced per standard section. Best-match materials are used, but exact color/fini
 - CRM category: Gutter Repairs.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If you’ve got a smaller problem area, we can install drip edge on that short run so water sheds into the gutter instead of behind it.

@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_461deb689b234bf6b6f06af51b5cef2c
 price: 75
 unit_of_measure: 
@@ -59,7 +60,10 @@ Pricing depends on how many downspouts need clearing and whether the clogs are m
 ## Internal Notes
 - CRM category: Gutter Cleaning.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your gutters are fine but the downspouts aren’t draining properly, we can clear out the blockage and get things flowing again. This is a focused service for downspouts only.

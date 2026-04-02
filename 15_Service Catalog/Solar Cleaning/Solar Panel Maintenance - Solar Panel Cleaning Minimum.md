@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_6cce784706ee4108acb76dec257c666f
 price: 200
 unit_of_measure: 
@@ -57,7 +58,10 @@ We don’t use pressure washers or harsh chemicals — only solar-approved metho
 ## Internal Notes
 - CRM category: Solar Panel Maintenance.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Dust, pollen, and especially bird droppings can block sunlight and create hot spots that damage panels. We’ll clean your system safely so it keeps producing at its best.

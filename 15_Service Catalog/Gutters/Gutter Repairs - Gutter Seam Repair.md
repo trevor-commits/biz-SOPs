@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_f57a33a46e6146f4b34782c7fbc83544
 price: 50
 unit_of_measure: 
@@ -56,7 +57,10 @@ We’ll let you know if the leak needs more than sealant to fix.
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll reseal leaking gutter seams so water flows through your downspouts instead of dripping onto your home.

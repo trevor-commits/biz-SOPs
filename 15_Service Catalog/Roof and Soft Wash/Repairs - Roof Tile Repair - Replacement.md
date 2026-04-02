@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_430277d614fb4da1bba8bd01556f070a
 price: 50
 unit_of_measure: 
@@ -62,7 +63,10 @@ Pricing depends on roof height, access, and number of tiles being repaired or re
 ## Internal Notes
 - CRM category: Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If you’ve got cracked, chipped, or missing roof tiles, we’ll fix the problem before it leads to leaks or water damage. Whether we can repair it or need to replace it, we’ll handle it with care and attention to detail.

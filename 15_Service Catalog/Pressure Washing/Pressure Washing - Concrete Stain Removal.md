@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_f34595f5192e4e6492eaf4327962c69b
 price: 100
 unit_of_measure: 
@@ -57,7 +58,10 @@ This is a great add-on if you’re already getting your driveway or patio cleane
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll treat specific spots on your concrete to reduce or completely remove stains like oil, rust, grease, or other stubborn buildup. This is a focused service meant to improve problem areas — and in many cases, the stains may be fully removed.
@@ -88,7 +92,7 @@ This is a great add-on if you’re already getting your driveway or patio cleane
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
-> - No auto-detected issues during import.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

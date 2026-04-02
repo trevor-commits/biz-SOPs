@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_0ea934facead4dd9a1ee33e35adba77e
 price: 150
 unit_of_measure: 
@@ -58,7 +59,10 @@ Pricing depends on the total area being cleaned and how dirty the surface is.
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash the main ground-level surfaces in your front yard to remove dirt, moss, algae, and grime. This is a quick but noticeable way to freshen up your entry area and walkways.
@@ -90,7 +94,7 @@ Pricing depends on the total area being cleaned and how dirty the surface is.
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
-> - No auto-detected issues during import.
+> - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

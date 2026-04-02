@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_324d98557cd74ab392a15a1acd6f837a
 price: 0
 unit_of_measure: 
@@ -63,7 +64,10 @@ Priced per linear foot, with additional labor when guards must be fully removed 
 - CRM category: Gutter Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your gutters are protected but still backing up or just very dirty, the guards will need to come off so we can clear everything underneath. We’ll remove the existing guards, clean the gutters properly, then reinstall the guards when we’re done.

@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_0857c921f0de4aa58bc8b347bc649601
 price: 50
 unit_of_measure: 
@@ -60,7 +61,10 @@ Priced per panel. Final price depends on panel count, roof access, and how much 
 ## Internal Notes
 - CRM category: Solar Panel Maintenance.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Debris can pack in under your solar array and hold moisture, block drainage, and create a mess on the roof. We remove loose buildup like pine needles, leaves, and small debris where it’s safely accessible.

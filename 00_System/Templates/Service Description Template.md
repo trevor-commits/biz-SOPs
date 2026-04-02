@@ -9,6 +9,7 @@ service_line:
 service_type:
 customer_visibility:
 review_status:
+title_collision: false
 source_uuid:
 price:
 unit_of_measure:
@@ -46,6 +47,9 @@ TODO: verify
 
 ## Internal Notes
 - TODO: add quoting cautions, operational notes, and follow-up links
+
+## Local Notes and Links
+- TODO: add approved SOP, checklist, equipment, and purchase-note links here
 
 > [!note]- Source Copy
 > TODO: preserve the original CRM or approved source copy here.

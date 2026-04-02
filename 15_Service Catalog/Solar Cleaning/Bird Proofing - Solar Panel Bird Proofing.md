@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: add-on
 customer_visibility: customer-facing
 review_status: duplicate-candidate
+title_collision: true
 source_uuid: olit_45ef1f6c75ca48698929b06cca134cef
 price: 40
 unit_of_measure: Each
@@ -60,7 +61,10 @@ Pricing depends on system size, layout, and roof access.
 ## Internal Notes
 - CRM category: Bird Proofing.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Birds love nesting under solar panels, but the droppings and debris they leave behind can damage wiring, lower energy output, create fire risks, and spread harmful bacteria. We’ll install a protective barrier to keep them out for good.

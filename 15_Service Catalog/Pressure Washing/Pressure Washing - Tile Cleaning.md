@@ -9,6 +9,7 @@ service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_94c54fb879b84ad0ac08d1596e71168e
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Pricing depends on tile type, square footage, and surface condition.
 - CRM category: Pressure Washing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll gently pressure wash your outdoor tile surfaces to remove dirt, grime, and organic buildup without damaging the tile or grout. Great for patios, porches, and walkways made of ceramic, porcelain, or stone tile.
@@ -94,6 +98,7 @@ Pricing depends on tile type, square footage, and surface condition.
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

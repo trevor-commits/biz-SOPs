@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_cac084d16ee64fddb5b2dd5e2ecd5a14
 price: 400
 unit_of_measure: 
@@ -59,7 +60,10 @@ Pricing depends on how much debris has built up and the type of guard installed.
 ## Internal Notes
 - CRM category: Gutter Guards.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Even with guards installed, debris can still build up on top or get through over time. This service keeps your protected gutter system flowing properly and avoids hidden clogs or overflow issues.

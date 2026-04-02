@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_60dc2e10714a4b588cbe8f343c375ba6
 price: 30
 unit_of_measure: 
@@ -59,7 +60,10 @@ Priced per downspout end. Once a downspout is cut shorter, changing the length l
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If a downspout end gets bent inward, it can catch debris and slow drainage. We trim off the bent section, then cover the sharp cut edge with a plastic connector/cap.

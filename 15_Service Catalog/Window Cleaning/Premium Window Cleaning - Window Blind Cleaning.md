@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_7bb7f3a297664d758f290dbbfbe1f59d
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Not all blinds can be cleaned the same way. We’ll take a look first and let yo
 - CRM category: Premium Window Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll gently clean your window blinds to remove dust, pet hair, and buildup so they look fresher and function better. It’s a great add-on for spring cleaning or after a remodel.

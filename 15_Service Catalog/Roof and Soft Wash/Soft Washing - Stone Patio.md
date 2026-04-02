@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_e85c15a40f2a4eeb911845854b73e949
 price: 250
 unit_of_measure: 
@@ -35,7 +36,10 @@ tags:
 ## Internal Notes
 - CRM category: Soft Washing.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Removal of organic growth from stone primarily using chemicals and low pressure.
@@ -49,3 +53,6 @@ tags:
 
 > [!warning]- Audit Notes
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

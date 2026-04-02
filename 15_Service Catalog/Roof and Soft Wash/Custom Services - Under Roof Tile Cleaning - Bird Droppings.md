@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_0e02b2e81bcf4f16aa03bbaeb7071405
 price: 100
 unit_of_measure: 
@@ -61,7 +62,10 @@ Priced per visit or hourly (quote provided based on access and how much waste is
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll remove the buildup from accessible under-tile areas and disinfect so the space is safer and cleaner.

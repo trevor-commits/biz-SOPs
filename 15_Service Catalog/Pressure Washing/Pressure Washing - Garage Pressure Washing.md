@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_1fe69e05a8184ceebd7b252555875500
 price: 150
 unit_of_measure: 
@@ -57,7 +58,10 @@ tags:
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash the garage floor to remove dirt and grime so it’s safer and easier to keep clean.
@@ -84,6 +88,7 @@ tags:
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

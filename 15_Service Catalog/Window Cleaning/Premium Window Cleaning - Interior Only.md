@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_2ef08e0a44d040959da46888b3973cca
 price: 12
 unit_of_measure: Per Pane
@@ -58,7 +59,10 @@ Pricing depends on window count, accessibility, and layout. Add-ons are availabl
 ## Internal Notes
 - CRM category: Premium Window Cleaning.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll hand-clean the inside of your windows using professional tools and techniques. It’s more than just wiping glass — we remove buildup, smudges, and grime for a clean, streak-free finish.

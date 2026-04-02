@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_d6e8f6c06dc5421f8c03c798da54bfa7
 price: 0
 unit_of_measure: 
@@ -58,7 +59,10 @@ tags:
 - CRM category: Custom Services.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > After the dishes are removed, we’ll seal or close exposed holes and penetrations left at the mounting points. This is basic weather sealing only, using appropriate sealant or patch material based on whether the location is at the roof, eaves, or stucco/wall surface.

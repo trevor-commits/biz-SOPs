@@ -8,7 +8,8 @@ next_review:
 service_line: Roof and Soft Wash
 service_type: repair
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_f41cc1a332d344d1b5cfdaa5d1317868
 price: 80
 unit_of_measure: 
@@ -62,7 +63,10 @@ Pricing is typically per vent, with additional time billed at our hourly diagnos
 ## Internal Notes
 - CRM category: Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > A small leak around a roof vent can turn into ceiling stains and drywall damage. We’ll seal the vent so water sheds the way it should.
@@ -98,7 +102,7 @@ Pricing is typically per vent, with additional time billed at our hourly diagnos
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
-> - No auto-detected issues during import.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

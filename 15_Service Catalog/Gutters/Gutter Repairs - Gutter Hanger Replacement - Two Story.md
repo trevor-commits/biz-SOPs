@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_2b268cf9b33246efaa64095f232e35f3
 price: 50
 unit_of_measure: 
@@ -58,7 +59,10 @@ tags:
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We replace failed or missing gutter hangers to secure the gutter back to the fascia.

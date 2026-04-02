@@ -6,7 +6,7 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 - Treat `15_Service Catalog/` as the curated working home for service descriptions.
 - Keep the raw and normalized CSV source files in `50_Reference/CRM Service Descriptions/`.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
-- Add links to SOPs, checklists, equipment notes, and purchase notes directly inside service notes as those notes are created.
+- Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 
 ## All Services
 ![[Service Catalog.base#All Services]]

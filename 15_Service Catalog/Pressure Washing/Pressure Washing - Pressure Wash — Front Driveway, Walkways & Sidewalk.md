@@ -9,6 +9,7 @@ service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_daa1fb5869e14cd3a97ec9373de6cf22
 price: 0
 unit_of_measure: 
@@ -61,7 +62,10 @@ Pricing is typically per sq ft and depends on total area and how heavy the build
 - CRM category: Pressure Washing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash your front driveway, walkways, and sidewalk to remove built-up dirt and organic growth so the surfaces look cleaner and feel safer.
@@ -96,6 +100,8 @@ Pricing is typically per sq ft and depends on total area and how heavy the build
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
+> - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

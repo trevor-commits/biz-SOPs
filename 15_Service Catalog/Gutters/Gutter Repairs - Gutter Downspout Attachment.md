@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_4c0a380f5c004945b278ecb34cc0b490
 price: 75
 unit_of_measure: 
@@ -54,7 +55,10 @@ tags:
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll attach or reattach loose downspouts so water flows down the pipe like it should — not out the top or sides.

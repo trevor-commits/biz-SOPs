@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_ee7a7cc2656841a7b419026b7ed3edf6
 price: 50
 unit_of_measure: 
@@ -58,7 +59,10 @@ Most repairs can be done on the spot. Pricing depends on the number of sections 
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your downspout is leaking, disconnected, or not flowing properly, we’ll repair the issue so water drains away from your home the way it should — especially at the elbows where problems often start.

@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_0566e7eda25d48098e3d8b56d0f3148e
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ This service is designed for urgent situations only. Pricing reflects priority s
 - CRM category: Gutter Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your gutters are overflowing, your downspouts are clogged, or water’s going where it shouldn’t — we’ll get out there quickly to clear it up and stop the damage from getting worse.

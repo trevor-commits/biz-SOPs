@@ -9,6 +9,7 @@ service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_d9846f5cad4c476db1d0460ef8f9b828
 price: 200
 unit_of_measure: 
@@ -58,7 +59,10 @@ Pricing depends on total square footage and surface condition.
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash your entire driveway to remove dirt, grime, moss, and buildup. Whether your driveway is small, wide, long, or curved, we’ll get it looking fresh again.

@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_e1e6fa80d36f463aba7f9d6e5e162e16
 price: 0
 unit_of_measure: 
@@ -63,7 +64,10 @@ Pricing is per follow-up visit unless included with the original service. This i
 - CRM category: Roof cleaning.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Return after service to check treatment progress and confirm the roof is responding as expected. This visit is a visual follow-up for previously treated roof areas.
@@ -100,6 +104,8 @@ Pricing is per follow-up visit unless included with the original service. This i
 
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
+> - Description says this work is included with another service, but the CRM row is also online-bookable. Confirm whether it should stay as a separate bookable item.
+> - Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

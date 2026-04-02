@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_84936ebf7a214695a476dce9e382db84
 price: 0
 unit_of_measure: 
@@ -57,7 +58,10 @@ Pricing depends on severity, access, and square footage.
 - CRM category: Bird Proofing.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Bird droppings are unsightly, corrosive, and can carry harmful bacteria. We’ll safely remove and disinfect the area so it’s clean and safe again.

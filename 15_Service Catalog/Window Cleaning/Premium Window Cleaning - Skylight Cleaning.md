@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_2be3a90f434c427a82bbdc80f3b41728
 price: 80
 unit_of_measure: 
@@ -60,7 +61,10 @@ Pricing depends on number of skylights and difficulty of access.
 ## Internal Notes
 - CRM category: Premium Window Cleaning.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll carefully clean your skylights to remove dirt, grime, and buildup that block sunlight and make them look cloudy. Whether they’re flat or domed, we’ll make sure they shine without damage.

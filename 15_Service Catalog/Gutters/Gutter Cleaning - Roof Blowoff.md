@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_af80249ad849491f8e9c67f332599a55
 price: 150
 unit_of_measure: 
@@ -60,7 +61,10 @@ Pricing depends on roof size, access, and how much debris needs to be removed.
 ## Internal Notes
 - CRM category: Gutter Cleaning.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll remove loose debris like leaves, pine needles, and branches from your roof to help prevent clogs, buildup, and early wear. It’s a smart seasonal service, especially before or after storms.

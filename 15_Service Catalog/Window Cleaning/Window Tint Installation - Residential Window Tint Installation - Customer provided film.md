@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_8907659bffdd4119bf0f46c97227dfbf
 price: 0
 unit_of_measure: 
@@ -62,7 +63,10 @@ Priced per window. Some light haze or small water pockets can show during drying
 - CRM category: Window Tint Installation.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We install window film on your home’s glass and come back on a second day to seal the edges after the film cures.  ￼

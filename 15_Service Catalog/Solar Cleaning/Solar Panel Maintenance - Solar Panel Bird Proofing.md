@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: true
 source_uuid: olit_491f107466274b8b87b14ec1cdf05a51
 price: 0
 unit_of_measure: Linear Ft.
@@ -61,7 +62,10 @@ Pricing depends on system size, roof access, and layout. This service can be pai
 - CRM category: Solar Panel Maintenance.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Birds love nesting under solar panels, but the droppings and debris they leave behind can cause serious problems — from chewed wires to lower energy output. Even worse, bird waste carries bacteria and parasites that can be harmful to your health. We’ll safely secure your system with protective barriers to keep birds and pests out for good.

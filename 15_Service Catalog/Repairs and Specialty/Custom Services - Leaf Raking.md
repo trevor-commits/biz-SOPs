@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_b8d26d1e306144b4bc60a63e53af017b
 price: 100
 unit_of_measure: 
@@ -62,7 +63,10 @@ Pricing is based on yard size, access, and how much debris we’re dealing with,
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Tired of staring at leaf piles? We’ll rake them up, load your cans, and leave everything ready for your green waste pickup.

@@ -9,6 +9,7 @@ service_line: Solar Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_d8fa2b5b887f4788a964b73c456d965d
 price: 8.5
 unit_of_measure: Linear Ft.
@@ -35,7 +36,10 @@ tags:
 ## Internal Notes
 - CRM category: Solar Panel Maintenance.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Removal of bird proofing, thorough cleaning underneath panels and re-installation of bird proofing.
@@ -49,3 +53,6 @@ tags:
 
 > [!warning]- Audit Notes
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
+
+> [!abstract]- Review History
+> - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

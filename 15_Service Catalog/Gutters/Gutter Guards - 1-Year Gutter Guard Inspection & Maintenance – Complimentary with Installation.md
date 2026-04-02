@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_be09c2cb29624113bf76df2ff7a57856
 price: 0
 unit_of_measure: 
@@ -59,7 +60,10 @@ This service is complimentary for the first year after your guard installation. 
 - CRM category: Gutter Guards.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Every gutter guard system needs a checkup to make sure it’s working the way it should. With every guard installation, your first annual inspection and maintenance visit is included at no extra cost.

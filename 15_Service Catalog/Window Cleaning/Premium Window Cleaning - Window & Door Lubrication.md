@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: core-service
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_6540715406af4ffe827082c81e7477f0
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ This service pairs well with interior window cleaning or screen service. Pricing
 - CRM category: Premium Window Cleaning.
 - Pricing is not ready for public use without verification.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll lubricate the tracks, hinges, and moving parts of your windows and sliding doors to help them open and close more easily. It’s a quick service that makes a big difference in day-to-day use.

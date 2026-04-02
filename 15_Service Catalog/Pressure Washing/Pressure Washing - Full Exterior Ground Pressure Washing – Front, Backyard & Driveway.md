@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_9f8b4e7620ba4aba82fa72c6abb61252
 price: 500
 unit_of_measure: 
@@ -76,7 +77,10 @@ Pricing is based on total square footage and overall site complexity.
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll pressure wash all major ground-level surfaces around your home — including patios, walkways, entryways, and more. This is a full exterior refresh that covers both the front and backyard in one visit.
@@ -126,7 +130,8 @@ Pricing is based on total square footage and overall site complexity.
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
-> - No auto-detected issues during import.
+> - Description contains multiple structure styles stitched together. Consolidate it into one customer-facing format.
+> - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

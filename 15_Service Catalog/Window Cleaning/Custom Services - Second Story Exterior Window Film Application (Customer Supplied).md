@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_d48a69b9b4f546db8951bf6b99382806
 price: 200
 unit_of_measure: 
@@ -74,7 +75,10 @@ Aftercare basics:
 ## Internal Notes
 - CRM category: Custom Services.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll install your exterior-rated reflective film on a second-story window from the outside with a trim gap and a proper silicone edge seal.

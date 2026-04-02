@@ -9,6 +9,7 @@ service_line: Repairs and Specialty
 service_type: add-on
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: true
 source_uuid: olit_07dba61ddd9d4c02869ca9c05d13339d
 price: 0
 unit_of_measure: 
@@ -58,7 +59,10 @@ Haul-off and disposal for the removed satellite dishes and related hardware. Thi
 - CRM category: Satellite Dish Removal.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We will haul off and dispose of the removed satellite dishes and related hardware as part of this job. This is included because onsite dumpster space is not available.
@@ -91,6 +95,7 @@ Haul-off and disposal for the removed satellite dishes and related hardware. Thi
 > [!warning]- Audit Notes
 > - CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.
 > - This title appears more than once in the export. Verify whether the rows should remain distinct.
+> - Description says this work is included with another service, but the CRM row is also online-bookable. Confirm whether it should stay as a separate bookable item.
 
 > [!abstract]- Review History
 > - 2026-04-01 - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.

@@ -22,7 +22,6 @@ OVERRIDES_CSV = CATALOG_ROOT / "service_catalog_overrides.csv"
 DASHBOARD_MD = CATALOG_ROOT / "Dashboard.md"
 BASE_FILE = CATALOG_ROOT / "Service Catalog.base"
 SOURCE_FILE_LABEL = "GilletteWindowSolarCleaning_pricebook_template_compatible.csv"
-TODAY = date.today().isoformat()
 
 SERVICE_FOLDERS = [
     "Window Cleaning",
@@ -88,6 +87,42 @@ SUSPECT_TITLE_TERMS = (
     "exploitation",
     "general work",
 )
+INCLUDED_BOOKING_PATTERNS = (
+    "included at no extra charge",
+    "included as part of",
+    "included with",
+    "included for site cleanup",
+    "included because",
+    "comes with",
+)
+RISKY_PROMISE_TERMS = ("guarantee", "guarantees", "guaranteed")
+
+SUMMARY_BLOCK = "> [!summary] Quick Summary"
+PRICING_BLOCK = "> [!info] Pricing"
+SOURCE_COPY_BLOCK = "> [!note]- Source Copy"
+SOURCE_METADATA_BLOCK = "> [!note]- Source Metadata"
+AUDIT_BLOCK = "> [!warning]- Audit Notes"
+REVIEW_HISTORY_BLOCK = "> [!abstract]- Review History"
+LOCAL_NOTES_HEADING = "## Local Notes and Links"
+
+PRESERVE_ALWAYS_BLOCKS = {
+    LOCAL_NOTES_HEADING,
+    REVIEW_HISTORY_BLOCK,
+}
+PRESERVE_WHEN_REVIEWED_BLOCKS = {
+    SUMMARY_BLOCK,
+    "## Included",
+    "## Not Included",
+    "## Best Fit / When To Offer",
+    "## Upsells and Related Services",
+    "## Internal Notes",
+}
+STATUS_SEVERITY = {
+    "clean": 0,
+    "duplicate-candidate": 1,
+    "needs-review": 2,
+    "suspect": 3,
+}
 
 
 @dataclass
@@ -111,6 +146,14 @@ class SourceRecord:
     target_folder: str = ""
     filename: str = ""
     audit_notes: list[str] | None = None
+    title_collision: bool = False
+
+
+@dataclass
+class ExistingNote:
+    path: Path
+    frontmatter: dict[str, str | list[str]]
+    blocks: dict[str, str]
 
 
 def parse_args() -> argparse.Namespace:
@@ -119,7 +162,7 @@ def parse_args() -> argparse.Namespace:
         "--mode",
         choices=["pilot", "full"],
         default="full",
-        help="Generate the five-note pilot set or the full catalog.",
+        help="Update the five-note pilot set or the full catalog.",
     )
     return parser.parse_args()
 
@@ -288,39 +331,81 @@ def infer_service_type(record: SourceRecord) -> str:
     return "core-service"
 
 
+def escalate_status(current: str, candidate: str) -> str:
+    if STATUS_SEVERITY[candidate] > STATUS_SEVERITY[current]:
+        return candidate
+    return current
+
+
+def description_contains_heading(description: str, heading: str) -> bool:
+    pattern = rf"(?mi)^{re.escape(heading)}:\s*$"
+    return re.search(pattern, description) is not None
+
+
 def infer_review_status(
     record: SourceRecord,
     duplicate_title_counts: Counter,
     duplicate_filename_counts: Counter,
-) -> tuple[str, list[str]]:
+    records_by_line: dict[str, list[SourceRecord]],
+) -> tuple[str, bool, list[str]]:
     title = clean_whitespace(record.source_name)
     lowered_title = title.lower()
+    lowered_description = record.description.lower()
     notes: list[str] = []
     review_status = "clean"
+    title_collision = duplicate_title_counts[record.title] > 1 or duplicate_filename_counts[record.filename] > 1
 
     if any(term in lowered_title for term in SUSPECT_TITLE_TERMS):
         review_status = "suspect"
         notes.append("Suspicious CRM row name; do not use customer-facing until the service intent is verified.")
 
     if not record.description:
-        if review_status == "clean":
-            review_status = "needs-review"
+        review_status = escalate_status(review_status, "needs-review")
         notes.append("CRM description field is empty. Add customer-facing copy before operational use.")
 
     if record.price == 0:
-        if review_status == "clean":
-            review_status = "needs-review"
+        review_status = escalate_status(review_status, "needs-review")
         notes.append("CRM price is $0.00. Treat this as quoted, complimentary, or incomplete until pricing is verified.")
 
-    if duplicate_title_counts[record.title] > 1 or duplicate_filename_counts[record.filename] > 1:
+    if title_collision:
         if review_status == "clean":
             review_status = "duplicate-candidate"
         notes.append("This title appears more than once in the export. Verify whether the rows should remain distinct.")
 
+    if record.online_booking_enabled and any(pattern in lowered_description for pattern in INCLUDED_BOOKING_PATTERNS):
+        review_status = escalate_status(review_status, "needs-review")
+        notes.append(
+            "Description says this work is included with another service, but the CRM row is also online-bookable. Confirm whether it should stay as a separate bookable item."
+        )
+
+    if any(term in lowered_description for term in RISKY_PROMISE_TERMS):
+        review_status = escalate_status(review_status, "needs-review")
+        notes.append("Source copy uses guarantee language. Confirm that the promise is operationally and legally safe before publishing it.")
+
+    has_primary_structure = any(
+        description_contains_heading(record.description, heading)
+        for heading in ("What we do", "Why it’s worth it", "Why it's worth it", "What’s not included", "What's not included")
+    )
+    has_secondary_structure = any(
+        description_contains_heading(record.description, heading)
+        for heading in ("Includes", "Benefits", "Note")
+    )
+    if has_primary_structure and has_secondary_structure:
+        review_status = escalate_status(review_status, "needs-review")
+        notes.append("Description contains multiple structure styles stitched together. Consolidate it into one customer-facing format.")
+
+    if "pavers" in lowered_description and "paver" not in lowered_title:
+        line_records = records_by_line.get(record.service_line, [])
+        if any("paver" in other.title.lower() for other in line_records if other.source_uuid != record.source_uuid):
+            review_status = escalate_status(review_status, "needs-review")
+            notes.append(
+                "Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings."
+            )
+
     if not record.online_booking_enabled and record.category in STANDARD_SERVICE_CATEGORIES and record.service_type == "core-service":
         notes.append("Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.")
 
-    return review_status, notes
+    return review_status, title_collision, notes
 
 
 def infer_customer_visibility(record: SourceRecord) -> str:
@@ -421,7 +506,7 @@ def build_internal_notes(record: SourceRecord) -> list[str]:
         notes.append("This row is currently marked as online-bookable in the CRM.")
     else:
         notes.append("This row is not currently marked as online-bookable in the CRM.")
-    notes.append("Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.")
+    notes.append("Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.")
     return notes
 
 
@@ -447,6 +532,10 @@ def format_callout(title: str, body_lines: list[str]) -> list[str]:
     return lines
 
 
+def block_from_lines(lines: list[str]) -> str:
+    return "\n".join(lines).rstrip()
+
+
 def build_related_links(record: SourceRecord, records: list[SourceRecord]) -> list[str]:
     candidates = [
         candidate
@@ -470,28 +559,184 @@ def build_related_links(record: SourceRecord, records: list[SourceRecord]) -> li
     return links
 
 
-def to_yaml_list(values: list[str]) -> list[str]:
+def to_yaml_list(key: str, values: list[str]) -> list[str]:
     if not values:
-        return ["aliases: []"]
-    lines = ["aliases:"]
+        return [f"{key}: []"]
+    lines = [f"{key}:"]
     for value in values:
         lines.append(f"  - {value}")
     return lines
 
 
-def format_frontmatter(record: SourceRecord, aliases: list[str]) -> list[str]:
+def split_frontmatter(text: str) -> tuple[str, str]:
+    if not text.startswith("---\n"):
+        return "", text
+    remainder = text[4:]
+    marker = "\n---\n"
+    end_index = remainder.find(marker)
+    if end_index == -1:
+        return "", text
+    return remainder[:end_index], remainder[end_index + len(marker) :]
+
+
+def parse_frontmatter(text: str) -> dict[str, str | list[str]]:
+    frontmatter: dict[str, str | list[str]] = {}
+    if not text:
+        return frontmatter
+    lines = text.splitlines()
+    index = 0
+    while index < len(lines):
+        raw_line = lines[index]
+        if not raw_line.strip():
+            index += 1
+            continue
+        if ":" not in raw_line:
+            index += 1
+            continue
+        key, raw_value = raw_line.split(":", 1)
+        key = key.strip()
+        value = raw_value.lstrip()
+        if value == "[]":
+            frontmatter[key] = []
+            index += 1
+            continue
+        if value == "":
+            items: list[str] = []
+            next_index = index + 1
+            while next_index < len(lines) and lines[next_index].startswith("  - "):
+                items.append(lines[next_index][4:])
+                next_index += 1
+            if items:
+                frontmatter[key] = items
+                index = next_index
+                continue
+            frontmatter[key] = ""
+            index += 1
+            continue
+        frontmatter[key] = value
+        index += 1
+    return frontmatter
+
+
+def parse_body_blocks(body: str) -> dict[str, str]:
+    blocks: dict[str, str] = {}
+    lines = body.splitlines()
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        if not (line.startswith("## ") or line.startswith("> [!")):
+            index += 1
+            continue
+        block_start = line
+        next_index = index + 1
+        while next_index < len(lines) and not (
+            lines[next_index].startswith("## ") or lines[next_index].startswith("> [!")
+        ):
+            next_index += 1
+        block_text = "\n".join(lines[index:next_index]).rstrip()
+        blocks[block_start] = block_text
+        index = next_index
+    return blocks
+
+
+def load_existing_note(path: Path) -> ExistingNote:
+    text = path.read_text(encoding="utf-8")
+    frontmatter_text, body = split_frontmatter(text)
+    return ExistingNote(
+        path=path,
+        frontmatter=parse_frontmatter(frontmatter_text),
+        blocks=parse_body_blocks(body),
+    )
+
+
+def build_existing_note_index() -> dict[str, ExistingNote]:
+    existing_notes: dict[str, ExistingNote] = {}
+    for folder in SERVICE_FOLDERS:
+        for path in sorted((CATALOG_ROOT / folder).glob("*.md")):
+            note = load_existing_note(path)
+            source_uuid = str(note.frontmatter.get("source_uuid", "")).strip()
+            if not source_uuid:
+                continue
+            existing_notes[source_uuid] = note
+    return existing_notes
+
+
+def unique_list(values: Iterable[str]) -> list[str]:
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for value in values:
+        cleaned = clean_whitespace(value)
+        if not cleaned or cleaned in seen:
+            continue
+        seen.add(cleaned)
+        ordered.append(cleaned)
+    return ordered
+
+
+def preserved_scalar(existing_note: ExistingNote | None, key: str, default: str) -> str:
+    if existing_note is None:
+        return default
+    value = existing_note.frontmatter.get(key, "")
+    if isinstance(value, list):
+        return default
+    cleaned = value.strip()
+    return cleaned or default
+
+
+def preserved_list(existing_note: ExistingNote | None, key: str, default: list[str]) -> list[str]:
+    if existing_note is None:
+        return default
+    value = existing_note.frontmatter.get(key, default)
+    if isinstance(value, list):
+        merged = unique_list([*value, *default])
+        return merged or default
+    return default
+
+
+def reviewed_existing_note(existing_note: ExistingNote | None) -> bool:
+    if existing_note is None:
+        return False
+    status = preserved_scalar(existing_note, "status", "draft").lower()
+    last_reviewed = preserved_scalar(existing_note, "last_reviewed", "")
+    return bool(last_reviewed) or status != "draft"
+
+
+def should_preserve_block(existing_note: ExistingNote | None, block_key: str) -> bool:
+    if existing_note is None:
+        return False
+    if block_key in PRESERVE_ALWAYS_BLOCKS and block_key in existing_note.blocks:
+        return True
+    if reviewed_existing_note(existing_note) and block_key in PRESERVE_WHEN_REVIEWED_BLOCKS and block_key in existing_note.blocks:
+        return True
+    return False
+
+
+def preserved_block(existing_note: ExistingNote | None, block_key: str) -> str | None:
+    if should_preserve_block(existing_note, block_key):
+        return existing_note.blocks[block_key]
+    return None
+
+
+def format_frontmatter(record: SourceRecord, aliases: list[str], existing_note: ExistingNote | None, run_date: str) -> list[str]:
+    created = preserved_scalar(existing_note, "created", run_date)
+    status = preserved_scalar(existing_note, "status", "draft")
+    owner = preserved_scalar(existing_note, "owner", "Trevor")
+    last_reviewed = preserved_scalar(existing_note, "last_reviewed", "")
+    next_review = preserved_scalar(existing_note, "next_review", "")
+    tags = preserved_list(existing_note, "tags", ["service-description"])
     lines = [
         "---",
         "type: service-description",
-        "status: draft",
-        "owner: Trevor",
-        f"created: {TODAY}",
-        "last_reviewed:",
-        "next_review:",
+        f"status: {status}",
+        f"owner: {owner}",
+        f"created: {created}",
+        f"last_reviewed: {last_reviewed}" if last_reviewed else "last_reviewed:",
+        f"next_review: {next_review}" if next_review else "next_review:",
         f"service_line: {record.service_line}",
         f"service_type: {record.service_type}",
         f"customer_visibility: {record.customer_visibility}",
         f"review_status: {record.review_status}",
+        f"title_collision: {str(record.title_collision).lower()}",
         f"source_uuid: {record.source_uuid}",
         f"price: {record.price:g}",
         f"unit_of_measure: {record.unit_of_measure}",
@@ -499,38 +744,23 @@ def format_frontmatter(record: SourceRecord, aliases: list[str]) -> list[str]:
         f"taxable: {str(record.taxable).lower()}",
         f"online_booking_enabled: {str(record.online_booking_enabled).lower()}",
     ]
-    lines.extend(to_yaml_list(aliases))
-    lines.extend(
-        [
-            "tags:",
-            "  - service-description",
-            "---",
-        ]
-    )
+    lines.extend(to_yaml_list("aliases", aliases))
+    lines.extend(to_yaml_list("tags", tags))
+    lines.append("---")
     return lines
 
 
-def render_note(record: SourceRecord, all_records: list[SourceRecord]) -> str:
-    sections = split_description_sections(record.description)
-    compact = should_use_compact_shape(record, sections)
-    aliases: list[str] = []
-    source_name_clean = clean_whitespace(record.source_name)
-    if record.title != source_name_clean:
-        aliases.append(source_name_clean)
-
-    lines: list[str] = []
-    lines.extend(format_frontmatter(record, aliases))
-    lines.extend(["", f"# {record.title}", ""])
-
+def build_summary_block(record: SourceRecord, sections: dict[str, list[str]]) -> str:
     summary = build_summary(record, sections)
-    lines.extend(
+    return block_from_lines(
         format_callout(
-            "> [!summary] Quick Summary",
+            SUMMARY_BLOCK,
             summary.splitlines() if summary else ["TODO: verify summary."],
         )
     )
-    lines.append("")
 
+
+def build_pricing_block(record: SourceRecord) -> str:
     pricing_lines = [
         f"- CRM price: ${record.price:,.2f}",
         f"- Unit: {record.unit_of_measure or 'Quoted / not specified'}",
@@ -538,37 +768,37 @@ def render_note(record: SourceRecord, all_records: list[SourceRecord]) -> str:
         f"- Online booking enabled: {'Yes' if record.online_booking_enabled else 'No'}",
         f"- Pricing note: {pricing_note(record)}",
     ]
-    lines.extend(format_callout("> [!info] Pricing", pricing_lines))
-    lines.append("")
+    return block_from_lines(format_callout(PRICING_BLOCK, pricing_lines))
 
-    included = markdownize_lines(sections["included"])
-    not_included = markdownize_lines(sections["not_included"])
-    best_fit_parts = [markdownize_lines(sections["best_fit"]), markdownize_lines(sections["notes"])]
-    best_fit = "\n\n".join(part for part in best_fit_parts if part).strip()
-    related_links = build_related_links(record, all_records)
+
+def build_internal_notes_block(record: SourceRecord) -> str:
     internal_notes = [f"- {note}" for note in build_internal_notes(record)]
+    return block_from_lines(["## Internal Notes", *internal_notes])
 
-    if not compact:
-        if included:
-            lines.extend(["## Included", included, ""])
-        if not_included:
-            lines.extend(["## Not Included", not_included, ""])
-        if best_fit:
-            lines.extend(["## Best Fit / When To Offer", best_fit, ""])
-        if related_links:
-            lines.extend(["## Upsells and Related Services", *related_links, ""])
 
-    lines.extend(["## Internal Notes", *internal_notes, ""])
+def build_local_notes_block(existing_note: ExistingNote | None) -> str:
+    existing_block = preserved_block(existing_note, LOCAL_NOTES_HEADING)
+    if existing_block:
+        return existing_block
+    return block_from_lines(
+        [
+            LOCAL_NOTES_HEADING,
+            "- Add approved SOP, checklist, equipment, and purchase-note links here.",
+        ]
+    )
 
+
+def build_source_copy_block(record: SourceRecord) -> str:
     source_copy = record.description or "TODO: verify original source copy; the CRM description field was empty in the export."
-    lines.extend(
+    return block_from_lines(
         format_callout(
-            "> [!note]- Source Copy",
+            SOURCE_COPY_BLOCK,
             source_copy.splitlines() if source_copy else ["TODO: verify original source copy."],
         )
     )
-    lines.append("")
 
+
+def build_source_metadata_block(record: SourceRecord) -> str:
     source_meta_lines = [
         f"- Industry: {record.industry}",
         f"- CRM category: {record.category}",
@@ -576,19 +806,99 @@ def render_note(record: SourceRecord, all_records: list[SourceRecord]) -> str:
         f"- Industry UUID: {record.source_industry_uuid}",
         f"- Source file: 50_Reference/CRM Service Descriptions/{SOURCE_FILE_LABEL}",
     ]
-    lines.extend(format_callout("> [!note]- Source Metadata", source_meta_lines))
+    return block_from_lines(format_callout(SOURCE_METADATA_BLOCK, source_meta_lines))
+
+
+def build_audit_notes_block(record: SourceRecord) -> str:
+    audit_notes = record.audit_notes or ["No auto-detected issues during import."]
+    return block_from_lines(format_callout(AUDIT_BLOCK, [f"- {note}" for note in audit_notes]))
+
+
+def build_review_history_block(existing_note: ExistingNote | None, created: str) -> str:
+    existing_block = preserved_block(existing_note, REVIEW_HISTORY_BLOCK)
+    if existing_block:
+        return existing_block
+    history = [
+        f"- {created} - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.",
+    ]
+    return block_from_lines(format_callout(REVIEW_HISTORY_BLOCK, history))
+
+
+def render_note(record: SourceRecord, all_records: list[SourceRecord], existing_note: ExistingNote | None, run_date: str) -> str:
+    sections = split_description_sections(record.description)
+    compact = should_use_compact_shape(record, sections)
+    generated_aliases: list[str] = []
+    source_name_clean = clean_whitespace(record.source_name)
+    if record.title != source_name_clean:
+        generated_aliases.append(source_name_clean)
+    aliases = preserved_list(existing_note, "aliases", generated_aliases)
+    created = preserved_scalar(existing_note, "created", run_date)
+
+    lines: list[str] = []
+    lines.extend(format_frontmatter(record, aliases, existing_note, run_date))
+    lines.extend(["", f"# {record.title}", ""])
+
+    summary_block = preserved_block(existing_note, SUMMARY_BLOCK) or build_summary_block(record, sections)
+    lines.extend(summary_block.splitlines())
     lines.append("")
 
-    audit_notes = record.audit_notes or ["No auto-detected issues during import."]
-    lines.extend(format_callout("> [!warning]- Audit Notes", [f"- {note}" for note in audit_notes]))
+    lines.extend(build_pricing_block(record).splitlines())
     lines.append("")
+
+    included = markdownize_lines(sections["included"])
+    not_included = markdownize_lines(sections["not_included"])
+    best_fit_parts = [markdownize_lines(sections["best_fit"]), markdownize_lines(sections["notes"])]
+    best_fit = "\n\n".join(part for part in best_fit_parts if part).strip()
+    related_links = build_related_links(record, all_records)
 
     if not compact:
-        review_history = [
-            f"- {TODAY} - Imported from the CRM pricebook export with `scripts/build_service_catalog.py`.",
-        ]
-        lines.extend(format_callout("> [!abstract]- Review History", review_history))
-        lines.append("")
+        included_block = preserved_block(existing_note, "## Included")
+        if included_block:
+            lines.extend(included_block.splitlines())
+            lines.append("")
+        elif included:
+            lines.extend(["## Included", included, ""])
+
+        not_included_block = preserved_block(existing_note, "## Not Included")
+        if not_included_block:
+            lines.extend(not_included_block.splitlines())
+            lines.append("")
+        elif not_included:
+            lines.extend(["## Not Included", not_included, ""])
+
+        best_fit_block = preserved_block(existing_note, "## Best Fit / When To Offer")
+        if best_fit_block:
+            lines.extend(best_fit_block.splitlines())
+            lines.append("")
+        elif best_fit:
+            lines.extend(["## Best Fit / When To Offer", best_fit, ""])
+
+        related_block = preserved_block(existing_note, "## Upsells and Related Services")
+        if related_block:
+            lines.extend(related_block.splitlines())
+            lines.append("")
+        elif related_links:
+            lines.extend(["## Upsells and Related Services", *related_links, ""])
+
+    internal_notes_block = preserved_block(existing_note, "## Internal Notes") or build_internal_notes_block(record)
+    lines.extend(internal_notes_block.splitlines())
+    lines.append("")
+
+    lines.extend(build_local_notes_block(existing_note).splitlines())
+    lines.append("")
+
+    lines.extend(build_source_copy_block(record).splitlines())
+    lines.append("")
+
+    lines.extend(build_source_metadata_block(record).splitlines())
+    lines.append("")
+
+    lines.extend(build_audit_notes_block(record).splitlines())
+    lines.append("")
+
+    review_history_block = build_review_history_block(existing_note, created)
+    lines.extend(review_history_block.splitlines())
+    lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
 
@@ -610,6 +920,8 @@ properties:
     displayName: Visibility
   review_status:
     displayName: Review
+  title_collision:
+    displayName: Duplicate Title
   price:
     displayName: Price
   unit_of_measure:
@@ -662,7 +974,7 @@ views:
     name: Duplicate Title / Collision Review
     filters:
       and:
-        - 'review_status == "duplicate-candidate"'
+        - 'title_collision == true'
     order:
       - service_line
       - file.name
@@ -696,7 +1008,7 @@ Use this as the main browsing and cleanup surface for CRM-derived service descri
 - Treat `15_Service Catalog/` as the curated working home for service descriptions.
 - Keep the raw and normalized CSV source files in `50_Reference/CRM Service Descriptions/`.
 - Use the review views first when cleaning weak, duplicate, quoted, or suspicious services.
-- Add links to SOPs, checklists, equipment notes, and purchase notes directly inside service notes as those notes are created.
+- Put approved SOP, checklist, equipment, and purchase-note links in each service note's `Local Notes and Links` section so reruns preserve them.
 
 ## All Services
 ![[Service Catalog.base#All Services]]
@@ -731,10 +1043,16 @@ def ensure_directories() -> None:
         (CATALOG_ROOT / folder).mkdir(parents=True, exist_ok=True)
 
 
-def clear_existing_catalog_notes() -> None:
-    for folder in SERVICE_FOLDERS:
-        for path in (CATALOG_ROOT / folder).glob("*.md"):
-            path.unlink()
+def dedupe_notes(notes: list[str]) -> list[str]:
+    seen: set[str] = set()
+    output: list[str] = []
+    for note in notes:
+        cleaned = clean_whitespace(note)
+        if cleaned in seen:
+            continue
+        seen.add(cleaned)
+        output.append(cleaned)
+    return output
 
 
 def build_records(overrides: dict[str, dict[str, str]]) -> list[SourceRecord]:
@@ -743,23 +1061,26 @@ def build_records(overrides: dict[str, dict[str, str]]) -> list[SourceRecord]:
         override = overrides.get(record.source_uuid, {})
         override_title = clean_whitespace(override.get("title_override", ""))
         record.title = override_title or clean_whitespace(record.source_name)
+        record.service_line = override.get("service_line") or infer_service_line(record)
+        record.service_type = override.get("service_type") or infer_service_type(record)
         base_filename = sanitize_filename(f"{record.category} - {record.title}")
         record.filename = f"{base_filename}.md"
 
     duplicate_title_counts = Counter(record.title for record in records)
     duplicate_filename_counts = Counter(record.filename for record in records)
+    records_by_line: dict[str, list[SourceRecord]] = defaultdict(list)
+    for record in records:
+        records_by_line[record.service_line].append(record)
 
     for record in records:
         override = overrides.get(record.source_uuid, {})
-        auto_service_line = infer_service_line(record)
-        auto_service_type = infer_service_type(record)
-        record.service_line = override.get("service_line") or auto_service_line
-        record.service_type = override.get("service_type") or auto_service_type
-        auto_review_status, auto_audit_notes = infer_review_status(
+        auto_review_status, title_collision, auto_audit_notes = infer_review_status(
             record,
             duplicate_title_counts,
             duplicate_filename_counts,
+            records_by_line,
         )
+        record.title_collision = title_collision
         record.review_status = override.get("review_status") or auto_review_status
         record.customer_visibility = override.get("customer_visibility") or infer_customer_visibility(record)
         record.target_folder = record.service_line if record.service_line in SERVICE_FOLDERS else infer_target_folder(record)
@@ -770,38 +1091,70 @@ def build_records(overrides: dict[str, dict[str, str]]) -> list[SourceRecord]:
             base_filename = sanitize_filename(f"{record.category} - {record.title} - {short_uuid}")
             record.filename = f"{base_filename}.md"
 
-        record.audit_notes = []
         initial_override_note = override.get("initial_audit_note", "")
+        notes = []
         if initial_override_note:
-            record.audit_notes.append(initial_override_note)
-        record.audit_notes.extend(auto_audit_notes)
-        if not record.audit_notes:
-            record.audit_notes.append("No auto-detected issues during import.")
+            notes.append(initial_override_note)
+        notes.extend(auto_audit_notes)
+        record.audit_notes = dedupe_notes(notes) or ["No auto-detected issues during import."]
     return records
 
 
-def write_notes(records: list[SourceRecord], mode: str) -> list[Path]:
-    selected_records = records
+def select_records(records: list[SourceRecord], mode: str) -> list[SourceRecord]:
     if mode == "pilot":
-        selected_records = [record for record in records if record.source_uuid in PILOT_UUIDS]
+        pilot_order = {uuid: index for index, uuid in enumerate(PILOT_UUIDS)}
+        selected = [record for record in records if record.source_uuid in pilot_order]
+        selected.sort(key=lambda record: pilot_order[record.source_uuid])
+        return selected
+    return records
+
+
+def atomic_write(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(content, encoding="utf-8")
+    tmp_path.replace(path)
+
+
+def sync_notes(records: list[SourceRecord], mode: str) -> list[Path]:
+    existing_notes = build_existing_note_index()
+    selected_records = select_records(records, mode)
+    selected_uuids = {record.source_uuid for record in selected_records}
+    run_date = date.today().isoformat()
 
     written_paths: list[Path] = []
+    old_paths_to_remove: list[Path] = []
+
     for record in selected_records:
+        existing_note = existing_notes.get(record.source_uuid)
         output_path = CATALOG_ROOT / record.target_folder / record.filename
-        output_path.write_text(render_note(record, records), encoding="utf-8")
+        content = render_note(record, records, existing_note, run_date)
+        atomic_write(output_path, content)
         written_paths.append(output_path)
+        if existing_note is not None and existing_note.path != output_path:
+            old_paths_to_remove.append(existing_note.path)
+
+    if mode == "full":
+        current_uuids = {record.source_uuid for record in records}
+        for source_uuid, existing_note in existing_notes.items():
+            if source_uuid not in current_uuids:
+                old_paths_to_remove.append(existing_note.path)
+
+    for old_path in old_paths_to_remove:
+        if old_path.exists():
+            old_path.unlink()
+
     return written_paths
 
 
 def main() -> None:
     args = parse_args()
     ensure_directories()
-    clear_existing_catalog_notes()
     overrides = load_overrides()
     records = build_records(overrides)
     write_base_file()
     write_dashboard()
-    written_paths = write_notes(records, args.mode)
+    written_paths = sync_notes(records, args.mode)
     print(f"mode={args.mode}")
     print(f"notes_written={len(written_paths)}")
     for path in written_paths:

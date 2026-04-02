@@ -8,7 +8,8 @@ next_review:
 service_line: Pressure Washing
 service_type: core-service
 customer_visibility: customer-facing
-review_status: clean
+review_status: needs-review
+title_collision: false
 source_uuid: olit_ea56ab7b7a9e4c1bafac7128c168ea5b
 price: 100
 unit_of_measure: 
@@ -61,7 +62,10 @@ Pricing is per square foot. Treatment helps slow new growth, but regrowth can st
 ## Internal Notes
 - CRM category: Pressure Washing.
 - This row is not currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll clean your front porch surfaces and apply a moss/algae treatment to slow regrowth in damp or shaded areas.
@@ -96,6 +100,7 @@ Pricing is per square foot. Treatment helps slow new growth, but regrowth can st
 > - Source file: 50_Reference/CRM Service Descriptions/GilletteWindowSolarCleaning_pricebook_template_compatible.csv
 
 > [!warning]- Audit Notes
+> - Description mentions pavers even though a separate paver-specific service exists. Clarify the scope so staff and customers do not confuse the offerings.
 > - Core service is not currently online-bookable in the CRM. Confirm whether that is intentional.
 
 > [!abstract]- Review History

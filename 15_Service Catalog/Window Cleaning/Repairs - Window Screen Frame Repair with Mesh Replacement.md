@@ -9,6 +9,7 @@ service_line: Window Cleaning
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: false
 source_uuid: olit_095e0ca80c1447b8a3138c7bd6971e3b
 price: 0
 unit_of_measure: 
@@ -60,7 +61,10 @@ Priced per screen. Final price depends on screen size, frame condition, mesh typ
 - CRM category: Repairs.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We repair damaged window screen frames and replace worn or torn mesh so the screen fits properly and does its job again. This is a good option when the frame is bent, separated, or loose and the mesh also needs to be redone.

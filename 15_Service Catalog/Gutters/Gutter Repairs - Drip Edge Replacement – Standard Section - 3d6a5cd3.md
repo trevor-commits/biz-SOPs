@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: needs-review
+title_collision: true
 source_uuid: olit_3d6a5cd3cbc642fb9425306ac77d18e7
 price: 0
 unit_of_measure: 
@@ -61,7 +62,10 @@ Priced per large section. If we uncover hidden damage behind the gutter/drip edg
 - CRM category: Gutter Repairs.
 - Pricing is not ready for public use without verification.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > Water can slip behind the gutter when the drip edge is missing or the gutter has sagged. We re-level that stretch and install new drip edge so runoff sheds where it should.

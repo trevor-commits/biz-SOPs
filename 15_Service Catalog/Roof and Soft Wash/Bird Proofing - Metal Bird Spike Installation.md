@@ -9,6 +9,7 @@ service_line: Roof and Soft Wash
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_50532df335e44a259809df939bc67a62
 price: 20
 unit_of_measure: 
@@ -58,7 +59,10 @@ Metal spikes are more expensive but last longer than plastic alternatives. They 
 ## Internal Notes
 - CRM category: Bird Proofing.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > We’ll install high-quality metal bird spikes to protect your roofline, gutters, and ledges from unwanted bird activity, providing long-lasting and effective deterrence.

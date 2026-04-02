@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: add-on
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_a8ee8e67d2a3456d88fa3d177e4fb85b
 price: 200
 unit_of_measure: 
@@ -57,7 +58,10 @@ Pricing depends on the type of guard, condition of the system, and how much debr
 ## Internal Notes
 - CRM category: Gutter Guards.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your current gutter guards are broken, clogged, or just not doing their job, we can remove them carefully without damaging your gutter system. This service clears the way for a proper cleaning or future upgrade.

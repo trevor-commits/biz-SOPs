@@ -9,6 +9,7 @@ service_line: Gutters
 service_type: repair
 customer_visibility: customer-facing
 review_status: clean
+title_collision: false
 source_uuid: olit_344b4f7fab7c43558dd1486c938d5861
 price: 50
 unit_of_measure: 
@@ -62,7 +63,10 @@ Pricing is typically per linear foot (or by the section). If the fascia wood is 
 ## Internal Notes
 - CRM category: Gutter Repairs.
 - This row is currently marked as online-bookable in the CRM.
-- Link related SOPs, checklists, equipment, and purchase notes here as those notes are created.
+- Use the Local Notes and Links section for approved SOP, checklist, equipment, and purchase-note links.
+
+## Local Notes and Links
+- Add approved SOP, checklist, equipment, and purchase-note links here.
 
 > [!note]- Source Copy
 > If your gutter is sagging or pulling away, we’ll reattach the drip edge where needed and re-secure the gutter to the fascia so it sits tight and drains the way it should.
