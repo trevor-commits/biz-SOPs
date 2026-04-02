@@ -24,7 +24,7 @@ tags:
 # Tracks & Sill Cleaning
 
 > [!summary] Quick Summary
-> Tracks and sill cleaning removes the dirt and debris that collect around the glass so the finished window service looks more complete.
+> Tracks and sill cleaning is a separate window-detail service that removes the dirt and debris collecting around the glass so the finished window service looks more complete.
 
 > [!info] Pricing
 > - CRM price: $0.00
@@ -44,12 +44,13 @@ tags:
 - Window glass cleaning unless it is also part of the approved quote
 
 ## Best Fit / When To Offer
-- Best when you want the windows to look finished beyond the glass alone
+- Best when you want tracks and sills to stand out as their own visible part of the window service
+- Makes the windows look finished beyond the glass alone
 - Helps reduce dust and grime that collect in the frames over time
 - Pairs well with interior-only or full window cleaning
 
 ## Just So You Know
-- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- This service stays separate in the catalog even when there is no added charge for it on a given job.
 - Final scope depends on how accessible the tracks and sills are without disassembly.
 
 ## Upsells and Related Services

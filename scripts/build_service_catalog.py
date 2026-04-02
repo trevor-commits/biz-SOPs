@@ -344,7 +344,7 @@ COPY_OVERRIDES: dict[tuple[str, str], CopyOverride] = {
         "Screen Cleaning",
     ): CopyOverride(
         summary=(
-            "Window screen cleaning removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.",
+            "Screen cleaning is a separate window-detail service that removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.",
         ),
         included=(
             "- Brush or lightly rinse removable screens to remove loose dirt, pollen, and cobwebs",
@@ -357,12 +357,13 @@ COPY_OVERRIDES: dict[tuple[str, str], CopyOverride] = {
             "- Window glass cleaning unless it is also part of the approved quote",
         ),
         best_fit=(
-            "- Best when you want freshly cleaned windows to stay cleaner longer",
-            "- Helps improve airflow and the overall finished look of the window service",
+            "- Best when you want screen cleaning to stand out as its own visible part of the window service",
+            "- Helps freshly cleaned windows stay cleaner longer",
+            "- Improves airflow and the overall finished look of the window service",
             "- Pairs well with exterior-only or full window cleaning",
         ),
         notes=(
-            "- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.",
+            "- This service stays separate in the catalog even when there is no added charge for it on a given job.",
             "- If screens are brittle or damaged, repair or replacement may be the better recommendation.",
         ),
     ),
@@ -371,7 +372,7 @@ COPY_OVERRIDES: dict[tuple[str, str], CopyOverride] = {
         "Tracks & Sill Cleaning",
     ): CopyOverride(
         summary=(
-            "Tracks and sill cleaning removes the dirt and debris that collect around the glass so the finished window service looks more complete.",
+            "Tracks and sill cleaning is a separate window-detail service that removes the dirt and debris collecting around the glass so the finished window service looks more complete.",
         ),
         included=(
             "- Brush out accessible tracks to loosen built-up dust and debris",
@@ -384,12 +385,13 @@ COPY_OVERRIDES: dict[tuple[str, str], CopyOverride] = {
             "- Window glass cleaning unless it is also part of the approved quote",
         ),
         best_fit=(
-            "- Best when you want the windows to look finished beyond the glass alone",
+            "- Best when you want tracks and sills to stand out as their own visible part of the window service",
+            "- Makes the windows look finished beyond the glass alone",
             "- Helps reduce dust and grime that collect in the frames over time",
             "- Pairs well with interior-only or full window cleaning",
         ),
         notes=(
-            "- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.",
+            "- This service stays separate in the catalog even when there is no added charge for it on a given job.",
             "- Final scope depends on how accessible the tracks and sills are without disassembly.",
         ),
     ),

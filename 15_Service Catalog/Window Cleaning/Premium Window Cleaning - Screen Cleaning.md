@@ -24,7 +24,7 @@ tags:
 # Screen Cleaning
 
 > [!summary] Quick Summary
-> Window screen cleaning removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.
+> Screen cleaning is a separate window-detail service that removes loose dirt, pollen, and cobweb buildup from removable screens so they do not keep blowing debris back onto cleaned glass.
 
 > [!info] Pricing
 > - CRM price: $0.00
@@ -44,12 +44,13 @@ tags:
 - Window glass cleaning unless it is also part of the approved quote
 
 ## Best Fit / When To Offer
-- Best when you want freshly cleaned windows to stay cleaner longer
-- Helps improve airflow and the overall finished look of the window service
+- Best when you want screen cleaning to stand out as its own visible part of the window service
+- Helps freshly cleaned windows stay cleaner longer
+- Improves airflow and the overall finished look of the window service
 - Pairs well with exterior-only or full window cleaning
 
 ## Just So You Know
-- This line currently behaves like an add-on or bundle item, not a clean standalone published price. Keep it quote-based until the CRM pricing rule is cleaned up.
+- This service stays separate in the catalog even when there is no added charge for it on a given job.
 - If screens are brittle or damaged, repair or replacement may be the better recommendation.
 
 ## Upsells and Related Services
