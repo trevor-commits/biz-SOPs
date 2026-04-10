@@ -46,6 +46,12 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 - Prefer evidence-first changes and reversible edits.
 - Keep solutions reliable, scoped, and easy to verify.
 
+## Communication Defaults
+- Default to terse execution. Assume the user wants the shortest useful response unless they ask for depth.
+- Keep routine implementation closeouts compact: outcome + verification + blocker/risk only.
+- Do not restate obvious plans, commands, or touched files unless they materially help the user.
+- Trust-gated or other high-stakes answers should still include required sections, but keep them compact and decision-focused.
+
 ## Intent Alignment
 [MANDATORY_PROJECT_INTENT] canonical project intent documentation + behavior aligned to `PROJECT_INTENT_ALIGNMENT.md`
 
