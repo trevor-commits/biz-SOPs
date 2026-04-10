@@ -9,7 +9,7 @@ Secondary coordination clone:
 - `/Users/gillettes/Coding Projects/Equipment & SOPs`
 
 The Git repo identity is the source of truth. The preferred Obsidian working copy is where live SOP content should be edited.
-The secondary clone at `/Users/gillettes/Coding Projects/Equipment & SOPs` is a backup mirror, not a live editing surface.
+The secondary clone at `/Users/gillettes/Coding Projects/Equipment & SOPs` is just another clone of the same repo and is no longer maintained by an automatic mirror workflow.
 
 ## What belongs here
 - SOP drafts and finalized process docs.
@@ -52,7 +52,7 @@ Recommended sections for new notes:
 - When an SOP becomes stable, keep it action-oriented and ordered step by step.
 - Keep active buying state in `25_Purchasing/` notes and Bases views, not in `50_Reference/`.
 - Treat the preferred working copy as the live edit location and sync/pull before automation edits so phone changes are preserved.
-- Keep the secondary clone clean so the backup job can fast-forward it as a mirror after each successful source sync.
+- If you use the secondary clone, treat it as a normal clone and sync it manually when needed instead of expecting an automatic fast-forward mirror.
 - Large tracked-file deletion batches are guarded in the automated backup lane; if the guard trips, review and recover with Git instead of letting unattended automation push the change through.
 - Apply `RETENTION_AND_ARCHIVE_POLICY.md` so Daily Notes, maintenance logs, and supporting media do not turn into long-term clutter.
 

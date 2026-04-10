@@ -8,7 +8,6 @@ DEFAULT_SOURCE_REPO="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 CODEX_HOME="${CODEX_HOME:-/Users/gillettes/.codex}"
 SOURCE_REPO="${BIZ_SOPS_SOURCE_REPO:-$DEFAULT_SOURCE_REPO}"
-MIRROR_REPO="${BIZ_SOPS_MIRROR_REPO:-/Users/gillettes/Coding Projects/Equipment & SOPs}"
 REMOTE_NAME="${BIZ_SOPS_REMOTE:-origin}"
 BRANCH_NAME="${BIZ_SOPS_BRANCH:-main}"
 DELETE_GUARD_MAX="${BIZ_SOPS_DELETE_GUARD_MAX:-5}"
@@ -42,23 +41,6 @@ ensure_clean_git_state() {
   if git -C "$repo_path" diff --name-only --diff-filter=U | grep -q .; then
     fail "$repo_label repo has merge conflicts. Resolve them before automatic backup can continue."
   fi
-}
-
-sync_mirror_repo() {
-  [[ -n "$MIRROR_REPO" ]] || return 0
-  [[ "$MIRROR_REPO" != "$SOURCE_REPO" ]] || fail "Mirror repo path must be different from source repo path."
-
-  ensure_clean_git_state "$MIRROR_REPO" "Mirror"
-
-  local mirror_status
-  mirror_status="$(git -C "$MIRROR_REPO" status --porcelain)"
-  [[ -z "$mirror_status" ]] || fail "Mirror repo at $MIRROR_REPO has local changes. Keep it as a clean backup mirror or recover/commit those changes manually."
-
-  log "Fetching $REMOTE_NAME/$BRANCH_NAME for mirror repo."
-  git -C "$MIRROR_REPO" fetch "$REMOTE_NAME" "$BRANCH_NAME"
-
-  log "Fast-forwarding mirror repo at $MIRROR_REPO."
-  git -C "$MIRROR_REPO" pull --ff-only "$REMOTE_NAME" "$BRANCH_NAME"
 }
 
 mkdir -p "$CODEX_HOME/log" "$CODEX_HOME/tmp"
@@ -109,8 +91,7 @@ if [[ -z "$status_before" ]]; then
     exit 0
   fi
 
-  sync_mirror_repo
-  log "Backup mirror sync completed successfully."
+  log "Source backup check completed successfully."
   exit 0
 fi
 
@@ -140,6 +121,4 @@ fi
 log "Pushing source backup to GitHub."
 git -C "$SOURCE_REPO" push "$REMOTE_NAME" "$BRANCH_NAME"
 
-sync_mirror_repo
-
-log "Source backup and mirror sync completed successfully."
+log "Source backup completed successfully."

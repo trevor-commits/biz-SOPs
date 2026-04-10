@@ -65,7 +65,7 @@ Service definitions are also trapped inside the CRM export unless they are promo
 - Constraints:
   - Must stay easy to update without adding admin burden.
   - Must have one canonical repo identity and one preferred operational working copy to avoid split-brain edits.
-  - The secondary local clone should remain a backup mirror of the preferred working copy, not a parallel live-edit surface.
+  - Secondary local clones should stay subordinate to the preferred working copy and should not be treated as separate live-edit surfaces or automatic mirrors.
   - Should remain easy to reference from Obsidian on desktop and mobile.
 - Assumptions:
   - Most content will be Markdown notes plus lightweight frontmatter.

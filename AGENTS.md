@@ -11,7 +11,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 - Canonical repo identity: `git@github.com:trevor-commits/biz-SOPs.git`.
 - Preferred operational working copy path: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 - Secondary coordination clone path: `/Users/gillettes/Coding Projects/Equipment & SOPs`.
-- Treat the preferred operational working copy as the only live edit surface; the secondary coordination clone exists as a pull-only backup mirror unless the user explicitly asks otherwise.
+- Treat the preferred operational working copy as the only live edit surface; any secondary coordination clone is just another clone of the same repo and should not assume automatic mirror maintenance.
 - Do not keep a Codex-only equipment or purchasing database outside the repo; durable state belongs in repo Markdown notes plus Git history.
 - If project scope/runtime changes materially, refresh this file, `PROJECT_INTENT.md`, and the root `todo.md` testing cadence in the same change.
 

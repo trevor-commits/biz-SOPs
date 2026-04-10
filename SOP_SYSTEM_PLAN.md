@@ -14,7 +14,7 @@ Build a low-overhead operating system for Gillette Window & Solar Cleaning that 
 - Treat the `biz-SOPs` Git repository as the canonical project identity.
 - Preferred operational working copy: `/Users/gillettes/Coding Projects/Systems Command Center/Gillette Window & Solar Cleaning/SOPs`.
 - Secondary local clones may exist for coordination or tooling, but they are not separate sources of truth.
-- Treat the secondary coordination clone at `/Users/gillettes/Coding Projects/Equipment & SOPs` as a backup mirror that fast-forwards from the preferred working copy after successful source syncs.
+- Treat the secondary coordination clone at `/Users/gillettes/Coding Projects/Equipment & SOPs` as an optional convenience clone, not an automatically maintained mirror.
 - Use Obsidian as the primary editing, browsing, and dashboard interface.
 - Do not maintain a second separate copy of the same SOPs outside clones of the same Git repo.
 
@@ -444,7 +444,7 @@ Do not start with custom scripts. Start with structured notes plus dashboard aut
 - Tasks queries create overdue and upcoming maintenance views from recurring Tasks embedded in equipment notes.
 - Daily Notes plus phone capture shortcuts create a low-friction path to capture field observations without opening a full SOP note.
 - Keep any repo-specific Daily Notes in `00_System/Daily Notes/` so capture, review, archive, and backup all stay inside the same project.
-- Use the preferred working copy as the only automated source repo and fast-forward the secondary clone as a backup mirror after successful source syncs.
+- Use the preferred working copy as the only automated source repo; other clones should be synced manually only when needed.
 - Halt unattended backup when tracked-file deletions exceed the guard threshold so destructive changes are reviewed before they spread.
 
 ### Later automation if needed
@@ -560,7 +560,7 @@ Then simplify before scaling.
 - Avoid one giant "everything" SOP. Split by job type or phase.
 - Avoid duplicate maintenance trackers in both notes and spreadsheets unless one is explicitly a derived reporting view.
 - Avoid treating `50_Reference/` as an active shopping queue; keep support material there and active buying state in `25_Purchasing/`.
-- Avoid editing the secondary clone directly for live work; let it behave like a backup mirror.
+- Avoid editing the secondary clone directly for live work; keep the preferred working copy as the only operational edit surface.
 - Avoid overloading frontmatter with fields you never query.
 - Avoid custom automation before the basic note pattern proves useful.
 - Avoid hiding critical knowledge in daily notes only. Promote durable information into permanent notes.
