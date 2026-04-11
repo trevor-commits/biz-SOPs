@@ -88,7 +88,9 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 - Use one worktree per concurrent non-trivial chat.
 - For non-trivial work, record branch purpose and expected merge/delete conditions in `todo.md` before deep implementation.
-- Stay on the current checkout by default when scope is clear and rollback is straightforward; create a feature branch and usually a dedicated worktree only when risk, concurrency, or separate merge timing justifies isolation.
+- Stay on the current checkout for almost all solo-maintainer work, including most non-trivial tasks, when rollback is straightforward.
+- Do not create a branch merely because the task is multi-file, substantial, or may later become a PR.
+- Create a feature branch and usually a dedicated worktree only when concurrency, risky experimentation, materially safer rollback isolation, explicit user request, or separate merge timing clearly justifies it.
 
 ## Pragmatic Delivery
 [MANDATORY_PRAGMATIC] pragmatic improvement mindset
