@@ -133,3 +133,14 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 ## Global Mandatory Markers
 - [MANDATORY_TRUST_GATE] evaluate Trust Gate triggers at session intake per `session-intake-closeout` skill; when `on`, require `Evidence Checked`, `Decision Status` labels (`Confirmed` / `Inferred` / `Needs More Evidence` / `Do Not Do Yet`), `Challenge Findings`, and `Unresolved` sections at closeout; no polished final recommendation for uncertain items
 - [MANDATORY_ANTI_THRASH] after 2 grounded attempts at the same problem, narrow scope, request the smallest missing artifact, or escalate; do not retry unchanged approach
+
+## Repo Principles
+[MANDATORY_CONTINUITY] load and enforce local `CONTINUITY.md`; bounded tasks must leave a durable Work Record, honest Self-audit, and explicit `did not verify X because Y` note, and the audit path must permit Claude Code to spot-check at least one claim
+[MANDATORY_COHERENCE] load and enforce local `COHERENCE.md`; governed changes require a Ripple Check, same-commit companion-doc updates, and an append-only Dependency Map
+[MANDATORY_LINEAR_CORE] load and enforce the local Linear-Core contract; actionable work must have a live Linear issue or an explicit `no-action:` / `self-contained:` disposition, and every live issue must keep a repo-side `Linear Issue Ledger` entry with `todo home:`, `why this exists:`, and `origin source:`
+[MANDATORY_CLAUDE_PRINCIPLES] repo-local `CLAUDE.md` must load the same three principles before planning, audit, or state moves, and Claude handoffs must name the durable-record expectations for Codex
+
+- Load `CONTINUITY.md`, `COHERENCE.md`, and the local Linear contract before bounded work.
+- Continuity gate: Work Record exists, Self-audit is honest, and unverified scope is named explicitly.
+- Coherence gate: Ripple Check runs before commit or state move, and dependent docs drift together or not at all.
+- Linear-Core gate: actionable work is issue-backed or explicitly dispositioned, and the repo-side ledger stays current.

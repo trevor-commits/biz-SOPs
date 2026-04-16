@@ -160,3 +160,39 @@ Record outside feedback and the resulting reasoning once, then update the same e
 - 2026-04-02 | feedback source: Claude | feedback summary: challenged the service-catalog plan on generator input choice, override-file prework, category-to-folder routing gaps, the exact same-category duplicate case, the second suspect joke row, and rerun safety expectations | evaluation chat: current Claude-feedback review chat | reasoning response: accepted the need to move generator identity to the raw export, keep inference defaults in code with a thin exception-only override file, make ambiguous routing explicit, distinguish same-category duplicates from generic collisions, and keep the second suspect row flagged; corrected Claude's strongest blocking claim because the template-compatible CSV did preserve UUIDs in embedded metadata even though that was the wrong source of truth for generation | decision status: partial | implementation/disposition chat: current Claude-feedback implementation chat | linked branch / audit / suggestion / test evidence: 2026-04-02 targeted remediation verification entry, 2026-04-02 raw-export/routing test evidence entry, and the current `scripts/build_service_catalog.py` remediation
 - 2026-03-28 | feedback source: Claude | feedback summary: first suggested a single `50_Reference/Purchase Tracker.md`, `purchase_status` on equipment notes, and append-only automation; later claimed the `.base` syntax and `![[File.base#View]]` embeds were likely unsupported and suggested lifecycle/category/cost refinements | evaluation chat: current purchasing-system chat and current Claude follow-up chat | reasoning response: accepted the need for a dedicated purchasing layer plus secondary equipment procurement metadata; rejected `50_Reference/` as the active queue location; rejected append-only editing in favor of preferred-working-copy plus sync-before-edit safety rules; rejected the later `.base` and embed incompatibility claims after verifying official Obsidian Help, then accepted the valid follow-up refinements around lifecycle documentation, category standardization, and purchase cost/date fields | decision status: partial | implementation/disposition chat: current purchasing-system chat and current Claude follow-up chat | linked branch / audit / suggestion / test evidence: 2026-03-28 targeted implementation verification entry, 2026-03-28 targeted feedback follow-up entry, updated Active Next Steps, and 2026-03-28 follow-up test evidence
 - 2026-04-01 | feedback source: Claude | feedback summary: reviewed the proposed service-catalog plan and recommended trimming frontmatter, using collapsed sections for low-content notes, acknowledging source-data quality issues, scripting the conversion, and correcting the row-count concern | evaluation chat: current Claude service-catalog review chat | reasoning response: accepted the frontmatter trim, compact-note shape, script-first conversion, override-driven quality handling, and pilot-then-full rollout; rejected the row-count concern after verifying the export contains 114 data rows with only 3 duplicate-title cases and no exact duplicate rows | decision status: partial | implementation/disposition chat: current service-catalog implementation chat | linked branch / audit / suggestion / test evidence: 2026-04-01 targeted implementation review entry, 2026-04-01 service-catalog test evidence entry, and updated Active Next Steps for the follow-up catalog audit
+
+## Linear Issue Ledger
+If it's not here, it isn't remembered.
+Mirror every live Linear issue here with the repo-side home that explains why it exists.
+- Each entry should capture:
+  - `issue`
+  - `status`
+  - `todo home`
+  - `why this exists`
+  - `origin source`
+  - `last synced`
+- If this repo is intentionally `repo-only` or no live Linear surface exists yet, keep an explicit note here instead of leaving the section absent.
+- No live issue entries recorded yet.
+
+## Work Record Log
+If it's not here, it isn't remembered.
+Use one entry per bounded task, fix, audit, or review that would otherwise lose reasoning between chats.
+
+```md
+### YYYY-MM-DD — short title
+- Problem:
+- Reasoning:
+- Diagnosis inputs:
+- Implementation inputs:
+- Fix:
+- Self-audit:
+  - method:
+  - outcome:
+  - did not verify:
+- by:
+- triggered by:
+- led to:
+- linear:
+```
+
+- No work records recorded yet.
