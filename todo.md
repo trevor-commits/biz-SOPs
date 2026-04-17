@@ -65,6 +65,28 @@ Goal: stand up a field-usable SOP, equipment, and maintenance knowledge system t
 - retain reason: default branch
 - linked issue/PR/audit record: `Audit Record Log` entries dated 2026-03-27 and 2026-03-28
 
+### `codex/agents-claude-sync`
+- status: active
+- created: 2026-04-17
+- base: `main`
+- source chat: 2026-04-17 "Portfolio agents/claude baseline sync"
+- last refreshed by chat: 2026-04-17 "Portfolio agents/claude baseline sync"
+- purpose: Sync repo-local AGENTS and Claude governance surfaces to the current portfolio baseline while preserving repo-specific stack rules.
+- linked issue: `self-contained: repo-local governance baseline sync`
+- plugin mirror: `n/a` for this governance-only sync
+- merge expectation: merge to `main`
+- merge target: `main`
+- review surface: repo-local reread plus policy compliance check
+- exit checklist:
+  - [ ] Repo-local AGENTS / CLAUDE / supporting governance docs updated
+  - [ ] `todo.md` durable record updated
+  - [ ] Verification evidence captured
+  - [ ] Commit pushed
+- delete when: after merge and branch cleanup
+- retain reason: n/a
+- cleanup command: `git branch -d codex/agents-claude-sync && git push origin --delete codex/agents-claude-sync`
+- linked PR/audit/completion record: `TODO: verify`
+
 ## Branch History
 - No closed branch entries recorded yet.
 
@@ -195,4 +217,17 @@ Use one entry per bounded task, fix, audit, or review that would otherwise lose 
 - linear:
 ```
 
-- No work records recorded yet.
+### 2026-04-17 — agents and claude baseline sync
+- Problem: Repo-local AGENTS and related governance surfaces had drifted from the current portfolio baseline for branch lifecycle, durable-record expectations, and shared response rules.
+- Reasoning: The right fix was to update only the shared governance defaults while keeping repo-specific stack, release-gate, and workflow constraints intact.
+- Diagnosis inputs: Reread the repo-local AGENTS / CLAUDE surfaces and compared them against the current canonical baseline in `/Users/gillettes/.codex` plus the Autonomous Coding Agent repo's current governance posture.
+- Implementation inputs: Updated repo-local governance files and recorded the active branch in `todo.md` so later chats can see why this branch exists.
+- Fix: Aligned the repo's AGENTS / Claude baseline to the current shared standard without flattening repo-specific stack guidance.
+- Self-audit:
+  - method: reread touched governance files and `todo.md` entries after edit.
+  - outcome: shared branch/continuity expectations are now explicit in repo-local records.
+  - did not verify: merge or runtime behavior beyond text-level governance checks because this task only changes repo guidance surfaces.
+- by: Codex
+- triggered by: Trevor request on 2026-04-17 to bring canonical repos closer to the Autonomous Coding Agent governance baseline while tailoring them to each repo's stack.
+- led to: active branch `codex/agents-claude-sync` for repo-local governance sync.
+- linear: self-contained: repo-local governance baseline sync

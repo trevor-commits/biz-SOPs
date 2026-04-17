@@ -76,7 +76,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 [MANDATORY_PLAN_TRACKING] capture durable chat-created plans in `todo.md` by recording the overall goal plus concrete steps, then mark them complete in the same file/log when verified
 [MANDATORY_FEEDBACK_DECISIONS] maintain a durable `Feedback Decision Log` in root `todo.md`; record outside feedback, the reasoning response, final decision, and any linked implementation/audit/test evidence there; update existing entries instead of duplicating the same feedback thread
 [MANDATORY_TESTING_GOVERNANCE] testing is required delivery evidence; keep `Test Evidence Convention`, `Test Evidence Log`, and `Testing Cadence Matrix` in root `todo.md`, and document what ran or what remains untested
-[MANDATORY_BRANCH_LIFECYCLE] maintain `Active Branch Ledger` and `Branch History` in root `todo.md`; every non-trivial branch must record purpose, responsible/source chat, last refreshed by chat, merge expectation, exit checklist, delete-vs-retain outcome, retain reason when applicable, and delete/cleanup trigger
+[MANDATORY_BRANCH_LIFECYCLE] maintain `Active Branch Ledger` and `Branch History` in root `todo.md`; every non-trivial branch must record purpose, responsible/source chat, last refreshed by chat, linked issue, plugin mirror status, merge expectation, exit checklist, delete-vs-retain outcome, retain reason when applicable, and delete/cleanup trigger
 
 - Track actionable work in `/Users/gillettes/Coding Projects/Equipment & SOPs/todo.md` with priority, owner, and target date.
 - When an audit creates actionable execution work, put those items at the top of `Active Next Steps` in dependency order; keep deferred, optional, or not-yet-execution-ready audit recommendations in `Suggested Recommendation Log`.
@@ -88,10 +88,10 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 - Use one worktree per concurrent non-trivial chat.
 - For non-trivial work, record branch purpose and expected merge/delete conditions in `todo.md` before deep implementation.
-- Stay on the current checkout for almost all solo-maintainer work, including most non-trivial tasks, when rollback is straightforward.
-- Do not create a branch merely because the task is multi-file, substantial, or may later become a PR.
-- Create a feature branch and usually a dedicated worktree only when concurrency, risky experimentation, materially safer rollback isolation, explicit user request, or separate merge timing clearly justifies it.
-- Before opening a branch/worktree, state the exact isolation reason in one sentence; if you cannot name it concretely, stay on the current checkout.
+- For work that will edit files, commit, or push, start on a fresh task branch before deep implementation.
+- Allow current-checkout work only for read-only tasks, explicit user no-branch requests, or true emergency fixes.
+- When this repo has a live tracking plugin, create or reuse the issue before branching, prefer the plugin-generated branch name when available, and keep the repo ledger plus plugin mirror current through review, merge, and cleanup.
+- Keep one branch per intended outcome with an explicit merge target, review path, and delete-or-retain decision.
 
 ## Pragmatic Delivery
 [MANDATORY_PRAGMATIC] pragmatic improvement mindset
@@ -100,7 +100,7 @@ Use this with global policy in `/Users/gillettes/.codex/AGENTS.md`.
 
 ## Audit and Planning
 [MANDATORY_FULL_AUDIT] full-audit behavior aligned to `FULL_AUDIT.md`
-[MANDATORY_NEXT_STEPS] next-steps behavior aligned to `NEXT_STEPS_ORCHESTRATION.md`, including `todo.md`-grounded and independently inferred recommendations with a reasoning level for every suggested item; when an audit or the current chat creates or discovers more urgent execution-ready work, move those items to the top of `Active Next Steps` and reserve `Suggested Recommendation Log` for deferred, optional, or not-yet-execution-ready items; if none remain, explicitly state `No further steps required.`
+[MANDATORY_NEXT_STEPS] next-steps behavior aligned to `NEXT_STEPS_ORCHESTRATION.md`, including `todo.md`-grounded and independently inferred recommendations; when the user explicitly asks for reasoning/model guidance or autonomous planning, include recommended reasoning levels without defaulting the first chat to `extra high`; when an audit or the current chat creates or discovers more urgent execution-ready work, persist and move those items to the top of `Active Next Steps` and reserve `Suggested Recommendation Log` for deferred, optional, or not-yet-execution-ready items; if none remain, explicitly state `No further steps required.`
 
 - Full audits follow `/Users/gillettes/.codex/policies/FULL_AUDIT.md`.
 - Non-trivial implementation should receive a separate follow-up audit chat unless explicitly waived; if waived or blocked, record that in the audit trail.
